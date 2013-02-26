@@ -1,0 +1,137 @@
+
+body {
+  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+}
+
+/* Headings
+ * --------------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 { color: #111; }
+
+/* Text Elements
+ * --------------------------------------------------------------------- */
+a                 { color: #125AA7; }
+a:hover           { color: #000; }
+blockquote        { color: #666; }
+
+pre {
+  background: #eee;
+  border:     1px solid #ddd;
+}
+
+hr {
+  background: #B2CCFF;
+  color:      #B2CCFF;
+}
+
+/* Tables
+ * --------------------------------------------------------------------- */
+table {
+  border-top:     1px solid #ddd;
+  border-left:    1px solid #ddd;
+}
+th,td {
+  border-bottom:  1px solid #ddd;
+  border-right:   1px solid #ddd;
+}
+
+/* Default Classes
+ * --------------------------------------------------------------------- */
+p.quiet { color: #666; }
+.alt    { color: #666; }
+
+p.title {
+  color: #111;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+#header p.title { 
+	font-size: 3em; 
+	line-height: 1; 
+	margin-top: 0.5em;
+	margin-bottom: 0.5em; 
+}
+
+
+/* Custom Classes
+ * --------------------------------------------------------------------- */
+
+#avatar {
+	margin-right: 1em;
+	margin-bottom: 0em;
+	border: solid #B2CCFF 1pt;
+}
+
+#footer {
+	text-align: center;
+}
+
+a[href$=".pdf"] {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../img/pdf_file_icon.png) no-repeat scroll right center;
+	padding-right:18px;
+}
+
+a[href$=".tex"] {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../img/tex_file_icon.png) no-repeat scroll right center;
+	padding-right:18px;
+}
+
+a[href$=".bib"] {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../img/books.png) no-repeat scroll right center;
+	padding-right:18px;
+}
+
+a[href$=".vcf"] {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../img/vcard_icon.png) no-repeat scroll right center;
+	padding-right:18px;
+}
+
+a[href$=".tar.gz"] {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../img/archive_icon.png) no-repeat scroll right center;
+	padding-right:18px;
+}
+
+a[href^="mailto:"] {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../img/mail_icon.png) no-repeat scroll right center;
+	padding-right:18px;
+}
+
+p.shift {
+	margin-left: 1em;
+}
+
+p.nomargbot {
+	margin-bottom: 0em;
+}
+
+h3 {
+	margin-top: 1.5em;
+}
+
+h4 {
+	margin-bottom: 0.6em;
+}
+
+ul {
+	list-style-type:square;
+	margin-top:0em;
+}

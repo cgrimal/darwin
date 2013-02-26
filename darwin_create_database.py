@@ -25,6 +25,9 @@ from lxml import etree
 import argparse
 import requests
 
+import codecs,sys
+sys.stdout=codecs.getwriter('utf-8')(sys.stdout)
+
 #####################################################################
 
 def url_to_mp3(url):
@@ -45,7 +48,7 @@ parser = argparse.ArgumentParser(description='Création (ou mise à jour) d\'une
 
 parser.add_argument('-id', metavar='emission_id', help='L\'identifiant de l\'émission', default='137151')
 parser.add_argument('-debut', metavar='mois_debut', help='Le mois de départ au format YYYY-MM. Exemple : "2010-09"', default='2010-09')
-parser.add_argument('-fin', metavar='mois_debut', help='Le mois de fin au format YYYY-MM. Exemple : "2013-02"', default='2013-08')
+parser.add_argument('-fin', metavar='mois_fin', help='Le mois de fin au format YYYY-MM. Exemple : "2013-02"', default='2013-08')
 parser.add_argument('-dest', metavar='fichier JSON', help='Le fichier JSON dans lequel enregistrer la base de données.', default=u"./output/darwin_base.json")
 args = parser.parse_args()
 
@@ -64,7 +67,7 @@ mois_end = args.fin
 emission = "http://www."+radio_nom+".fr/archives-diffusions/"+emission_id+"/"
 
 if mois_start>mois_end:
-	print "Les mois ne sont pas cohérents..."
+	print u"Les mois ne sont pas cohérents..."
 	exit(1)
 else:
 	a_start,m_start = int(mois_start[:4]),int(mois_start[-2:])
@@ -72,7 +75,7 @@ else:
 
 	mois_list = []
 	if a_start==a_end:
-		for mois in range(m_start,m_start+1):
+		for mois in range(m_start,m_end+1):
 			mois_list.append(str(a_start)+"-"+str(mois))
 	else:
 		for annee in range(a_start,a_end+1):
@@ -87,7 +90,7 @@ else:
 
 ####
 
-# print mois_list
+print mois_list
 
 
 json_file = args.dest
@@ -139,7 +142,7 @@ for mois in mois_list:
 
 		emission_hash = annee + "-" + mois + "-" + jour
 
-		if not emission_hash in [e['hash'] for e in data]:
+		if not emission_hash in [e['hash'] for e in data[:-5]]:
 
 			emission_link = "http://www.franceinter.fr" + pq(bb).find('.content h3 a').attr('href')
 			print emission_link
@@ -151,10 +154,6 @@ for mois in mois_list:
 				print player_link
 				emission_data['lien_ecouter'] = player_link
 
-				# emission_hash = hashlib.md5(reduce(lambda x,y: x+y,["/"+k+"/"+v for k,v in emission_data.items()])).hexdigest()
-				# emission_hash = str(make_hash(emission_data))
-				# print emission_hash
-
 				mp3_link = url_to_mp3(player_link)
 				print mp3_link
 				emission_data['lien_mp3'] = mp3_link
@@ -164,7 +163,11 @@ for mois in mois_list:
 			else:
 				emission_data['rediffusion'] = 0
 
-			data.append({'hash': emission_hash, 'infos': emission_data})
+			if emission_hash in [e['hash'] for e in data]:
+				index = [data.index(e) for e in data[-5:] if e['hash']==emission_hash][0]
+				data[index] = {'hash': emission_hash, 'infos': emission_data}
+			else:
+				data.append({'hash': emission_hash, 'infos': emission_data})
 			# data[emission_hash] = emission_data
 			titles_list.append(title)
 
@@ -205,7 +208,7 @@ json_str = json.dumps(data_v2, indent=4, separators=(',', ': '), sort_keys=True)
 output_json.write(json_str)
 output_json.close()
 
-print "\n" + str(len(data)) + " émissions."
+print "\n" + str(len(data)) + u" émissions."
 print u"Base de données exportée : "+json_file
 
 # print u"\n\nCréation de la page web\n"
