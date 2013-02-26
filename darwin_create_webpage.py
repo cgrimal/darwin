@@ -106,9 +106,11 @@ parser = argparse.ArgumentParser(description='Création d\'une page web à parti
 
 parser.add_argument('-base', metavar='fichier JSON', help='Le fichier JSON qui contient la base de données.', default=u"./output/darwin_base.json")
 parser.add_argument('-web', metavar='page web', help='Le fichier contenant la page web créee.', default=u"./output/index.php")
+parser.add_argument('-template', metavar='template', help='Le fichier de template de la page web.', default=u"./output/index_public.html")
 args = parser.parse_args()
 
-template_path = "./output/temp3.html"
+template_path = args.template
+# template_path = "./output/temp3.html"
 
 json_file = args.base
 # json_file = "./output/darwin_base.json"
