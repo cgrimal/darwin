@@ -29,6 +29,8 @@ Pour tout installer, sur une distribution de type Debian/Ubuntu :
 Utilisation
 ===========
 
+test
+
 Création de la base
 -------------------
 
