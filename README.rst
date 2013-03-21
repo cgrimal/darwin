@@ -19,6 +19,7 @@ Pré-requis
 - python-lxml
 - python-pip
 - requests
+- python-mutagen (pour le téléchargement uniquement)
 
 Pour tout installer, sur une distribution de type Debian/Ubuntu :
 

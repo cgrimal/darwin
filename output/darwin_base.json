@@ -1885,7 +1885,7 @@
                 "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=564545",
                 "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-10",
                 "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/02/s07/NET_FI_e903b848-b66f-4b36-83c0-deea63c2efe3.mp3",
-                "rediffusion": 1,
+                "rediffusion": 0,
                 "titre": "Le lien qui nous rattache aux autres (10)"
             }
         },
@@ -1900,7 +1900,7 @@
                 "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=572491",
                 "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-l-illusion-de-la-fin-de-l-histoire",
                 "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/02/s08/NET_FI_c9586f4f-0f71-4580-8316-ba733eeedf16.mp3",
-                "rediffusion": 1,
+                "rediffusion": 0,
                 "titre": "L'illusion de la fin de l'histoire"
             }
         },
@@ -1915,7 +1915,7 @@
                 "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=577649",
                 "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-habiter-notre-corps",
                 "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/03/s09/NET_FI_2242571f-5f55-4e10-abe1-ec82f1a52d74.mp3",
-                "rediffusion": 1,
+                "rediffusion": 0,
                 "titre": "Habiter notre corps"
             }
         },
@@ -1930,7 +1930,7 @@
                 "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=582467",
                 "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-31-a-la-decouverte-du-monde-des-abeille-1",
                 "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/03/s10/NET_FI_d30a9cf5-59be-4f8b-8a3f-2c6e7b065f02.mp3",
-                "rediffusion": 1,
+                "rediffusion": 0,
                 "titre": "Les battements du temps (31) - A la d\u00e9couverte du monde des abeilles (3)"
             }
         },
@@ -1945,7 +1945,7 @@
                 "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=582527",
                 "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-32-a-la-decouverte-du-monde-des-abeille-0",
                 "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/03/s11/NET_FI_21efff7c-6ab4-493d-a6e7-38c650329710.mp3",
-                "rediffusion": 1,
+                "rediffusion": 0,
                 "titre": "Les battements du temps (32) -  A la d\u00e9couverte du monde des abeilles (4)"
             }
         }

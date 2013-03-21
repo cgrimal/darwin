@@ -76,6 +76,31 @@ download_folder = args.dossier
 mois_start = args.debut
 mois_end = args.fin
 
+if mois_start>mois_end:
+	print u"Les mois ne sont pas cohérents..."
+	exit(1)
+else:
+	a_start,m_start = int(mois_start[:4]),int(mois_start[-2:])
+	a_end,m_end = int(mois_end[:4]),int(mois_end[-2:])
+
+	mois_list = []
+	if a_start==a_end:
+		for mois in range(m_start,m_end+1):
+			if mois < 10:
+				mois_str = '0'+str(mois)
+			mois_list.append(str(a_start)+"-"+ mois_str)
+	else:
+		for annee in range(a_start,a_end+1):
+			for mois in range(1,13):
+				if annee == a_start and mois >= m_start or annee == a_end and mois <= m_end or annee > a_start and annee < a_end:
+					print mois
+					mois_str = str(mois)
+					if mois < 10:
+						mois_str = '0'+str(mois)
+					mois_list.append(str(annee)+"-"+ mois_str)
+
+# print mois_list
+
 #####################################################################
 
 input_json = open(json_file, 'r')
@@ -99,7 +124,10 @@ for emission_data in data:
 		rediff = e_infos['rediffusion']>0
 		lien_mp3 = e_infos['lien_mp3']
 
-		if not rediff and aa+"-"+mm <= mois_end and aa+"-"+mm >= mois_start:
+		# print rediff
+		# print aa+"-"+mm
+
+		if not rediff and aa+"-"+mm in mois_list:
 
 			title = str2filename(titre)
 			filename = aa+"-"+mm+"-"+jj + " - " + title + ".mp3"
