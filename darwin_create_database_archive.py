@@ -4,6 +4,9 @@
 
 """
 TODO:
+	//- utiliser la lib argparse pour les arguments du script
+	//- utiliser la lib requests pour ouvrir la page web
+	//- modifier aussi le script darwin_create_webpage.py
 	- creer un script darwin_download.py qui charge le json et télécharge les mp3
 Donc le flow normal est :
 	- darwin_create_database.py: mise à jour de la base
@@ -29,6 +32,7 @@ sys.stdout=codecs.getwriter('utf-8')(sys.stdout)
 
 def url_to_mp3(url):
 	page = requests.get(url)
+	# page = urllib.urlopen(url)
 	regexp = re.compile(r"sites%2Fdefault.+\.mp3")
 	for line in page.text.split('\n'):
 		match = regexp.search(line)
@@ -50,11 +54,18 @@ args = parser.parse_args()
 
 radio_nom = "franceinter"
 emission_id = args.id
+# emission_id = "137151"
 mois_start = args.debut
+# mois_start = "2010-09"
 mois_end = args.fin
+# mois_end = "2013-08"
+# download_folder = args.dest
+# download_folder = u"/media/Data/darwin/mp3/"
 
 
-emission_url = "http://www."+radio_nom+".fr/reecouter-diffusions/"+emission_id+"/"
+
+emission = "http://www."+radio_nom+".fr/archives-diffusions/"+emission_id+"/"
+# emission = "http://www."+radio_nom+".fr/reecouter-diffusions/"+emission_id+"/"
 
 if mois_start>mois_end:
 	print u"Les mois ne sont pas cohérents..."
@@ -66,22 +77,26 @@ else:
 	mois_list = []
 	if a_start==a_end:
 		for mois in range(m_start,m_end+1):
-			if mois < 10:
-				mois_str = '0'+str(mois)
-			mois_list.append(str(a_start)+"-"+ mois_str)
+			mois_list.append(str(a_start)+"-"+str(mois))
 	else:
 		for annee in range(a_start,a_end+1):
+			# print annee
 			for mois in range(1,13):
 				if annee == a_start and mois >= m_start or annee == a_end and mois <= m_end or annee > a_start and annee < a_end:
-					print mois
-					mois_str = str(mois)
-					if mois < 10:
-						mois_str = '0'+str(mois)
-					mois_list.append(str(annee)+"-"+ mois_str)
+			# for mois in range(int(m_start),int(m_end)+1):
+					# print mois
+					mois_list.append(str(annee)+"-"+str(mois))
+
+	# mois_list.reverse()
+
+####
 
 print mois_list
 
+
 json_file = args.dest
+# json_file = "./output/darwin_base.json"
+# json_file_v2 = "./output/darwin_base.v2.json"
 
 #####################################################################
 
@@ -93,28 +108,37 @@ if os.path.isfile(json_file) :
 else:
 	data = []
 
+# print data
+# print [d['titre'] for d in data.values()]
 titles_list = [d['infos']['titre'] for d in data]
+# print titles_list
 
 regexp_date = re.compile(r"([0-9]{2})/([0-9]{2})/([0-9]{4})")
 
-d = pq(url=emission_url)
+for mois in mois_list:
 
-for bb in d('.bloc'):
+	page_url = emission + mois
 
-	emission_data = {}
+	print "\nMois :",mois,page_url
 
-	title =  pq(bb).find('.content h3').text()
-	print title
-	emission_data['titre'] = title
+	d = pq(url=page_url)
 
-	date =  pq(bb).find('.date').text()
+	for bb in d('.bloc'):
 
-	match = regexp_date.search(date)
-	jour,mois,annee = match.group(1),match.group(2),match.group(3)
-	print jour,mois,annee
+		emission_data = {}
 
-	if annee+'-'+mois in mois_list:
+		# if bb.find('.content h3'):
+		title =  pq(bb).find('.content h3').text()
+		print title
+		# if 
+		emission_data['titre'] = title
 
+		date =  pq(bb).find('.date').text()
+		# print date
+
+		match = regexp_date.search(date)
+		jour,mois,annee = match.group(1),match.group(2),match.group(3)
+		print jour,mois,annee
 		emission_data['date'] = {'annee':annee, 'mois':mois, 'jour':jour}
 
 		emission_hash = annee + "-" + mois + "-" + jour
@@ -145,14 +169,35 @@ for bb in d('.bloc'):
 				data[index] = {'hash': emission_hash, 'infos': emission_data}
 			else:
 				data.append({'hash': emission_hash, 'infos': emission_data})
+			# data[emission_hash] = emission_data
 			titles_list.append(title)
 
 		else:
 			print u"Emission déjà dans la base !"
 
-	else:
-		print u"Pas dans l'intervalle !"
+# print data
 
+# print {'hash': emission_hash for emission_hash,emission_data in data}
+
+
+	# emissions = d('.bloc')
+	# for emission_bloc in emissions:
+	# 	title = emission.find('.content h3').text()
+	# 	print title
+
+
+# print json.dumps(data, indent=4, separators=(',', ': '))
+
+# data.reverse()
+
+# output_pickle = open(pickle_file, 'wb')
+# pickle.dump(data, output_pickle)
+# output_pickle.close()
+
+# output_json = open(json_file, 'wb')
+# json_str = json.dumps(data, indent=4, separators=(',', ': '), sort_keys=True)
+# output_json.write(json_str)
+# output_json.close()
 
 data.sort(key=lambda e: e['hash'])
 
@@ -166,3 +211,7 @@ output_json.close()
 
 print "\n" + str(len(data)) + u" émissions."
 print u"Base de données exportée : "+json_file
+
+# print u"\n\nCréation de la page web\n"
+
+# create_webpage(data, template_path, main_folder + "index.php")
