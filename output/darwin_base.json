@@ -1,0 +1,1953 @@
+{
+    "emissions": [
+        {
+            "hash": "2010-09-04",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "04",
+                    "mois": "09"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/94428",
+                "rediffusion": 0,
+                "titre": "La th\u00e9orie de l'\u00e9volution de Charles Darwin"
+            }
+        },
+        {
+            "hash": "2010-09-11",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "11",
+                    "mois": "09"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/95045",
+                "rediffusion": 0,
+                "titre": "Le propre de l'homme?"
+            }
+        },
+        {
+            "hash": "2010-09-18",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "18",
+                    "mois": "09"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/95444",
+                "rediffusion": 0,
+                "titre": "Nos m\u00e9moires"
+            }
+        },
+        {
+            "hash": "2010-09-25",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "25",
+                    "mois": "09"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/95708",
+                "rediffusion": 0,
+                "titre": "Nos \u00e9motions"
+            }
+        },
+        {
+            "hash": "2010-10-02",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "02",
+                    "mois": "10"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/95900",
+                "rediffusion": 0,
+                "titre": "Long\u00e9vit\u00e9, jeunesse et vieillissement"
+            }
+        },
+        {
+            "hash": "2010-10-09",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "09",
+                    "mois": "10"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/96256",
+                "rediffusion": 0,
+                "titre": "MORT CELLULAIRE ET SCULPTURE DU VIVANT"
+            }
+        },
+        {
+            "hash": "2010-10-16",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "16",
+                    "mois": "10"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/96416",
+                "rediffusion": 0,
+                "titre": "NAISSANCES"
+            }
+        },
+        {
+            "hash": "2010-10-23",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "23",
+                    "mois": "10"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/96767",
+                "rediffusion": 0,
+                "titre": "Biodiversit\u00e9"
+            }
+        },
+        {
+            "hash": "2010-10-30",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "30",
+                    "mois": "10"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/97003",
+                "rediffusion": 0,
+                "titre": "mort cellulaire et sculpture du vivant (2)"
+            }
+        },
+        {
+            "hash": "2010-11-06",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "06",
+                    "mois": "11"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/97307",
+                "rediffusion": 0,
+                "titre": "Un voyage avec Oliver Sacks         ( 1 )"
+            }
+        },
+        {
+            "hash": "2010-11-13",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "13",
+                    "mois": "11"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/97532",
+                "rediffusion": 0,
+                "titre": "Un voyage avec Oliver Sacks (2)"
+            }
+        },
+        {
+            "hash": "2010-11-20",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "20",
+                    "mois": "11"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/97798",
+                "rediffusion": 0,
+                "titre": "Vivre ensemble"
+            }
+        },
+        {
+            "hash": "2010-11-27",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "27",
+                    "mois": "11"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/98062",
+                "rediffusion": 0,
+                "titre": "Pierres de r\u00eave"
+            }
+        },
+        {
+            "hash": "2010-12-04",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "04",
+                    "mois": "12"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/98328",
+                "rediffusion": 0,
+                "titre": "Entendre leurs voix"
+            }
+        },
+        {
+            "hash": "2010-12-11",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "11",
+                    "mois": "12"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/98701",
+                "rediffusion": 0,
+                "titre": "Ethique, Sant\u00e9, Droits de l\u2019Homme"
+            }
+        },
+        {
+            "hash": "2010-12-18",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "18",
+                    "mois": "12"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/98873",
+                "rediffusion": 0,
+                "titre": "Ethique, Sant\u00e9, Droits de l\u2019Homme (2)"
+            }
+        },
+        {
+            "hash": "2010-12-25",
+            "infos": {
+                "date": {
+                    "annee": "2010",
+                    "jour": "25",
+                    "mois": "12"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/99099",
+                "rediffusion": 1,
+                "titre": "Nos \u00e9motions (rediffusion de l\u2019\u00e9mission du 25/09)"
+            }
+        },
+        {
+            "hash": "2011-01-01",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "01",
+                    "mois": "01"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/99179",
+                "rediffusion": 0,
+                "titre": "Le propre de l'homme"
+            }
+        },
+        {
+            "hash": "2011-01-08",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "08",
+                    "mois": "01"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/99782",
+                "rediffusion": 1,
+                "titre": "Nos m\u00e9moires"
+            }
+        },
+        {
+            "hash": "2011-01-15",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "15",
+                    "mois": "01"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/100131",
+                "rediffusion": 0,
+                "titre": "Lire"
+            }
+        },
+        {
+            "hash": "2011-01-22",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "22",
+                    "mois": "01"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/100334",
+                "rediffusion": 0,
+                "titre": "Avanc\u00e9es des sciences du vivant, m\u00e9decine, et \u00e9thique. Les Journ\u00e9es Annuelles d'Ethique."
+            }
+        },
+        {
+            "hash": "2011-01-29",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "29",
+                    "mois": "01"
+                },
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/100671",
+                "rediffusion": 0,
+                "titre": "Voir, r\u00eaver, se souvenir, anticiper, choisir : quand l\u2019inconscient \u00e9merge \u00e0 la conscience"
+            }
+        },
+        {
+            "hash": "2011-02-05",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "05",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=43041",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/100821",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin050211.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res de l\u2019h\u00e9r\u00e9dit\u00e9"
+            }
+        },
+        {
+            "hash": "2011-02-12",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "12",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=43313",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/101280",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin120211.mp3",
+                "rediffusion": 0,
+                "titre": "Inventer des couleurs, frissonner en \u00e9coutant de la musique : le d\u00e9sir, le plaisir et la joie de ressentir (1)"
+            }
+        },
+        {
+            "hash": "2011-02-19",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "19",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=43453",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/101515",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin190211.mp3",
+                "rediffusion": 0,
+                "titre": "La musique, le toucher, la douleur, la peur, l\u2019espoir, la confiance : Ressentir (2)"
+            }
+        },
+        {
+            "hash": "2011-02-26",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "26",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=43565",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/101754",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin260211.mp3",
+                "rediffusion": 0,
+                "titre": "La course de la Reine Rouge"
+            }
+        },
+        {
+            "hash": "2011-03-05",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "05",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=43723",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/102060",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin050311.mp3",
+                "rediffusion": 1,
+                "titre": "Pierres de r\u00eave"
+            }
+        },
+        {
+            "hash": "2011-03-12",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "12",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=43927",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/102386",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin120311.mp3",
+                "rediffusion": 0,
+                "titre": "La course de la Reine rouge (2). O\u00f9 l\u2019on croit voir la Reine blanche"
+            }
+        },
+        {
+            "hash": "2011-03-19",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "19",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=44029",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/102581",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin190311.mp3",
+                "rediffusion": 0,
+                "titre": "La course de la Reine rouge (3)"
+            }
+        },
+        {
+            "hash": "2011-03-26",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "26",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=44203",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/102870",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin260311.mp3",
+                "rediffusion": 0,
+                "titre": "Ressentir (3)"
+            }
+        },
+        {
+            "hash": "2011-04-02",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "02",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=51795",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/103109",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin020411.mp3",
+                "rediffusion": 1,
+                "titre": "Vivre ensemble"
+            }
+        },
+        {
+            "hash": "2011-04-09",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "09",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=52121",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/103532",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin090411.mp3",
+                "rediffusion": 0,
+                "titre": "Ressentir (4). Soi-m\u00eame en train de vivre."
+            }
+        },
+        {
+            "hash": "2011-04-16",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "16",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=52213",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/103666",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin160411.mp3",
+                "rediffusion": 0,
+                "titre": "Ressentir (5). Apprendre."
+            }
+        },
+        {
+            "hash": "2011-04-23",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "23",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=52431",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/104023",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin230411.mp3",
+                "rediffusion": 0,
+                "titre": "Ressentir (6). Nous-m\u00eame derri\u00e8re nous-m\u00eame, cach\u00e9."
+            }
+        },
+        {
+            "hash": "2011-04-30",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "30",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=52565",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/104140",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin300411.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res de l'h\u00e9r\u00e9dit\u00e9 (2)"
+            }
+        },
+        {
+            "hash": "2011-05-07",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "07",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=52759",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/104428",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin070511.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res de l'h\u00e9r\u00e9dit\u00e9 (3) Les symbioses"
+            }
+        },
+        {
+            "hash": "2011-05-14",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "14",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=53069",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/104812",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin140511ok.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res de l\u2019h\u00e9r\u00e9dit\u00e9 (4) Quand l\u2019art rencontre la science."
+            }
+        },
+        {
+            "hash": "2011-05-21",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "21",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=53319",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/105154",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin210511OK.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res de l\u2019h\u00e9r\u00e9dit\u00e9 (5) : De mim\u00e9tismes en symbioses."
+            }
+        },
+        {
+            "hash": "2011-05-28",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "28",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=53481",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/105403",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin280511OK.mp3",
+                "rediffusion": 0,
+                "titre": "Les gardiennes des arbres"
+            }
+        },
+        {
+            "hash": "2011-06-04",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "04",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=53607",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/105571",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin040611.mp3",
+                "rediffusion": 0,
+                "titre": "L'invention de l'agriculture"
+            }
+        },
+        {
+            "hash": "2011-06-11",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "11",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=53771",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/105881",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin110611.mp3",
+                "rediffusion": 0,
+                "titre": "A travers les labyrinthes"
+            }
+        },
+        {
+            "hash": "2011-06-18",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "18",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=53881",
+                "lien_emission": "http://www.franceinter.fr/em/sur-les-epaules-de-darwin/106023",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/darwin180611.mp3",
+                "rediffusion": 0,
+                "titre": "Transmettre en dansant, enseigner en courant, d\u00e9cider en votant"
+            }
+        },
+        {
+            "hash": "2011-06-25",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "25",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=87317",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-entendre-leurs-voix-avec-florence-aubenas",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s27/carrefour%20%282%29.mp3",
+                "rediffusion": 0,
+                "titre": "\"Entendre leurs voix\" avec Florence Aubenas"
+            }
+        },
+        {
+            "hash": "2011-07-02",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "02",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=76185",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-lire",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s26/NET_f063b1f0-7bab-4936-9009-eb13f8cda121.mp3",
+                "rediffusion": 1,
+                "titre": "Lire"
+            }
+        },
+        {
+            "hash": "2011-07-09",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "09",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=76591",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-voir-rever-se-souvenir-anticiper-choisir-quand-l-inconscient-emer",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s27/NET_16be218d-eeca-47b0-9d62-5a5452878207.mp3",
+                "rediffusion": 1,
+                "titre": "Voir, r\u00eaver, se souvenir, anticiper, choisir : quand l\u2019inconscient \u00e9merge \u00e0 la conscience"
+            }
+        },
+        {
+            "hash": "2011-07-16",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "16",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=76713",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-la-recherche-des-mysteres-de-l-heredite-rediffusion-du-5-fev",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s28/NET_baab9ade-392d-4029-be9d-08839db06c67.mp3",
+                "rediffusion": 1,
+                "titre": "A la recherche des myst\u00e8res de l\u2019h\u00e9r\u00e9dit\u00e9"
+            }
+        },
+        {
+            "hash": "2011-07-23",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "23",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=99893",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-inventer-des-couleurs-frissonner-en-ecoutant-de-la-musique-le-des",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s29/NET_ad48ca30-393f-489b-923b-dcde576fc8bb.mp3",
+                "rediffusion": 0,
+                "titre": "Inventer des couleurs, frissonner en \u00e9coutant de la musique : le d\u00e9sir le plaisir et la joie de ressentir"
+            }
+        },
+        {
+            "hash": "2011-07-30",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "30",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=84287",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-un-voyage-avec-olivier-sacks",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/07/s30/NET_815da93f-424d-4a12-b168-9133341870fd.mp3",
+                "rediffusion": 0,
+                "titre": "Un voyage avec Olivier Sacks"
+            }
+        },
+        {
+            "hash": "2011-08-06",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "06",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=84479",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-un-voyage-avec-olivier-sacks-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/08/s31/NET_ffe4bbd8-5977-47cb-bf22-7b609791337c.mp3",
+                "rediffusion": 0,
+                "titre": "Un voyage avec Olivier Sacks (2)"
+            }
+        },
+        {
+            "hash": "2011-08-13",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "13",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=84775",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-course-de-la-reine-rouge-ou-l-on-croit-voir-la-reine-blanche",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/08/s32/NET_418e72f1-28af-4d40-8efd-19765ead345d.mp3",
+                "rediffusion": 0,
+                "titre": "La course de la Reine rouge. O\u00f9 l\u2019on croit voir la Reine blanche"
+            }
+        },
+        {
+            "hash": "2011-08-20",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "20",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=86015",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-archives-la-musique-le-toucher-la-douleur-la-peur-l-espoir-la-con",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/08/s33/NET_e9254491-45cd-4166-aab6-e64b4d61083f.mp3",
+                "rediffusion": 0,
+                "titre": "La musique, le toucher, la douleur, la peur, l\u2019espoir, la confiance : Ressentir"
+            }
+        },
+        {
+            "hash": "2011-08-27",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "27",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=86175",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-archives-ressentir-apprendre",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/08/s34/NET_69858098-199d-4ad1-b4a3-3ef36cec8991.mp3",
+                "rediffusion": 0,
+                "titre": "Ressentir, apprendre"
+            }
+        },
+        {
+            "hash": "2011-09-03",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "03",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=154163",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-renaissance",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/09/s35/NET_e253fac4-460d-455e-b831-98e347f71aae.mp3",
+                "rediffusion": 0,
+                "titre": "Renaissance"
+            }
+        },
+        {
+            "hash": "2011-09-10",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "10",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=161097",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/09/s36/NET_66f999e5-57bb-49dc-94f8-43cab348b1db.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps"
+            }
+        },
+        {
+            "hash": "2011-09-17",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "17",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=168341",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/09/s37/NET_fe44144e-9cf9-42ae-bdf5-fcd0ba7af8f2.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (2)"
+            }
+        },
+        {
+            "hash": "2011-09-24",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "24",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=174093",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-3",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/09/s38/NET_c860618c-804b-48b8-9c96-cb27055f5dd2.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (3)"
+            }
+        },
+        {
+            "hash": "2011-10-01",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "01",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=180299",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-4",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/10/s39/NET_3a54ec4f-b0e9-491f-8f6a-f5630d584a24.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (4)"
+            }
+        },
+        {
+            "hash": "2011-10-08",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "08",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=186657",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-5",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/10/s40/NET_e71606d4-4db7-44ac-8cad-9df9df051e21.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (5). Les vagabonds du ciel."
+            }
+        },
+        {
+            "hash": "2011-10-15",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "15",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=192695",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-6-les-arpenteurs-du-ciel",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/10/s41/NET_0c148d9f-c640-4f0e-89d9-191b0d347acf.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (6).  Les arpenteurs du ciel."
+            }
+        },
+        {
+            "hash": "2011-10-22",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "22",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=198127",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-7-nostalgie-de-la-lumiere",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/10/s43/darwin2210.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (7).  \u00ab Nostalgie de la lumi\u00e8re. \u00bb"
+            }
+        },
+        {
+            "hash": "2011-10-29",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "29",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=204183",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-8-entre-deja-plus-et-encore-a-venir",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/10/s43/NET_f85a14f3-1d0d-4b17-8a06-8c508d47664a.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (8) - \"Entre d\u00e9j\u00e0 plus et encore \u00e0 venir...\""
+            }
+        },
+        {
+            "hash": "2011-11-05",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "05",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=210117",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-9",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/11/s44/NET_ca2f55d4-df97-47c9-87e9-86c1508a2339.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (9)"
+            }
+        },
+        {
+            "hash": "2011-11-12",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "12",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=215755",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-10",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/11/s45/NET_cb10820c-9e83-45b9-a0ea-b2224abf36a5.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (10)"
+            }
+        },
+        {
+            "hash": "2011-11-19",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "19",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=220875",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-11",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/11/s46/NET_962c6b02-84c5-450f-b247-a53062d734f4.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (11)"
+            }
+        },
+        {
+            "hash": "2011-11-26",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "26",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=226521",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-12-ce-n-etait-pas-en-moi-c-etait-moi",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/11/s47/NET_bbc75063-c4a0-4cf5-8840-446b76924553.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (12) \"Ce n'\u00e9tait pas en moi, c'\u00e9tait moi...\""
+            }
+        },
+        {
+            "hash": "2011-12-03",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "03",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=231913",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-13-les-cartes-de-la-memoire",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/12/s48/NET_04993c09-acd6-467e-bbc9-b3ff62f7da3c.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (13) - Les cartes de la m\u00e9moire"
+            }
+        },
+        {
+            "hash": "2011-12-10",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "10",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=237465",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-14-comme-de-longs-echos",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/12/s49/NET_033a7435-4906-4716-b2ec-a5f4ace4bc5e.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (14) Comme de longs \u00e9chos..."
+            }
+        },
+        {
+            "hash": "2011-12-17",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "17",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=242803",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-15-un-orchestre-cache",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/12/s50/NET_46393119-3a09-45a1-9464-1bf056bf58c5.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (15). Un orchestre cach\u00e9\u2026"
+            }
+        },
+        {
+            "hash": "2011-12-24",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "24",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=243879",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-7-nostalgie-de-la-lumiere-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/12/s51/NET_1643b1e7-16f0-48e2-977f-3a006a248b12.mp3",
+                "rediffusion": 0,
+                "titre": "\"Les battements du temps  7. \"Nostalgie de la lumi\u00e8re\""
+            }
+        },
+        {
+            "hash": "2011-12-31",
+            "infos": {
+                "date": {
+                    "annee": "2011",
+                    "jour": "31",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=245793",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-renaissance-1",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2011/12/s52/NET_17db016e-21cc-4119-a4f8-5ccd725f36e7.mp3",
+                "rediffusion": 1,
+                "titre": "Renaissance"
+            }
+        },
+        {
+            "hash": "2012-01-07",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "07",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=256395",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-16-un-cadeau-de-nouvel-an",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/01/s01/NET_6a6fd765-73a2-43f7-bf10-5158644a1940.mp3",
+                "rediffusion": 0,
+                "titre": "\"les battements du temps (16). Un cadeau de Nouvel An. \""
+            }
+        },
+        {
+            "hash": "2012-01-14",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "14",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=262239",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-17-le-vivant-et-les-nombres",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/01/s02/NET_9fb28405-ad54-47de-b1f3-2a682897d814.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (17). Le vivant et les nombres"
+            }
+        },
+        {
+            "hash": "2012-01-21",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "21",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=267573",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-18-more-is-different",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/01/s03/NET_bbbf48e0-4cc7-448d-9993-339d820661c6.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (18). \"More is different\""
+            }
+        },
+        {
+            "hash": "2012-01-28",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "28",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=273583",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-19",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/01/s04/NET_b88a37db-0e0f-4e12-ac38-6e6935679635.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (19)"
+            }
+        },
+        {
+            "hash": "2012-02-04",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "04",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=278751",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-saison-20112012-les-battements-du-temps-20",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/02/s05/NET_7975897d-c90c-480e-b065-27d491769ba4.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (20)"
+            }
+        },
+        {
+            "hash": "2012-02-11",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "11",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=284337",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-saison-20112012-les-battements-du-temps-21",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/02/s06/NET_05f2d0a4-bb77-4e68-b2a0-dfa3aba49683.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (21)"
+            }
+        },
+        {
+            "hash": "2012-02-18",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "18",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=289705",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-saison-20112012-les-battements-du-temps-22",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/02/s07/NET_b67bbfa2-afc9-4dab-b9b4-4ae01b47e999.mp3",
+                "rediffusion": 0,
+                "titre": "les battements du temps (22)"
+            }
+        },
+        {
+            "hash": "2012-02-25",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "25",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=295157",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-23-l-oeil-de-l-esprit",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/02/s08/NET_db388f0b-2cbd-4218-ba63-1468da2b08ef.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (23). \u00ab L\u2019\u0153il de l\u2019esprit \u00bb."
+            }
+        },
+        {
+            "hash": "2012-03-03",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "03",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=301999",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-saison-20112012-les-battements-du-temps-24-eclats-de-mondes-dispa",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/03/s09/NET_6fbd293a-a4fc-4622-8833-a2384d1e2991.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (24). Eclats de mondes disparus."
+            }
+        },
+        {
+            "hash": "2012-03-10",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "10",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=308245",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-saison-20112012-les-battements-du-temps-25-eclats-de-mondes-dispa",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/03/s10/NET_6b267497-dcea-4b3a-92f4-59a82c1e7d24.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (25). \u00c9clats de mondes disparus (2)."
+            }
+        },
+        {
+            "hash": "2012-03-17",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "17",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=313761",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-saison-20112012-les-battements-du-temps-26-le-langage-des-oiseaux",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/03/s11/NET_edd29b9d-0d73-4fb5-a09f-45f4c37136a9.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (26). Le  langage des oiseaux"
+            }
+        },
+        {
+            "hash": "2012-03-24",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "24",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=313765",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-saison-20112012-les-battements-du-temps-2-une-rediffusion-de-l-em",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/03/s12/NET_afee8c92-f4e8-4ebb-87bd-23b4ed3f4855.mp3",
+                "rediffusion": 1,
+                "titre": "Les battements du temps (2): Une rediffusion de l'\u00e9mission du 17 septembre 2011"
+            }
+        },
+        {
+            "hash": "2012-03-31",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "31",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=326115",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-27-le-langage-des-oiseaux-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/03/s13/NET_fc6a09ca-4731-44e3-a2af-0e815d09e962.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (27). Le langage des oiseaux (2)"
+            }
+        },
+        {
+            "hash": "2012-04-07",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "07",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=331915",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-lire-une-rediffusion-de-l-emission-du-15-janvier-2011",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/04/s14/NET_a709d467-6205-4beb-b88c-927b959ae689.mp3",
+                "rediffusion": 1,
+                "titre": "Lire - Une rediffusion de l'\u00e9mission du 15 janvier 2011"
+            }
+        },
+        {
+            "hash": "2012-04-14",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "14",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=334037",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-28-le-langage-des-oiseaux-3",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/04/s15/NET_695570b6-8bf8-4cd5-866b-d7254b3659c7.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (28). Le langage des oiseaux (3)"
+            }
+        },
+        {
+            "hash": "2012-04-21",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "21",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=342859",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-29-la-democratie-des-abeilles",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/04/s16/NET_cd09ec05-fe87-424c-a90a-b40acb36de24.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (29). \"La d\u00e9mocratie des abeilles\""
+            }
+        },
+        {
+            "hash": "2012-04-28",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "28",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=349109",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-30-a-la-decouverte-du-monde-des-abeilles-",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/04/s17/NET_622ee488-e5e7-4f88-9056-26d9b214c40d.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (30) - A la d\u00e9couverte du monde des abeilles (2)"
+            }
+        },
+        {
+            "hash": "2012-05-05",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "05",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=354913",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-saison-20112012-les-battements-du-temps-31-a-la-decouverte-du-mon",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/05/s18/NET_61b3ec31-aeb4-4b0f-9dbd-8afba7bb9766.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (31) - A la d\u00e9couverte du monde des abeilles (3)"
+            }
+        },
+        {
+            "hash": "2012-05-12",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "12",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=360289",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-32-a-la-decouverte-du-monde-des-abeilles-",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/05/s19/NET_ea5c6595-7244-4998-b6e8-93acbb5da8f7.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (32) - A la d\u00e9couverte du monde des abeilles (4)"
+            }
+        },
+        {
+            "hash": "2012-05-19",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "19",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=365737",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-33-l-intelligence-des-oiseaux",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/05/s20/NET_1766f74d-a93b-4d92-8585-d41238185c9e.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (33) -  L\u2019intelligence des oiseaux."
+            }
+        },
+        {
+            "hash": "2012-05-26",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "26",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=370089",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-5-les-vagabonds-du-ciel-une-rediffusion-d",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/05/s21/NET_3f84ba71-79e6-43db-8fe1-0fad82130474.mp3",
+                "rediffusion": 1,
+                "titre": "Les battements du temps (5) Les vagabonds du ciel - Une rediffusion de l'\u00e9mission du 8 octobre 2011"
+            }
+        },
+        {
+            "hash": "2012-06-02",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "02",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=376335",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-35-les-chants-de-la-nature",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/06/s22/NET_454761e5-4455-477e-b4d8-e903f6ff1652.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (35). Les chants de la nature."
+            }
+        },
+        {
+            "hash": "2012-06-09",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "09",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=381843",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-36-les-chants-de-la-nature-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/06/s23/NET_a19f0117-7ae2-4e80-ab49-47248e2934eb.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (36). Les chants de la nature (2)"
+            }
+        },
+        {
+            "hash": "2012-06-16",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "16",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=387797",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-37-les-bruits-du-monde",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/06/s24/NET_046d6bb0-1099-4d9e-8d63-07c45945461b.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (37) les bruits du monde"
+            }
+        },
+        {
+            "hash": "2012-06-23",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "23",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=392159",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-38-plus-vaste-que-le-ciel",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/06/s25/NET_7f18576b-146a-4117-8f1f-901f12a416c1.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (38) - \u00ab Plus vaste que le ciel\u2026 \u00bb"
+            }
+        },
+        {
+            "hash": "2012-06-30",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "30",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=380023",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-nostalgie-de-la-lumiere-les-battements-du-temps-7-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/06/s26/NET_c7a7ae1e-ac3c-4b2a-8176-56b0a7cd69ef.mp3",
+                "rediffusion": 0,
+                "titre": "Nostalgie de la lumi\u00e8re     (Les battements du temps: 7)"
+            }
+        },
+        {
+            "hash": "2012-07-07",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "07",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=380921",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-eclats-de-mondes-disparus-1-les-battements-du-temps-24",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/07/s27/NET_d9ae0bcf-6865-42ed-aa6f-434b6f8fd3d3.mp3",
+                "rediffusion": 0,
+                "titre": "Eclats de mondes disparus -1- (Les battements du temps: 24)"
+            }
+        },
+        {
+            "hash": "2012-07-14",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "14",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=381033",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-eclats-de-monde-disparus-les-battements-du-temps-25",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/07/s28/NET_aab5d7fc-7041-43ef-9d16-e5d882779fe2.mp3",
+                "rediffusion": 0,
+                "titre": "Eclats de monde disparus (Les battements du temps-25)"
+            }
+        },
+        {
+            "hash": "2012-07-21",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "21",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=382329",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-un-cadeau-de-nouvel-an-les-battements-du-temps-16",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/07/s29/NET_e92e9311-e708-4bc1-a3f4-e3f8e76f674a.mp3",
+                "rediffusion": 0,
+                "titre": "Un cadeau de Nouvel An (Les battements du temps 16)"
+            }
+        },
+        {
+            "hash": "2012-07-28",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "28",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=382351",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-cartes-de-la-memoire-les-battements-du-temps-13",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/07/s30/NET_01fbe33a-582b-488c-9e5f-42116f29f4ff.mp3",
+                "rediffusion": 0,
+                "titre": "Les cartes de la m\u00e9moire (Les battements du temps 13)"
+            }
+        },
+        {
+            "hash": "2012-08-04",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "04",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=402197",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-14-comme-de-longs-echos-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/08/s31/NET_7cf4baed-3f8b-4cc7-8d45-b370f3f75c97.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (14)  - Comme de longs echos..."
+            }
+        },
+        {
+            "hash": "2012-08-11",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "11",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=402207",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-langage-des-oiseaux-partie-1-les-battements-du-temps-26",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/08/s32/NET_d7a72578-2940-4340-a3d4-711411585185.mp3",
+                "rediffusion": 0,
+                "titre": "Le langage des oiseaux, partie 1 - Les battements du temps (26)"
+            }
+        },
+        {
+            "hash": "2012-08-18",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "18",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=402209",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-langage-des-oiseaux-partie-2-les-battements-du-temps-27",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/08/s33/NET_cfceb69f-6316-43c2-ba4b-1f27e9967b95.mp3",
+                "rediffusion": 0,
+                "titre": "Le langage des oiseaux, partie 2 - Les battements du temps (27)"
+            }
+        },
+        {
+            "hash": "2012-08-25",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "25",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=402227",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-ete-2012-les-battements-du-temps-35-les-chants-de-la-nature",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/08/s34/NET_19e7b8a0-83e8-41eb-b9fe-5e86a5181d28.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (35) - Les chants de la nature"
+            }
+        },
+        {
+            "hash": "2012-09-01",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "01",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=441471",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-36-les-chants-de-la-nature-2-une-rediffus",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/09/s35/NET_93b2d64a-65f4-4319-8cce-818f60e3ad95.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (36). Les chants de la nature (2)."
+            }
+        },
+        {
+            "hash": "2012-09-08",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "08",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=447835",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/09/s36/NET_eb1ba429-927c-43b2-bb24-6ccd392a867d.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves"
+            }
+        },
+        {
+            "hash": "2012-09-15",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "15",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=453563",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/09/s37/NET_2b2854e8-9f3e-4cdc-99b5-0e4ec30a07dc.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (2)"
+            }
+        },
+        {
+            "hash": "2012-09-22",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "22",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=459055",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-37-les-bruits-du-monde-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/09/s38/NET_d8d88890-20d5-4ce5-bd94-6f9bfba1860f.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (37). Les bruits du monde"
+            }
+        },
+        {
+            "hash": "2012-09-29",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "29",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=464979",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-3",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/09/s39/NET_1c88b329-4e12-4480-ad3e-a18cf2fe5472.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (3)"
+            }
+        },
+        {
+            "hash": "2012-10-06",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "06",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=469731",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-4",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/10/s40/NET_4e655118-03f4-4c08-89d3-7b9e4af8b0cc.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (4)"
+            }
+        },
+        {
+            "hash": "2012-10-13",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "13",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=475613",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-5",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/10/s41/NET_11234729-6a1c-4d52-8ac7-32e870acc84d.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (5)"
+            }
+        },
+        {
+            "hash": "2012-10-20",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "20",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=480877",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-6",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/10/s42/NET_4b38410a-5435-4061-a94b-bfc1b05b6fb1.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (6)"
+            }
+        },
+        {
+            "hash": "2012-10-27",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "27",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=487191",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-7",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/10/s43/NET_0b8bf199-dc6b-446e-a3b3-5e9097d7c858.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (7)"
+            }
+        },
+        {
+            "hash": "2012-11-03",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "03",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=491749",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/11/s44/NET_083ddcfc-1904-46ab-9605-821f49a55050.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres"
+            }
+        },
+        {
+            "hash": "2012-11-10",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "10",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=497225",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/11/s45/NET_371cd967-0a02-4fa9-98e4-a2d7a05ab52b.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres (2)"
+            }
+        },
+        {
+            "hash": "2012-11-17",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "17",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=502735",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-15-un-orchestre-cache-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/11/s46/NET_1a7f1116-48c5-4902-92e8-b95d34b6cfa5.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (15) Un orchestre cach\u00e9..."
+            }
+        },
+        {
+            "hash": "2012-11-24",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "24",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=508515",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-3",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/11/s47/NET_e897ceb9-e101-44e8-b9f1-c928a44a5641.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres (3)"
+            }
+        },
+        {
+            "hash": "2012-12-01",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "01",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=514075",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-4",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/12/s48/NET_6bd8e0cb-88e0-4dda-a408-65420fd52b91.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres (4)"
+            }
+        },
+        {
+            "hash": "2012-12-08",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "08",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=519731",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-5",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/12/s49/NET_3fc90c1a-0a4b-4035-a4fe-15d0369485cb.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres (5)"
+            }
+        },
+        {
+            "hash": "2012-12-15",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "15",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=525047",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-6",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/12/s50/NET_423f071a-2d8d-48d8-a315-01aedc22d730.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres (6)"
+            }
+        },
+        {
+            "hash": "2012-12-22",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "22",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=526689",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-nostalgie-de-la-lumiere",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/12/s51/NET_a227d097-930f-49fd-99c6-2a326cce7e44.mp3",
+                "rediffusion": 0,
+                "titre": "Nostalgie de la lumi\u00e8re"
+            }
+        },
+        {
+            "hash": "2012-12-29",
+            "infos": {
+                "date": {
+                    "annee": "2012",
+                    "jour": "29",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=526761",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-un-cadeau-de-nouvel-an",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2012/12/s52/NET_ca2e55aa-4d88-42d1-bf0d-2b3824d49ee4.mp3",
+                "rediffusion": 0,
+                "titre": "Un cadeau de nouvel an"
+            }
+        },
+        {
+            "hash": "2013-01-05",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "05",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=526913",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-democratie-des-abeilles-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/01/s01/NET_FI_e4040708-ad45-4835-b347-192606f9efc9.mp3",
+                "rediffusion": 1,
+                "titre": "La d\u00e9mocratie des abeilles"
+            }
+        },
+        {
+            "hash": "2013-01-12",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "12",
+                    "mois": "01"
+                },
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-pas-d-emission",
+                "rediffusion": 1,
+                "titre": "A la d\u00e9couverte du monde des abeilles (2)."
+            }
+        },
+        {
+            "hash": "2013-01-19",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "19",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=544601",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-7-le-retour-d-ulysse",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/01/s03/NET_FI_64bd64b9-aa18-40e6-950a-c16683d622af.mp3",
+                "rediffusion": 1,
+                "titre": "Le lien qui nous rattache aux autres (7): Le retour d'Ulysse"
+            }
+        },
+        {
+            "hash": "2013-01-26",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "26",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=549505",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-8",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/01/s04/NET_FI_1201ab8e-7276-4069-885c-2110580c9b63.mp3",
+                "rediffusion": 1,
+                "titre": "Le lien qui nous rattache aux autres (8)"
+            }
+        },
+        {
+            "hash": "2013-02-02",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "02",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=554429",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-30-a-la-decouverte-du-monde-des-abeille-1",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/02/s05/NET_FI_ab131511-80ca-46c5-9aff-9a7274a77441.mp3",
+                "rediffusion": 1,
+                "titre": "Les battements du temps (30) - A la d\u00e9couverte du monde des abeilles (2)"
+            }
+        },
+        {
+            "hash": "2013-02-09",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "09",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=559311",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-9",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/02/s06/NET_FI_0801be31-dda9-4ed1-b2d4-dcccbf38fb88.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres (9)"
+            }
+        },
+        {
+            "hash": "2013-02-16",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "16",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=564545",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-10",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/02/s07/NET_FI_e903b848-b66f-4b36-83c0-deea63c2efe3.mp3",
+                "rediffusion": 1,
+                "titre": "Le lien qui nous rattache aux autres (10)"
+            }
+        },
+        {
+            "hash": "2013-02-23",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "23",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=572491",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-l-illusion-de-la-fin-de-l-histoire",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/02/s08/NET_FI_c9586f4f-0f71-4580-8316-ba733eeedf16.mp3",
+                "rediffusion": 1,
+                "titre": "L'illusion de la fin de l'histoire"
+            }
+        },
+        {
+            "hash": "2013-03-02",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "02",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=577649",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-habiter-notre-corps",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/03/s09/NET_FI_2242571f-5f55-4e10-abe1-ec82f1a52d74.mp3",
+                "rediffusion": 1,
+                "titre": "Habiter notre corps"
+            }
+        },
+        {
+            "hash": "2013-03-09",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "09",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=582467",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-31-a-la-decouverte-du-monde-des-abeille-1",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/03/s10/NET_FI_d30a9cf5-59be-4f8b-8a3f-2c6e7b065f02.mp3",
+                "rediffusion": 1,
+                "titre": "Les battements du temps (31) - A la d\u00e9couverte du monde des abeilles (3)"
+            }
+        },
+        {
+            "hash": "2013-03-16",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "16",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=582527",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-32-a-la-decouverte-du-monde-des-abeille-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/03/s11/NET_FI_21efff7c-6ab4-493d-a6e7-38c650329710.mp3",
+                "rediffusion": 1,
+                "titre": "Les battements du temps (32) -  A la d\u00e9couverte du monde des abeilles (4)"
+            }
+        }
+    ]
+}
