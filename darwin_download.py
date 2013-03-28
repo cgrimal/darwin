@@ -93,7 +93,7 @@ else:
 		for annee in range(a_start,a_end+1):
 			for mois in range(1,13):
 				if annee == a_start and mois >= m_start or annee == a_end and mois <= m_end or annee > a_start and annee < a_end:
-					print mois
+					# print mois
 					mois_str = str(mois)
 					if mois < 10:
 						mois_str = '0'+str(mois)
