@@ -1825,7 +1825,7 @@
                 "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=544601",
                 "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-7-le-retour-d-ulysse",
                 "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/01/s03/NET_FI_64bd64b9-aa18-40e6-950a-c16683d622af.mp3",
-                "rediffusion": 1,
+                "rediffusion": 0,
                 "titre": "Le lien qui nous rattache aux autres (7): Le retour d'Ulysse"
             }
         },
@@ -1840,7 +1840,7 @@
                 "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=549505",
                 "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-8",
                 "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/01/s04/NET_FI_1201ab8e-7276-4069-885c-2110580c9b63.mp3",
-                "rediffusion": 1,
+                "rediffusion": 0,
                 "titre": "Le lien qui nous rattache aux autres (8)"
             }
         },
