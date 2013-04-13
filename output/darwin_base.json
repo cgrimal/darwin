@@ -1993,6 +1993,21 @@
                 "rediffusion": 0,
                 "titre": "Aux origines du langage (3)"
             }
+        },
+        {
+            "hash": "2013-04-13",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "13",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=610370",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-8",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/04/s15/NET_FI_fa5810c7-de0a-42c7-a008-55ab91b8f8b5.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (8)"
+            }
         }
     ]
 }
