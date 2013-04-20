@@ -1959,7 +1959,7 @@
                 },
                 "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=592638",
                 "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-aux-origines-du-langage",
-                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/03/s12/NET_FI_489310b3-cdf0-45b9-ada3-4b13a0ffac2d.mp3",
+                "lien_mp3": false,
                 "rediffusion": 0,
                 "titre": "Aux origines du langage"
             }
@@ -1989,7 +1989,7 @@
                 },
                 "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=604756",
                 "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-aux-origines-du-langage-3",
-                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/04/s14/NET_FI_cbc71d00-510c-4ecb-befb-a0d0b0d12d6b.mp3",
+                "lien_mp3": false,
                 "rediffusion": 0,
                 "titre": "Aux origines du langage (3)"
             }
