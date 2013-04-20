@@ -2008,6 +2008,21 @@
                 "rediffusion": 0,
                 "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (8)"
             }
+        },
+        {
+            "hash": "2013-04-20",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "20",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=616330",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-forme-des-mots",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/04/s16/NET_FI_27703cfd-b539-47aa-985a-c79bfe6dfd3d.mp3",
+                "rediffusion": 0,
+                "titre": "La forme des mots"
+            }
         }
     ]
 }
