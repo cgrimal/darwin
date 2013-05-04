@@ -2038,6 +2038,21 @@
                 "rediffusion": 0,
                 "titre": "L'invention de l'agriculture"
             }
+        },
+        {
+            "hash": "2013-05-04",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "04",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=626108",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-clarte",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/05/s18/NET_FI_51759b60-6dec-4b8f-96b2-084d7e68e201.mp3",
+                "rediffusion": 0,
+                "titre": "Clart\u00e9"
+            }
         }
     ]
 }
