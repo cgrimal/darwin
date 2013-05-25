@@ -2083,6 +2083,21 @@
                 "rediffusion": 0,
                 "titre": "La m\u00e9moire et l'oubli"
             }
+        },
+        {
+            "hash": "2013-05-25",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "25",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=642208",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-lempreinte-du-danger",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/05/s21/NET_FI_f7a6d5c3-35e6-4d70-a63a-3da2ebd52441.mp3",
+                "rediffusion": 0,
+                "titre": "L'empreinte du danger"
+            }
         }
     ]
 }
