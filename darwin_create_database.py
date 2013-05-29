@@ -46,12 +46,14 @@ parser.add_argument('-id', metavar='emission_id', help='L\'identifiant de l\'ém
 parser.add_argument('-debut', metavar='mois_debut', help='Le mois de départ au format YYYY-MM. Exemple : "2010-09"', default='2010-09')
 parser.add_argument('-fin', metavar='mois_fin', help='Le mois de fin au format YYYY-MM. Exemple : "2013-02"', default='2013-08')
 parser.add_argument('-dest', metavar='fichier JSON', help='Le fichier JSON dans lequel enregistrer la base de données.', default=u"./output/darwin_base.json")
+parser.add_argument('-force', help='Pour forcer la mise a jour des infos', action='store_true')
 args = parser.parse_args()
 
 radio_nom = "franceinter"
 emission_id = args.id
 mois_start = args.debut
 mois_end = args.fin
+force = args.force
 
 
 emission_url = "http://www."+radio_nom+".fr/reecouter-diffusions/"+emission_id+"/"
@@ -105,22 +107,25 @@ for bb in d('.bloc'):
 	emission_data = {}
 
 	title =  pq(bb).find('.content h3').text()
-	print title
+	#print title
 	emission_data['titre'] = title
 
 	date =  pq(bb).find('.date').text()
 
 	match = regexp_date.search(date)
 	jour,mois,annee = match.group(1),match.group(2),match.group(3)
-	print jour,mois,annee
+	#print jour,mois,annee
 
 	if annee+'-'+mois in mois_list:
+
+		print title
+		print jour,mois,annee
 
 		emission_data['date'] = {'annee':annee, 'mois':mois, 'jour':jour}
 
 		emission_hash = annee + "-" + mois + "-" + jour
 
-		if not emission_hash in [e['hash'] for e in data[:-5]]:
+		if force or (not emission_hash in [e['hash'] for e in data]):
 
 			emission_link = "http://www.franceinter.fr" + pq(bb).find('.content h3 a').attr('href')
 			print emission_link
@@ -142,7 +147,7 @@ for bb in d('.bloc'):
 				emission_data['rediffusion'] = 0
 
 			if emission_hash in [e['hash'] for e in data]:
-				index = [data.index(e) for e in data[-5:] if e['hash']==emission_hash][0]
+				index = [data.index(e) for e in data if e['hash']==emission_hash][0]
 				data[index] = {'hash': emission_hash, 'infos': emission_data}
 			else:
 				data.append({'hash': emission_hash, 'infos': emission_data})
@@ -152,7 +157,8 @@ for bb in d('.bloc'):
 			print u"Emission déjà dans la base !"
 
 	else:
-		print u"Pas dans l'intervalle !"
+		#print u"Pas dans l'intervalle !"
+		pass
 
 
 data.sort(key=lambda e: e['hash'])
