@@ -529,6 +529,10 @@
 </li>
 	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-traces" >Traces</a>, diffusée le 8 Juin <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=652520" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/06/s23/NET_FI_71631753-72ba-4151-a7f7-986086decee5.mp3" >Télécharger</a>
 </li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-ce-qui-fut-se-refait" >"Ce qui fut se refait"</a>, diffusée le 15 Juin <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=659028" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/06/s24/NET_FI_09e0751f-6666-4988-9d4e-7c08c4f330ca.mp3" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-je-suis-le-fleuve" >"Je suis le fleuve"</a>, diffusée le 22 Juin <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=664104" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/06/s25/NET_FI_a7d30226-b4ad-46b9-8bbe-1fb53404b07a.mp3" >Télécharger</a>
+</li>
 </ul></div></div>
 
 	<div class="footer">

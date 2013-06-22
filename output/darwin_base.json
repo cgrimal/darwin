@@ -2128,6 +2128,36 @@
                 "rediffusion": 0,
                 "titre": "Traces"
             }
+        },
+        {
+            "hash": "2013-06-15",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "15",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=659028",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-ce-qui-fut-se-refait",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/06/s24/NET_FI_09e0751f-6666-4988-9d4e-7c08c4f330ca.mp3",
+                "rediffusion": 0,
+                "titre": "\"Ce qui fut se refait\""
+            }
+        },
+        {
+            "hash": "2013-06-22",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "22",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=664104",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-je-suis-le-fleuve",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/06/s25/NET_FI_a7d30226-b4ad-46b9-8bbe-1fb53404b07a.mp3",
+                "rediffusion": 0,
+                "titre": "\"Je suis le fleuve\""
+            }
         }
     ]
 }
