@@ -2173,6 +2173,21 @@
                 "rediffusion": 0,
                 "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves"
             }
+        },
+        {
+            "hash": "2013-07-06",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "06",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=653516",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-2-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/07/s27/NET_FI_12ad2687-bebb-4f70-b754-370e6acf99ee.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (2)"
+            }
         }
     ]
 }
