@@ -2188,6 +2188,36 @@
                 "rediffusion": 0,
                 "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (2)"
             }
+        },
+        {
+            "hash": "2013-07-13",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "13",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=653520",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-3-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/07/s28/NET_FI_8c52aa4c-22dc-4704-b901-038517387b3f.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (3)"
+            }
+        },
+        {
+            "hash": "2013-07-20",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "20",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=653524",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-4-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/07/s29/NET_FI_e2fe96ba-7813-4574-bda6-dcdb76352ced.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (4)"
+            }
         }
     ]
 }
