@@ -1,103 +1,106 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr-FR">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Sur les épaules de Darwin, Jean-Claude Ameisen</title>
-	<meta name="author" content="Clément Grimal" />
-	<meta http-equiv="Content-Language" content="fr" />
-	<meta name="keywords" lang="fr" content="clement grimal france inter ameisen jean-claude sur les epaules de darwin radio emission science podcast balladodiffusion" />
-	<link rel="stylesheet" href="web/site.css" type="text/css" media="screen, projection" />
-	<link rel="stylesheet" href="web/jquery-ui-1.9.2.custom.min.css" />
-	<script src="web/jquery-1.8.3.min.js"></script>
-	<script src="web/jquery-ui-1.9.2.custom.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$('.saison').accordion({
-				header: 'h3',
-				collapsible: true,
-				active: -1,
-				heightStyle: 'content'
-			});
-			$('#container').accordion({
-					header: 'h2',
-					collapsible: true,
-					active: -1,
-					heightStyle: 'content'
-			});
-		});
-	</script>
-	<style type="text/css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Sur les épaules de Darwin, Jean-Claude Ameisen</title>
+    <meta name="author" content="Clément Grimal" />
+    <meta http-equiv="Content-Language" content="fr" />
+    <meta name="keywords" lang="fr" content="clement grimal france inter ameisen jean-claude sur les epaules de darwin radio emission science podcast balladodiffusion" />
+    <link rel="stylesheet" href="web/site.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="web/jquery-ui-1.9.2.custom.min.css" />
+    <script src="web/jquery-1.8.3.min.js"></script>
+    <script src="web/jquery-ui-1.9.2.custom.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.saison').accordion({
+                header: 'h3',
+                collapsible: true,
+                active: -1,
+                heightStyle: 'content'
+            });
+            $('#container').accordion({
+                    header: 'h2',
+                    collapsible: true,
+                    active: -1,
+                    heightStyle: 'content'
+            });
+        });
+    </script>
+    <style type="text/css">
 
-		body {
-			color: #444;
-		}
-		a, a:visited {
-			color: #21769B !important;
-			text-decoration: none;
-		}
-		a:hover {
-			color: #D54E21 !important;
-			text-decoration: none;
-		}
+        body {
+            color: #444;
+        }
+        a, a:visited {
+            color: #21769B !important;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #D54E21 !important;
+            text-decoration: none;
+        }
 
-		.ui-state-active {
-			background: #FF000A;
-			color: white;
-		}
-		.ui-accordion-content-active .ui-state-active {
-			background: #FF000A;
-			color: white;
-		}
-		.subtitle {
-			margin: 30px 0px;
-		}
-		#container {
-			padding: 0px 50px;
-		}
-		li {
-			line-height: 2em;
-		}
-		.mp3link {
-			font-size: 80%;
-		}
-		.footer {
-			color: #222;
-			font-size: 80%;
-			margin-top: 30px;
-		}
-		#jc {
-			float: right;
-			width: 200px;
-			margin-left: 10px;
-			box-shadow: 3px 3px 8px #777;"
-		}
-	</style>
+        .ui-state-active {
+            background: #FF000A;
+            color: white;
+        }
+        .ui-accordion-content-active .ui-state-active {
+            background: #FF000A;
+            color: white;
+        }
+        .subtitle {
+            margin: 30px 0px;
+        }
+        #container {
+            padding: 0px 50px;
+        }
+        li {
+            line-height: 2em;
+        }
+        .mp3link {
+            font-size: 80%;
+        }
+        .footer {
+            color: #222;
+            font-size: 80%;
+            margin-top: 30px;
+        }
+        #jc {
+            float: right;
+            width: 200px;
+            margin-left: 10px;
+            box-shadow: 3px 3px 8px #777;
+        }
+        #disqus_thread {
+            margin-top: 30px;
+        }
+    </style>
 
 </head>
 <body>
 
 <div id="container">
 
-	<img src="http://media.tumblr.com/tumblr_m9sdy9GfqU1qiol4t.jpg" id="jc">
+    <img src="http://media.tumblr.com/tumblr_m9sdy9GfqU1qiol4t.jpg" id="jc">
 
-	<h1>Sur les épaules de Darwin, Jean-Claude Ameisen</h1>
+    <h1>Sur les épaules de Darwin, Jean-Claude Ameisen</h1>
 
-	<div class="subtitle">
-		<p>
-			Cette page agrège tous les liens vers les épisodes de l'émission : page de l'épisode, page pour ré-écouter l'épisode, lien direct vers les fichier mp3.
-		</p>
-		<p>
-			Je travaille sur ce projet à mes heures perdues, car je me suis aperçu que beacuoup de personnes étaient intéressées par cette émission, et ne savaient pas comment récupérer les épisodes. Si vous voulez en savoir plus sur la création automatique de cette page, direction mon blog&nbsp;: <a href="http://clementgrimal.fr/blog/tag/darwin/">http://clementgrimal.fr/blog/tag/darwin/</a><br />
-			Je complèterais probablement plus tard et partagerais l'intégralité des scripts si cela intéresse quelqu'un.
-		</p>
-		<p>
-			Bonne écoute !
-		</p>
-	</div>
+    <div class="subtitle">
+        <p>
+            Cette page agrège tous les liens vers les épisodes de l'émission : page de l'épisode, page pour ré-écouter l'épisode, lien direct vers les fichier mp3.
+        </p>
+        <p>
+            Je travaille sur ce projet à mes heures perdues, car je me suis aperçu que beacuoup de personnes étaient intéressées par cette émission, et ne savaient pas comment récupérer les épisodes. Si vous voulez en savoir plus sur la création automatique de cette page, direction mon blog&nbsp;: <a href="http://clementgrimal.fr/blog/tag/darwin/">http://clementgrimal.fr/blog/tag/darwin/</a><br />
+            Je complèterais probablement plus tard et partagerais l'intégralité des scripts si cela intéresse quelqu'un.
+        </p>
+        <p>
+            Bonne écoute !
+        </p>
+    </div>
 
-	<h2>Saison 2010-2011</h2>
+    <h2>Saison 2010-2011</h2>
 <div class='saison'>
 <h3>Septembre 2010</h3>
 <div class='mois'>
@@ -545,23 +548,60 @@
 </li>
 	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-4-0" >Cette étoffe sur laquelle naissent les rêves (4)</a>, diffusée le 20 Juillet <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=653524" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/07/s29/NET_FI_e2fe96ba-7813-4574-bda6-dcdb76352ced.mp3" >Télécharger</a>
 </li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-5-0" >Cette étoffe sur laquelle naissent les rêves (5)</a>, diffusée le 27 Juillet <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=653528" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/07/s30/NET_FI_933f8430-d044-4fa9-8bdc-a6489475b8c8.mp3" >Télécharger</a>
+</li>
+</ul></div>
+<h3>Août 2013</h3>
+<div class='mois'>
+<ul>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-6-0" >Cette étoffe sur laquelle naissent les rêves (6)</a>, diffusée le 3 Août <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=653532" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/08/s31/NET_FI_b1ea7bdf-bd56-48bc-bc76-c0bad7f1517b.mp3" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-7-0" >Cette étoffe sur laquelle naissent les rêves (7)</a>, diffusée le 10 Août <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=653536" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/08/s32/NET_FI_3533c740-a4c8-43d4-a628-c0ccc68825db.mp3" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-8-0" >Cette étoffe sur laquelle naissent les rêves (8)</a>, diffusée le 17 Août <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=653540" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/08/s33/NET_FI_3ec9bddd-19cc-4eb5-8bb1-251a9e228ce1.mp3" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-presence-0" >Présence</a>, diffusée le 24 Août <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=653544" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/08/s34/NET_FI_e2b68e1a-8316-481f-abfc-3a43dca36c76.mp3" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-travers-les-labyrinthes" >A travers les labyrinthes</a>, diffusée le 31 Août <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=708794" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/08/s35/NET_FI_784537f7-bafc-4344-898e-3015e9b5e94e.mp3" >Télécharger</a>
+</li>
+</ul></div>
+</div>
+<h2>Saison 2013-2014</h2>
+<div class='saison'>
+<h3>Septembre 2013</h3>
+<div class='mois'>
+<ul>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-lame-de-lete" >L'âme de l'été</a>, diffusée le 7 Septembre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=714204" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/09/s36/NET_FI_16b4348b-259d-424b-9e2e-7deb19500b0a.mp3" >Télécharger</a>
+</li>
 </ul></div></div>
 
-	<div class="footer">
-			Pour télécharger les fichiers mp3 des émissions (en toute légalité), il faut que vous fassiez un clic-droit sur le lien "Téléchargement" et que vous choisissiez "Enregistrer la cible sous..."
-	</div>
+    <div class="footer">
+            Pour télécharger les fichiers mp3 des émissions (en toute légalité), il faut que vous fassiez un clic-droit sur le lien "Téléchargement" et que vous choisissiez "Enregistrer la cible sous..."
+    </div>
 
-	<div class="footer">
-			Merci à Pascal Prevost pour avoir mis en ligne les premières emissions, qui ne sont actuellement plus disponibles sur le site de France Inter&nbsp;: <a href="http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/sur_les_epaules_de_darwin.htm">http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/sur_les_epaules_de_darwin.htm</a>
-	</div>
+    <div class="footer">
+            Merci à Pascal Prevost pour avoir mis en ligne les premières emissions, qui ne sont actuellement plus disponibles sur le site de France Inter&nbsp;: <a href="http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/sur_les_epaules_de_darwin.htm">http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/sur_les_epaules_de_darwin.htm</a>
+    </div>
 
-	<div class="footer">
-			Pour ceux qui lisent le JSON couramment : <a href="darwin_base.json">darwin_base.json</a>
-	</div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'surlespaulesdedarwin';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>euillez activer JavaScript pour participer à la discussion ! <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-	<div class="footer" id="counter">
-			<? include("counter.php"); ?>
-	</div>
+    <div class="footer">
+            Pour ceux qui lisent le JSON couramment : <a href="darwin_base.json">darwin_base.json</a>
+    </div>
+
+    <div class="footer" id="counter">
+            <? include("counter.php"); ?>
+    </div>
 
 </div>
 

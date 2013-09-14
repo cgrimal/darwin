@@ -2218,6 +2218,111 @@
                 "rediffusion": 0,
                 "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (4)"
             }
+        },
+        {
+            "hash": "2013-07-27",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "27",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=653528",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-5-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/07/s30/NET_FI_933f8430-d044-4fa9-8bdc-a6489475b8c8.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (5)"
+            }
+        },
+        {
+            "hash": "2013-08-03",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "03",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=653532",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-6-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/08/s31/NET_FI_b1ea7bdf-bd56-48bc-bc76-c0bad7f1517b.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (6)"
+            }
+        },
+        {
+            "hash": "2013-08-10",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "10",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=653536",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-7-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/08/s32/NET_FI_3533c740-a4c8-43d4-a628-c0ccc68825db.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (7)"
+            }
+        },
+        {
+            "hash": "2013-08-17",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "17",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=653540",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-8-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/08/s33/NET_FI_3ec9bddd-19cc-4eb5-8bb1-251a9e228ce1.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (8)"
+            }
+        },
+        {
+            "hash": "2013-08-24",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "24",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=653544",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-presence-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/08/s34/NET_FI_e2b68e1a-8316-481f-abfc-3a43dca36c76.mp3",
+                "rediffusion": 0,
+                "titre": "Pr\u00e9sence"
+            }
+        },
+        {
+            "hash": "2013-08-31",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "31",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=708794",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-travers-les-labyrinthes",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/08/s35/NET_FI_784537f7-bafc-4344-898e-3015e9b5e94e.mp3",
+                "rediffusion": 0,
+                "titre": "A travers les labyrinthes"
+            }
+        },
+        {
+            "hash": "2013-09-07",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "07",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=714204",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-lame-de-lete",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/09/s36/NET_FI_16b4348b-259d-424b-9e2e-7deb19500b0a.mp3",
+                "rediffusion": 0,
+                "titre": "L'\u00e2me de l'\u00e9t\u00e9"
+            }
         }
     ]
 }
