@@ -52,6 +52,7 @@
         }
         .subtitle {
             margin: 30px 0px;
+            font-size: 90%;
         }
         #container {
             padding: 0px 50px;
@@ -89,11 +90,14 @@
 
     <div class="subtitle">
         <p>
-            Cette page agrège tous les liens vers les épisodes de l'émission : page de l'épisode, page pour ré-écouter l'épisode, lien direct vers les fichier mp3.
+            Cette page (sur laquelle je travaille à mes heures perdues) agrège tous les liens vers les épisodes de l'émission : page de l'épisode, page pour ré-écouter l'épisode, lien direct vers les fichier mp3.
         </p>
         <p>
-            Je travaille sur ce projet à mes heures perdues, car je me suis aperçu que beacuoup de personnes étaient intéressées par cette émission, et ne savaient pas comment récupérer les épisodes. Si vous voulez en savoir plus sur la création automatique de cette page, direction mon blog&nbsp;: <a href="http://clementgrimal.fr/blog/tag/darwin/">http://clementgrimal.fr/blog/tag/darwin/</a><br />
-            Je complèterais probablement plus tard et partagerais l'intégralité des scripts si cela intéresse quelqu'un.
+            <ul>
+                <li>Les scripts utilisés pour la génération automatique de cette page sont accessibles sur GitHub&nbsp;: <a href="https://github.com/cgrimal/darwin">https://github.com/cgrimal/darwin</a></li>
+                <li>Si vous voulez en savoir plus sur la création automatique de cette page, direction mon blog&nbsp;: <a href="http://clementgrimal.fr/blog/tag/darwin/">http://clementgrimal.fr/blog/tag/darwin/</a></li>
+                <li>Vous pouvez maintenant laisser <a href="#disqus_thread">vos commentaires</a> sur cette page !</li>
+            </ul>
         </p>
         <p>
             Bonne écoute !
