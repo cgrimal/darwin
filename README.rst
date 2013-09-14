@@ -79,6 +79,6 @@ C'est un peu bonus (et pourtant j'ai fait tout ça pour ça au départ !), mais 
 Cette commande va se baser sur les liens mp3 de la base de données JSON pour télécharger les épisodes. Les paramètres (et valeurs par défaut) de ce script sont les suivants :
 
 - ``-base`` : le fichier JSON qui contient la base de données. Défaut : ``./output/darwin_base.json``
-- ``-dossier`` : le dossier qui contient les fichiers mp3. Défaut : ``/media/cgrimal/Data/darwin/mp3/`` !!A CHANGER!!
+- ``-dossier`` : le dossier qui contient les fichiers mp3. Défaut : ``./``
 - ``-debut`` : le mois de départ au format YYYY-MM. Défaut : ``2010-09``
 - ``-fin`` : le mois de fin au format YYYY-MM. Défaut : ``2013-08``

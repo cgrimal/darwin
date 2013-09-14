@@ -65,7 +65,7 @@ def str2filename(string):
 parser = argparse.ArgumentParser(description='A partir d\'une base de données JSON pour une émission de France Inter, télécharge les mp3.')
 
 parser.add_argument('-base', metavar='fichier JSON', help='Le fichier JSON qui contient la base de données.', default=u"./output/darwin_base.json")
-parser.add_argument('-dossier', metavar='dossier de reception', help='Le dossier qui contient les fichiers mp3.', default=u"/storage/backup_plus/darwin/")
+parser.add_argument('-dossier', metavar='dossier de reception', help='Le dossier qui contient les fichiers mp3.', default=u"./")
 parser.add_argument('-debut', metavar='mois_debut', help='Le mois de départ au format YYYY-MM. Exemple : "2010-09"', default='2010-09')
 parser.add_argument('-fin', metavar='mois_fin', help='Le mois de fin au format YYYY-MM. Exemple : "2013-02"', default='2013-08')
 args = parser.parse_args()
