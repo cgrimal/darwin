@@ -2323,6 +2323,21 @@
                 "rediffusion": 0,
                 "titre": "L'\u00e2me de l'\u00e9t\u00e9"
             }
+        },
+        {
+            "hash": "2013-09-14",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "14",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=720728",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-renouvellement-permanent-de-la-diversite",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/09/s37/NET_FI_64aeca52-5a48-467f-9360-a798988fc917.mp3",
+                "rediffusion": 0,
+                "titre": "Le renouvellement permanent de la diversit\u00e9"
+            }
         }
     ]
 }
