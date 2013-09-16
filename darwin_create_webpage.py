@@ -10,94 +10,95 @@ sys.stdout=codecs.getwriter('utf-8')(sys.stdout)
 #####################################################################
 
 def create_webpage(data,template_path,filename):
-	html_code = ""
-	current_month = ""
-	new_season = True
-	new_month = True
+    html_code = ""
+    current_month = ""
+    new_season = True
+    new_month = True
 
-	months = [
-		u"Janvier",
-		u"Février",
-		u"Mars",
-		u"Avril",
-		u"Mai",
-		u"Juin",
-		u"Juillet",
-		u"Août",
-		u"Septembre",
-		u"Octobre",
-		u"Novembre",
-		u"Décembre"
-	]
+    months = [
+        u"Janvier",
+        u"Février",
+        u"Mars",
+        u"Avril",
+        u"Mai",
+        u"Juin",
+        u"Juillet",
+        u"Août",
+        u"Septembre",
+        u"Octobre",
+        u"Novembre",
+        u"Décembre"
+    ]
 
-	for emission_data in data:
+    for emission_data in data:
 
-		# emission_data = data[hash_dummy]
-		emission_data = emission_data['infos']
+        # emission_data = data[hash_dummy]
+        emission_data = emission_data['infos']
 
-		# print emission_data
+        # print emission_data
 
-		titre = emission_data['titre']
-		jj,mm,aa = emission_data['date']['jour'],emission_data['date']['mois'],emission_data['date']['annee']
-		pagelink = emission_data['lien_emission']
-		rediff = emission_data['rediffusion']
+        titre = emission_data['titre']
+        jj,mm,aa = emission_data['date']['jour'],emission_data['date']['mois'],emission_data['date']['annee']
+        pagelink = emission_data['lien_emission']
+        rediff = emission_data['rediffusion']
 
-		if 'lien_ecouter' in emission_data:
-			player_link = emission_data['lien_ecouter']
-			mp3link = emission_data['lien_mp3']
-		else:
-			player_link = ''
-			mp3link = ''
+        if 'lien_ecouter' in emission_data:
+            player_link = emission_data['lien_ecouter']
+            mp3link = emission_data['lien_mp3']
+        else:
+            player_link = ''
+            mp3link = ''
 
-		new_month = False
-		print titre
-		# jj,mm,aa = date
-		month = months[int(mm)-1]
+        new_month = False
+        print titre
+        # jj,mm,aa = date
+        month = months[int(mm)-1]
 
-		if mm == "09" and new_season:
-			if current_month != "":
-				html_code += "</ul></div>\n</div>\n"
-				new_month = False
-			html_code += "<h2>Saison " + aa + "-" + str(int(aa)+1) + "</h2>\n<div class='saison'>\n"
-			new_season = False
-		else:
-			new_month = True
+        if mm == "09" and new_season:
+            if current_month != "":
+                html_code += "</ul></div>\n</div>\n"
+                new_month = False
+            html_code += "<h2>Saison " + aa + "-" + str(int(aa)+1) + "</h2>\n<div class='saison'>\n"
+            new_season = False
+        else:
+            new_month = True
 
-		if mm != "09":
-			new_season = True
-			
+        if mm != "09":
+            new_season = True
+            
 
-		if aa+mm != current_month:
-			if current_month != "" and new_month:
-				html_code += "</ul></div>\n"
-			html_code += "<h3>" + months[int(mm)-1] + " " + aa + "</h3>\n<div class='mois'>\n"
-			html_code += "<ul>\n"
-			current_month = aa+mm
+        if aa+mm != current_month:
+            if current_month != "" and new_month:
+                html_code += "</ul></div>\n"
+            html_code += "<h3>" + months[int(mm)-1] + " " + aa + "</h3>\n<div class='mois'>\n"
+            html_code += "<ul>\n"
+            current_month = aa+mm
 
-		line =  u'\t<li>'
-		line += u'<a class="link" href="' + unicode(pagelink) + '" >' + unicode(titre) + u'</a>, diffusée le ' + str(int(jj)) + u' ' + months[int(mm)-1]
-		if player_link and mp3link:
-			line += u' <a class="mp3link" href="' + unicode(player_link) + u'" >Ecouter</a> '
-			line += u' <a class="mp3link" href="' + unicode(mp3link) + u'" >Télécharger</a>\n'
-		elif int(aa)<2011 or (int(aa)==2011 and int(mm)==1): #janvier 2011
-			pascal_link = "http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/Jean-Claude%20Ameisen%20-%20SUR%20LES%20EPAULES%20DE%20DARWIN%20"+jj+"."+mm+"."+aa+".mp3"
-			line += u' <a class="mp3link" href="' + unicode(pascal_link) + u'" >Télécharger (via prevost.pascal.free.fr)</a>\n'
-		line += u'</li>\n'
-		# line = u'\t<li><a href="' + player_link + '" >' + unicode(titre) + u'</a>, diffusée le ' + str(int(jj)) + u' ' + months[int(mm)-1] + u'</br>' + flash_player + u'</li>\n'
-		html_code += line
+        line =  u'\t<li>'
+        line += u'<a class="link" href="' + unicode(pagelink) + '" >' + unicode(titre) + u'</a>, diffusée le ' + str(int(jj)) + u' ' + months[int(mm)-1]
+        link_name = aa+'-'+mm+'-'+jj+' - '+titre
+        if player_link and mp3link:
+            line += u' <a class="mp3link" href="' + unicode(player_link) + u'" >Ecouter</a> '
+            line += u' <a class="mp3link" href="' + unicode(mp3link) + u'" download="' + unicode(link_name) + u'" >Télécharger</a>\n'
+        elif int(aa)<2011 or (int(aa)==2011 and int(mm)==1): #janvier 2011
+            pascal_link = "http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/Jean-Claude%20Ameisen%20-%20SUR%20LES%20EPAULES%20DE%20DARWIN%20"+jj+"."+mm+"."+aa+".mp3"
+            line += u' <a class="mp3link" href="' + unicode(pascal_link) + u'" download="' + unicode(link_name) + u'" >Télécharger (via prevost.pascal.free.fr)</a>\n'
+        line += u'</li>\n'
+        # line = u'\t<li><a href="' + player_link + '" >' + unicode(titre) + u'</a>, diffusée le ' + str(int(jj)) + u' ' + months[int(mm)-1] + u'</br>' + flash_player + u'</li>\n'
+        html_code += line
 
-	html_code += "</ul></div></div>"
+    html_code += "</ul></div></div>"
 
-	template_file = codecs.open(template_path, "r", "utf-8")
-	# template_file = open(template_path)
-	template = template_file.read()
-	template_file.close()
+    template_file = codecs.open(template_path, "r", "utf-8")
+    # template_file = open(template_path)
+    template = template_file.read()
+    template_file.close()
 
-	template = template.replace("%content", html_code)
+    template = template.replace("%content", html_code)
 
-	result_file = codecs.open(filename, "w", "utf-8")
-	result_file.write(template)
-	result_file.close()
+    result_file = codecs.open(filename, "w", "utf-8")
+    result_file.write(template)
+    result_file.close()
 
 
 #####################################################################
