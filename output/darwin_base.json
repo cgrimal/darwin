@@ -2398,6 +2398,51 @@
                 "rediffusion": 0,
                 "titre": "La tapisserie tout enti\u00e8re"
             }
+        },
+        {
+            "hash": "2013-10-19",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "19",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=749524",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-comme-de-longs-echos",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/10/s42/NET_FI_d8da7eb7-245c-4e39-b99a-f872fdf5d3f6.mp3",
+                "rediffusion": 0,
+                "titre": "Comme de longs \u00e9chos"
+            }
+        },
+        {
+            "hash": "2013-10-26",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "26",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=755444",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-detisser-les-mailles-de-lunivers",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/10/s43/NET_FI_bfcb67c9-a4b8-4713-9e8d-f4ce97bc6965.mp3",
+                "rediffusion": 0,
+                "titre": "D\u00e9tisser les mailles de l'univers"
+            }
+        },
+        {
+            "hash": "2013-11-02",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "02",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=760482",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-quand-la-science-rencontre-lart",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/11/s44/NET_FI_9fa1b267-ddd9-4793-b271-f380b94d3cc5.mp3",
+                "rediffusion": 0,
+                "titre": "Quand la science rencontre l'art"
+            }
         }
     ]
 }

@@ -591,6 +591,16 @@
 </li>
 	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-tapisserie-tout-entiere" >La tapisserie tout entière</a>, diffusée le 12 Octobre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=743494" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/10/s41/NET_FI_049b1a3c-90bd-42e4-bbfd-53cdbdf69be6.mp3" download="2013-10-12 - La tapisserie tout entière" >Télécharger</a>
 </li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-comme-de-longs-echos" >Comme de longs échos</a>, diffusée le 19 Octobre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=749524" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/10/s42/NET_FI_d8da7eb7-245c-4e39-b99a-f872fdf5d3f6.mp3" download="2013-10-19 - Comme de longs échos" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-detisser-les-mailles-de-lunivers" >Détisser les mailles de l'univers</a>, diffusée le 26 Octobre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=755444" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/10/s43/NET_FI_bfcb67c9-a4b8-4713-9e8d-f4ce97bc6965.mp3" download="2013-10-26 - Détisser les mailles de l'univers" >Télécharger</a>
+</li>
+</ul></div>
+<h3>Novembre 2013</h3>
+<div class='mois'>
+<ul>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-quand-la-science-rencontre-lart" >Quand la science rencontre l'art</a>, diffusée le 2 Novembre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=760482" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/11/s44/NET_FI_9fa1b267-ddd9-4793-b271-f380b94d3cc5.mp3" download="2013-11-02 - Quand la science rencontre l'art" >Télécharger</a>
+</li>
 </ul></div></div>
 
     <div class="footer">
