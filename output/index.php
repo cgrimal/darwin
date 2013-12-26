@@ -601,6 +601,22 @@
 <ul>
 	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-quand-la-science-rencontre-lart" >Quand la science rencontre l'art</a>, diffusée le 2 Novembre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=760482" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/11/s44/NET_FI_9fa1b267-ddd9-4793-b271-f380b94d3cc5.mp3" download="2013-11-02 - Quand la science rencontre l'art" >Télécharger</a>
 </li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-partage-des-emotions" >Le partage des émotions</a>, diffusée le 9 Novembre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=766218" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/11/s45/NET_FI_0ef1bc73-294f-4159-9ef8-f201e82ba80d.mp3" download="2013-11-09 - Le partage des émotions" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-souci-de-lautre" >Le souci de l'autre</a>, diffusée le 16 Novembre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=772134" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/11/s46/NET_FI_206e0675-de11-4878-a51a-cd804644a003.mp3" download="2013-11-16 - Le souci de l'autre" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-donner-recevoir" >Donner, recevoir</a>, diffusée le 23 Novembre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=777922" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/11/s47/NET_FI_cccddd7b-c0ba-4318-8d75-2b23cd8b329a.mp3" download="2013-11-23 - Donner, recevoir" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-donner-recevoir-2" >Donner, recevoir (2)</a>, diffusée le 30 Novembre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=783518" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/11/s48/NET_FI_df0745df-e6b6-4235-9cf1-9a035a436b9a.mp3" download="2013-11-30 - Donner, recevoir (2)" >Télécharger</a>
+</li>
+</ul></div>
+<h3>Décembre 2013</h3>
+<div class='mois'>
+<ul>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-la-recherche-de-nos-premiers-ancetres-humains" >A la recherche de nos premiers ancêtres humains</a>, diffusée le 14 Décembre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=795476" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/12/s50/NET_FI_f5abf345-1d30-45e0-a478-6166fa0f95bf.mp3" download="2013-12-14 - A la recherche de nos premiers ancêtres humains" >Télécharger</a>
+</li>
+	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-27-le-langage-des-oiseaux-2-0" >Les battements du temps (27). Le langage des oiseaux (2)</a>, diffusée le 21 Décembre <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=798200" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2013/12/s51/NET_FI_383dd5c5-86aa-4cb3-bda1-4d95dec87c7c.mp3" download="2013-12-21 - Les battements du temps (27). Le langage des oiseaux (2)" >Télécharger</a>
+</li>
 </ul></div></div>
 
     <div class="footer">

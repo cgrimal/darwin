@@ -2443,6 +2443,96 @@
                 "rediffusion": 0,
                 "titre": "Quand la science rencontre l'art"
             }
+        },
+        {
+            "hash": "2013-11-09",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "09",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=766218",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-partage-des-emotions",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/11/s45/NET_FI_0ef1bc73-294f-4159-9ef8-f201e82ba80d.mp3",
+                "rediffusion": 0,
+                "titre": "Le partage des \u00e9motions"
+            }
+        },
+        {
+            "hash": "2013-11-16",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "16",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=772134",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-souci-de-lautre",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/11/s46/NET_FI_206e0675-de11-4878-a51a-cd804644a003.mp3",
+                "rediffusion": 0,
+                "titre": "Le souci de l'autre"
+            }
+        },
+        {
+            "hash": "2013-11-23",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "23",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=777922",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-donner-recevoir",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/11/s47/NET_FI_cccddd7b-c0ba-4318-8d75-2b23cd8b329a.mp3",
+                "rediffusion": 0,
+                "titre": "Donner, recevoir"
+            }
+        },
+        {
+            "hash": "2013-11-30",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "30",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=783518",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-donner-recevoir-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/11/s48/NET_FI_df0745df-e6b6-4235-9cf1-9a035a436b9a.mp3",
+                "rediffusion": 0,
+                "titre": "Donner, recevoir (2)"
+            }
+        },
+        {
+            "hash": "2013-12-14",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "14",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=795476",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-la-recherche-de-nos-premiers-ancetres-humains",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/12/s50/NET_FI_f5abf345-1d30-45e0-a478-6166fa0f95bf.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche de nos premiers anc\u00eatres humains"
+            }
+        },
+        {
+            "hash": "2013-12-21",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "21",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=798200",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-27-le-langage-des-oiseaux-2-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/12/s51/NET_FI_383dd5c5-86aa-4cb3-bda1-4d95dec87c7c.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (27). Le langage des oiseaux (2)"
+            }
         }
     ]
 }

@@ -6,11 +6,16 @@ Sur les épaules de Darwin, émission proposée par Jean-Claide Ameisen.
 Diffusée sur France Inter tous les samedi matin de 11h à 12h, depuis Septembre 2009.
 
 Ce projet contient les scripts python que j'utilise pour générer la page http://clementgrimal.fr/darwin/
-Il est composé de 3 scripts :
 
-- ``darwin_create_database.py`` : qui construit et exporte une base de données (dans un fichier json)
-- ``darwin_create_database.py`` : qui construit la page web à partir de la base de données (et d'un template)
-- ``darwin_download.py`` : qui télécharge les fichiers mp3 à partir de la base de données
+Il est composé de 3 scripts python :
+
+- ``darwin_create_database.py`` : construit et exporte une base de données (dans un fichier json)
+- ``darwin_create_database.py`` : construit la page web à partir de la base de données (et d'un template)
+- ``darwin_download.py`` : télécharge les fichiers mp3 à partir de la base de données
+
+Et je donne également un exemple de script bash qui les utilise (pour automatiser la mise à jour) :
+
+- ``darwin_update.sh`` : met à jour la base de données et la page web en prenant les épisodes des deux derniers mois
 
 Pré-requis
 ==========
