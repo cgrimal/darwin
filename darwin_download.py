@@ -86,6 +86,7 @@ else:
 	mois_list = []
 	if a_start==a_end:
 		for mois in range(m_start,m_end+1):
+			mois_str = str(mois)
 			if mois < 10:
 				mois_str = '0'+str(mois)
 			mois_list.append(str(a_start)+"-"+ mois_str)
