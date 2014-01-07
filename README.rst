@@ -10,7 +10,7 @@ Ce projet contient les scripts python que j'utilise pour générer la page http:
 Il est composé de 3 scripts python :
 
 - ``darwin_create_database.py`` : construit et exporte une base de données (dans un fichier json)
-- ``darwin_create_database.py`` : construit la page web à partir de la base de données (et d'un template)
+- ``darwin_create_webpage.py`` : construit la page web à partir de la base de données (et d'un template)
 - ``darwin_download.py`` : télécharge les fichiers mp3 à partir de la base de données
 
 Et je donne également un exemple de script bash qui les utilise (pour automatiser la mise à jour) :
