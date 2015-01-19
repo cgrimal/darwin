@@ -2533,6 +2533,846 @@
                 "rediffusion": 0,
                 "titre": "Les battements du temps (27). Le langage des oiseaux (2)"
             }
+        },
+        {
+            "hash": "2013-12-28",
+            "infos": {
+                "date": {
+                    "annee": "2013",
+                    "jour": "28",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=798226",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-un-cadeau-de-nouvel-an-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2013/12/s52/NET_FI_53e10478-170b-450a-81a0-39efd0c6a611.mp3",
+                "rediffusion": 0,
+                "titre": "Un cadeau de nouvel an"
+            }
+        },
+        {
+            "hash": "2014-01-04",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "04",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=801392",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-28-le-langage-des-oiseaux-3-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/01/s02/NET_FI_6c516bf9-c038-4047-947a-a3b5547906cf.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (28). Le langage des oiseaux (3)"
+            }
+        },
+        {
+            "hash": "2014-01-11",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "11",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=814634",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-chat-qui-allait-son-chemin-tout-seul-1",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/01/s02/NET_FI_e9bd998f-d079-4fbe-b9bd-de9285515244.mp3",
+                "rediffusion": 0,
+                "titre": "Le chat qui allait son chemin tout seul"
+            }
+        },
+        {
+            "hash": "2014-01-18",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "18",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=819668",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-apprivoiser-la-nature",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/01/s03/NET_FI_776c8d94-8a26-45a0-892a-fbe278f58b5a.mp3",
+                "rediffusion": 0,
+                "titre": "Apprivoiser la nature"
+            }
+        },
+        {
+            "hash": "2014-01-25",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "25",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=825140",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-apprivoiser-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/01/s04/NET_FI_02641671-1f77-4826-9053-02edd0160b16.mp3",
+                "rediffusion": 0,
+                "titre": "Apprivoiser (2)"
+            }
+        },
+        {
+            "hash": "2014-02-01",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "01",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=830590",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-aux-origines-de-lagriculture",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/02/s05/NET_FI_43ca8928-ba07-4aa1-99f7-f3a004bb6ade.mp3",
+                "rediffusion": 0,
+                "titre": "Aux origines de l'agriculture"
+            }
+        },
+        {
+            "hash": "2014-02-08",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "08",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=835230",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-aux-origines-de-lagriculture-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/02/s06/NET_FI_7bfa892c-0e6a-4feb-857d-7dcf28712631.mp3",
+                "rediffusion": 0,
+                "titre": "Aux origines de l'agriculture (2)"
+            }
+        },
+        {
+            "hash": "2014-02-15",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "15",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=840668",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-la-recherche-des-traces-de-nos-ancetres",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/02/s07/NET_FI_b136ae4f-c8c1-4203-858d-7c0744703e7c.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des traces de nos anc\u00eatres"
+            }
+        },
+        {
+            "hash": "2014-02-22",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "22",
+                    "mois": "02"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=844990",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-la-recherche-des-traces-des-musiques-de-la-prehistoire",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/02/s08/NET_FI_9ae0bc64-31e3-4275-bedb-44f407ec4e1d.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des traces des musiques de la pr\u00e9histoire"
+            }
+        },
+        {
+            "hash": "2014-03-01",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "01",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=850994",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-7-le-retour-dulysse",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/03/s09/NET_FI_fdef31e1-6c70-4742-b78b-f46fd37a4f56.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres (7): Le retour d'Ulysse"
+            }
+        },
+        {
+            "hash": "2014-03-08",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "08",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=855672",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-8-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/03/s10/net-fi-013e6092-024d-4546-90c2-b47f554a25fd.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres (8)"
+            }
+        },
+        {
+            "hash": "2014-03-15",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "15",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=860292",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-decouverte-du-nouveau-monde",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/03/s11/net-fi-c9f4a48a-8c0c-4700-b4e6-b785e5230a60.mp3",
+                "rediffusion": 0,
+                "titre": "La d\u00e9couverte du Nouveau Monde"
+            }
+        },
+        {
+            "hash": "2014-03-22",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "22",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=865322",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-decouverte-du-nouveau-monde-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/03/s12/net-fi-657fb4bd-096e-4dd8-a1d2-5763848e9a02.mp3",
+                "rediffusion": 0,
+                "titre": "La d\u00e9couverte du Nouveau Monde (2)"
+            }
+        },
+        {
+            "hash": "2014-03-29",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "29",
+                    "mois": "03"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=869766",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-decouverte-du-nouveau-monde-3",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/03/s13/net-fi-caac3ef2-27e6-4e04-b559-9b3be155d0cf.mp3",
+                "rediffusion": 0,
+                "titre": "La d\u00e9couverte du Nouveau Monde (3)"
+            }
+        },
+        {
+            "hash": "2014-04-05",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "05",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=874486",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-21-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/04/s14/net-fi-d2bf0116-1b1d-433c-9803-ce875a1f5820.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (21)"
+            }
+        },
+        {
+            "hash": "2014-04-12",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "12",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=879632",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-la-decouverte-de-neandertal-en-nous",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/04/s15/net-fi-dc383905-d213-4578-a572-b16cedf3f3fd.mp3",
+                "rediffusion": 0,
+                "titre": "A la d\u00e9couverte de Neandertal en nous..."
+            }
+        },
+        {
+            "hash": "2014-04-19",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "19",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=884048",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-presences",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/04/s16/net-fi-d7291f2e-17c0-4461-a7a8-ff2cf7ce680b.mp3",
+                "rediffusion": 0,
+                "titre": "Pr\u00e9sences"
+            }
+        },
+        {
+            "hash": "2014-04-26",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "26",
+                    "mois": "04"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=888320",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-la-decouverte-de-neandertal-en-nous-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/04/s17/net-fi-92cd0242-c4a8-4474-bbfd-651c52c581d0.mp3",
+                "rediffusion": 0,
+                "titre": "A la d\u00e9couverte de Neandertal en nous (2)"
+            }
+        },
+        {
+            "hash": "2014-05-03",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "03",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=892484",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-entre-genes-et-environnements",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/05/s18/net-fi-1d3bf36b-d74c-4c46-9653-4fbda7c6acf1.mp3",
+                "rediffusion": 0,
+                "titre": "Entre g\u00e8nes et environnements"
+            }
+        },
+        {
+            "hash": "2014-05-10",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "10",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=896696",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-enchantements-et-illusions",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/05/s19/net-fi-3c126005-30d7-462b-a8e7-764395f2dcbe.mp3",
+                "rediffusion": 0,
+                "titre": "Enchantements et illusions"
+            }
+        },
+        {
+            "hash": "2014-05-17",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "17",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=901420",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-enchantements-et-illusions-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/05/s20/net-fi-b1aa066b-3620-4b0b-bca4-917e533a1bd3.mp3",
+                "rediffusion": 0,
+                "titre": "Enchantements et illusions (2)"
+            }
+        },
+        {
+            "hash": "2014-05-24",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "24",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=904704",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-cette-etoffe-sur-laquelle-naissent-les-reves-9-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/05/s21/net-fi-926bb264-1acd-4ec1-b431-5eef85a3c99d.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (9)"
+            }
+        },
+        {
+            "hash": "2014-05-31",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "31",
+                    "mois": "05"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=908588",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-au-pays-de-la-memoire-et-de-loubli",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/05/s22/net-fi-2f714c34-bc55-48e9-b7a0-c42f982ea54d.mp3",
+                "rediffusion": 0,
+                "titre": "Au pays de la m\u00e9moire et de l'oubli"
+            }
+        },
+        {
+            "hash": "2014-06-07",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "07",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=914906",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-limage-qui-manque",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/06/s23/net-fi-9ec33345-9b90-4409-9b8c-8f99a40b11df.mp3",
+                "rediffusion": 0,
+                "titre": "\"L'image qui manque\""
+            }
+        },
+        {
+            "hash": "2014-06-14",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "14",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=919212",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-paysages",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/06/s24/net-fi-c2d47dd3-1083-4968-bd75-951fe7a966a1.mp3",
+                "rediffusion": 0,
+                "titre": "Paysages"
+            }
+        },
+        {
+            "hash": "2014-06-21",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "21",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=921966",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-lien-qui-nous-rattache-aux-autres-2-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/06/s25/net-fi-583390c3-896a-453e-a561-6039787fed57.mp3",
+                "rediffusion": 0,
+                "titre": "Le lien qui nous rattache aux autres [2]"
+            }
+        },
+        {
+            "hash": "2014-06-29",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "29",
+                    "mois": "06"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=924668",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-aux-origines-du-langage-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/06/s26/net-fi-2af948c3-4c4c-44d1-90f9-06f7a2703ba3.mp3",
+                "rediffusion": 0,
+                "titre": "Aux origines du langage"
+            }
+        },
+        {
+            "hash": "2014-07-06",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "06",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=924742",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-aux-origines-du-langage-2-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/07/s27/net-fi-da3bfaef-ba36-4320-a98e-4081d7efcdfe.mp3",
+                "rediffusion": 0,
+                "titre": "Aux origines du langage (2)"
+            }
+        },
+        {
+            "hash": "2014-07-13",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "13",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=924744",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-aux-origines-du-langage-3-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/07/s28/net-fi-cb6d25a8-cc73-46db-bd57-4f16ad592e6b.mp3",
+                "rediffusion": 0,
+                "titre": "Aux origines du langage (3)"
+            }
+        },
+        {
+            "hash": "2014-07-20",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "20",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=924746",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-forme-des-mots-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/07/s29/net-fi-a39bb723-4ced-453a-ac81-c0dda9ccd475.mp3",
+                "rediffusion": 0,
+                "titre": "La forme des mots"
+            }
+        },
+        {
+            "hash": "2014-07-27",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "27",
+                    "mois": "07"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=924748",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-clarte-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/07/s30/net-fi-c6b46a2b-c323-4a27-ad50-5c4395c42b0b.mp3",
+                "rediffusion": 0,
+                "titre": "Clart\u00e9"
+            }
+        },
+        {
+            "hash": "2014-08-03",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "03",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=924762",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-memoire-et-loubli-1",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/08/s31/net-fi-92d55e2c-0eeb-4cc1-be24-94365701b5a0.mp3",
+                "rediffusion": 0,
+                "titre": "La m\u00e9moire et l'oubli"
+            }
+        },
+        {
+            "hash": "2014-08-10",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "10",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=924764",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-lempreinte-du-danger-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/08/s32/net-fi-7b05115c-b937-42c0-95d5-74dd16013b29.mp3",
+                "rediffusion": 0,
+                "titre": "L'empreinte du danger"
+            }
+        },
+        {
+            "hash": "2014-08-17",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "17",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=924776",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-passant-du-temps-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/08/s33/net-fi-9cb339ce-bfd8-4f86-8e08-10d846ceee7d.mp3",
+                "rediffusion": 0,
+                "titre": "\"Le passant du temps\""
+            }
+        },
+        {
+            "hash": "2014-08-24",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "24",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=924784",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-traces-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/08/s34/net-fi-233f56c5-5377-4f21-925d-f822d7ef808d.mp3",
+                "rediffusion": 0,
+                "titre": "Traces"
+            }
+        },
+        {
+            "hash": "2014-08-30",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "30",
+                    "mois": "08"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=959116",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-chat-qui-allait-son-chemin-tout-seul-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/08/s35/net-fi-4a535b37-bdb1-4d6b-a78f-a9f07f771a10.mp3",
+                "rediffusion": 0,
+                "titre": "Le chat qui allait son chemin tout seul"
+            }
+        },
+        {
+            "hash": "2014-09-06",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "06",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=964404",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-argile-du-passe",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/09/s36/net-fi-de48f567-2853-4b11-b85b-102025102720.mp3",
+                "rediffusion": 0,
+                "titre": "Argile du pass\u00e9"
+            }
+        },
+        {
+            "hash": "2014-09-13",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "13",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=968308",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-une-heredite-des-caracteres-acquis",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/09/s37/net-fi-d03e9608-b03e-4e4a-a9b2-c7ba80fcd5b4.mp3",
+                "rediffusion": 0,
+                "titre": "Une h\u00e9r\u00e9dit\u00e9 des caract\u00e8res acquis?"
+            }
+        },
+        {
+            "hash": "2014-09-20",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "20",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=971868",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-une-heredite-des-caracteres-acquis-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/09/s38/net-fi-c534cb69-dec9-4cf0-8a74-825fad6ead14.mp3",
+                "rediffusion": 0,
+                "titre": "Une h\u00e9r\u00e9dit\u00e9 des caract\u00e8res acquis (2)"
+            }
+        },
+        {
+            "hash": "2014-09-27",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "27",
+                    "mois": "09"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=975838",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-sentiment-dinjustice",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/09/s39/net-fi-e6a4eee6-aed0-4bf7-8b27-a7fe0956e2e9.mp3",
+                "rediffusion": 0,
+                "titre": "Le sentiment d'injustice"
+            }
+        },
+        {
+            "hash": "2014-10-04",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "04",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=979644",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-glace-et-le-feu",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/10/s40/net-fi-e9e5f15d-60a4-4bc3-a221-85be1540e2c1.mp3",
+                "rediffusion": 0,
+                "titre": "La glace et le feu"
+            }
+        },
+        {
+            "hash": "2014-10-11",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "11",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=983336",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-battements-du-temps-12-ce-netait-pas-en-moi-cetait-moi",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/10/s42/net-fi-b8ef3c7c-7d44-4fc3-839a-bb61904b561a.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (12) - \"Ce n'\u00e9tait pas en moi, c'\u00e9tait moi...\""
+            }
+        },
+        {
+            "hash": "2014-10-18",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "18",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=987668",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-la-recherche-des-mysteres-de-la-memoire",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/10/s42/net-fi-b6f8e657-36fa-438a-ad6e-838df2fba0c2.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res de la m\u00e9moire"
+            }
+        },
+        {
+            "hash": "2014-10-25",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "25",
+                    "mois": "10"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=992022",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-a-la-recherche-des-mysteres-de-la-memoire-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/10/s43/net-fi-819832e0-b72b-4397-bfb0-80691419539f.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res de la m\u00e9moire (2)"
+            }
+        },
+        {
+            "hash": "2014-11-01",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "01",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=995957",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-memoire-des-jours-qui-furent-les-tiens-sur-terre",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/11/s44/net-fi-eff2dc9f-64fd-4200-a091-55fc10d1e081.mp3",
+                "rediffusion": 0,
+                "titre": "La m\u00e9moire des jours qui furent les tiens sur terre"
+            }
+        },
+        {
+            "hash": "2014-11-08",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "08",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=999927",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-memoire-des-jours-qui-furent-les-tiens-sur-terre-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/11/s45/net-fi-57f38fd3-b307-4909-a995-2200c5f8e19d.mp3",
+                "rediffusion": 0,
+                "titre": "La m\u00e9moire des jours qui furent les tiens sur terre (2)"
+            }
+        },
+        {
+            "hash": "2014-11-15",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "15",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1003779",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-quand-lecho-dessine-les-contours-du-monde",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/11/s46/net-fi-6643f101-6c87-403a-9fe5-7aa603220b2d.mp3",
+                "rediffusion": 0,
+                "titre": "Quand l'\u00e9cho dessine les contours du monde"
+            }
+        },
+        {
+            "hash": "2014-11-22",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "22",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1007169",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-des-cultures-dans-le-monde-animal",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/11/s47/net-fi-ffe73eda-884c-499c-a6b1-224996404538.mp3",
+                "rediffusion": 0,
+                "titre": "Des cultures dans le monde animal"
+            }
+        },
+        {
+            "hash": "2014-11-29",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "29",
+                    "mois": "11"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1012059",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-la-musique-des-mots",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/11/s48/net-fi-71c4e4d7-6f83-4f7f-8398-72bd4aeb1db1.mp3",
+                "rediffusion": 0,
+                "titre": "La musique des mots"
+            }
+        },
+        {
+            "hash": "2014-12-06",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "06",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1016163",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-des-chants-appris-avant-de-naitre",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/12/s49/net-fi-7ca1c03a-2943-46ff-a691-fa78392b81ef.mp3",
+                "rediffusion": 0,
+                "titre": "Des chants appris avant de na\u00eetre"
+            }
+        },
+        {
+            "hash": "2014-12-13",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "13",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1020207",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-quand-lecho-dessine-les-contours-du-monde-2",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/12/s50/net-fi-a075c80a-0d77-457f-afb4-df3dfe2a3d8d.mp3",
+                "rediffusion": 0,
+                "titre": "Quand l'\u00e9cho dessine les contours du monde (2)"
+            }
+        },
+        {
+            "hash": "2014-12-20",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "20",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1022751",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-quand-lecho-dessine-les-contours-du-monde-3",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/12/s51/net-fi-578e4cfd-9d59-4bfd-a16f-be63733d8e60.mp3",
+                "rediffusion": 0,
+                "titre": "Quand l'\u00e9cho dessine les contours du monde (3)"
+            }
+        },
+        {
+            "hash": "2014-12-27",
+            "infos": {
+                "date": {
+                    "annee": "2014",
+                    "jour": "27",
+                    "mois": "12"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1022085",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-le-souci-de-lautre-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2014/12/s52/net-fi-187ff989-be6e-4119-818b-3c12f0b36aca.mp3",
+                "rediffusion": 0,
+                "titre": "Le souci de l'autre"
+            }
+        },
+        {
+            "hash": "2015-01-03",
+            "infos": {
+                "date": {
+                    "annee": "2015",
+                    "jour": "03",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1022103",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-quand-la-science-rencontre-lart-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2015/01/s01/net-fi-07c9de0d-92d0-44be-b474-6888da3f7637.mp3",
+                "rediffusion": 0,
+                "titre": "Quand la science rencontre l'art"
+            }
+        },
+        {
+            "hash": "2015-01-10",
+            "infos": {
+                "date": {
+                    "annee": "2015",
+                    "jour": "10",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1033631",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-les-survivants-des-anciens-mondes",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2015/01/s02/net-fi-5bec5bce-c838-4ec6-bfae-615567d97a3a.mp3",
+                "rediffusion": 0,
+                "titre": "Les survivants des anciens mondes"
+            }
+        },
+        {
+            "hash": "2015-01-17",
+            "infos": {
+                "date": {
+                    "annee": "2015",
+                    "jour": "17",
+                    "mois": "01"
+                },
+                "lien_ecouter": "http://www.franceinter.fr/player/reecouter?play=1037337",
+                "lien_emission": "http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-sur-les-epaules-de-darwin-0",
+                "lien_mp3": "http://www.franceinter.fr/sites/default/files/sons/2015/01/s03/net-fi-24ba7626-dbb7-457e-81d1-36706f7cae2e.mp3",
+                "rediffusion": 0,
+                "titre": "Sur les epaules de Darwin"
+            }
         }
     ]
 }
