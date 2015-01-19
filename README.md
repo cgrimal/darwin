@@ -1,6 +1,5 @@
-==========================================================
- ``Darwin`` -- Utilitaires autour du suivi de l'émission
-==========================================================
+Darwin -- Utilitaires autour du suivi de l'émission
+===================================================
 
 Sur les épaules de Darwin, émission proposée par Jean-Claide Ameisen.
 Diffusée sur France Inter tous les samedi matin de 11h à 12h, depuis Septembre 2009.
@@ -17,8 +16,7 @@ Et je donne également un exemple de script bash qui les utilise (pour automatis
 
 - ``darwin_update.sh`` : met à jour la base de données et la page web en prenant les épisodes des deux derniers mois
 
-Pré-requis
-==========
+### Pré-requis
 - python
 - python-pyquery
 - python-lxml
@@ -33,12 +31,9 @@ Pour tout installer, sur une distribution de type Debian/Ubuntu :
 
     sudo pip install requests
 
-Utilisation
-===========
+### Utilisation
 
-
-Création de la base
--------------------
+#### Création de la base
 
 Il faut commencer par créer une base de données de toutes les émissions :
 
@@ -61,8 +56,7 @@ Les paramètres (et valeurs par défaut) de ce script sont les suivants :
 - ``-dest`` : Le fichier JSON dans lequel enregistrer la base de données. Défaut : ``./output/darwin_base.json``
 
 
-Création de la page web
------------------------
+#### Création de la page web
 
 On peut ensuite générer la page web à partir de la base de données JSON :
 
@@ -75,8 +69,7 @@ Cette commande va se baser sur la base de données JSON pour générer une page 
 - ``-template`` : le fichier de template de la page web. Défaut : ``./output/index_public.html``
 
 
-Téléchargement des épisodes
----------------------------
+#### Téléchargement des épisodes
 
 C'est un peu bonus (et pourtant j'ai fait tout ça pour ça au départ !), mais on peut également télécharger tous les épisodes que l'on souhaite avec :
 
