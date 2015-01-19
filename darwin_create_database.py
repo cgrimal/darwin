@@ -29,7 +29,7 @@ sys.stdout=codecs.getwriter('utf-8')(sys.stdout)
 
 def url_to_mp3(url):
 	page = requests.get(url)
-	regexp = re.compile(r"sites%2Fdefault.+\.mp3")
+	regexp = re.compile(r"sites(%2F|/)default.+\.mp3")
 	for line in page.text.split('\n'):
 		match = regexp.search(line)
 		if match:
