@@ -69,6 +69,7 @@ parser.add_argument('-base', metavar='fichier JSON', help='Le fichier JSON qui c
 parser.add_argument('-dossier', metavar='dossier de reception', help='Le dossier qui contient les fichiers mp3.', default=u"./")
 parser.add_argument('-debut', metavar='mois_debut', help='Le mois de départ au format YYYY-MM. Exemple : "2010-09"', default='2010-09')
 parser.add_argument('-fin', metavar='mois_fin', help='Le mois de fin au format YYYY-MM. Exemple : "2013-02"', default='2013-08')
+parser.add_argument('-mega_config', metavar='fichier de configuration MEGA', help='Le fichier JSON qui contient la configuration pour accéder à votre compte MEGA', default=u"./mega_config.json")
 args = parser.parse_args()
 
 
@@ -76,6 +77,7 @@ json_file = args.base
 download_folder = args.dossier
 mois_start = args.debut
 mois_end = args.fin
+mega_config = args.mega_config
 
 if mois_start>mois_end:
 	print u"Les mois ne sont pas cohérents..."
@@ -146,9 +148,9 @@ for emission_data in data:
 			audio["TDRC"] = TDRC(encoding=3, text=aa)
 			audio.save()
 			
-			# upload to MEGA
-			# megacmd -conf="/home/cgrimal/dev/megacmd/config.json" put download_folder+filename mega:/darwin/
-			subprocess.call(["megacmd", "-conf", "/home/cgrimal/dev/megacmd/config.json", "put", download_folder+filename, "mega:/darwin/"])
+			if isfile(mega_config):
+				# upload to MEGA
+				subprocess.call(["megacmd", "-conf", mega_config, "put", download_folder+filename, "mega:/darwin/"])
 
 			cpt += 1
 

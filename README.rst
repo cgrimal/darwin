@@ -25,6 +25,7 @@ Pré-requis
 - python-pip
 - requests
 - python-mutagen (pour le téléchargement uniquement)
+- [megacmd](https://github.com/t3rm1n4l/megacmd) (pour l'upload vers MEGA uniquement)
 
 Pour tout installer, sur une distribution de type Debian/Ubuntu :
 
