@@ -15,6 +15,7 @@ from mutagen.mp3 import MP3
 from mutagen.id3 import TIT2,TPE1,TALB,TDRC,TCON
 from os.path import isfile
 import datetime
+import subprocess
 
 # # import codecs
 # import locale
@@ -144,6 +145,11 @@ for emission_data in data:
 			audio["TALB"] = TALB(encoding=3, text=u"Sur les épaules de Darwin")
 			audio["TDRC"] = TDRC(encoding=3, text=aa)
 			audio.save()
+			
+			# upload to MEGA
+			# megacmd -conf="/home/cgrimal/dev/megacmd/config.json" put download_folder+filename mega:/darwin/
+			subprocess.call(["megacmd", "-conf", "/home/cgrimal/dev/megacmd/config.json", "put", download_folder+filename, "mega:/darwin/"])
+
 			cpt += 1
 
 print u"\n",cpt,u"émissions téléchargées dans",download_folder
