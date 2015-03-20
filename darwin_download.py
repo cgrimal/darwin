@@ -151,6 +151,7 @@ for emission_data in data:
 			if isfile(mega_config):
 				# upload to MEGA
 				subprocess.call(["megacmd", "-conf", mega_config, "put", download_folder+filename, "mega:/darwin/"])
+                print u"\némissions envoyées sur Mega"
 
 			cpt += 1
 
