@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>Sur les épaules de Darwin</title>
+		<link>http://www.radiofrance.fr/</link>
+		<description>Science et éthique: des relations toujours nouvelles</description>
+		<language>fr</language>
+		<image>
+			<url>http://media.radiofrance-podcast.net/podcast09/RF_OMM_0000006355_ITE.jpg</url>
+			<title>Sur les épaules de Darwin</title>
+			<link>http://www.radiofrance.fr/</link>
+		</image>
+		<itunes:author>Radio France</itunes:author>
+		<itunes:category text="Science &amp; Medicine"/>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:image href="http://media.radiofrance-podcast.net/podcast09/RF_OMM_0000006355_ITE.jpg"/>
+		<itunes:subtitle>Sur les épaules de Darwin</itunes:subtitle>
+
+%rss_content 
+
+	</channel>
+</rss>
