@@ -4,11 +4,20 @@
 import json
 import argparse
 import datetime
+import urllib2
 
 import codecs,sys
 sys.stdout=codecs.getwriter('utf-8')(sys.stdout)
 
 #####################################################################
+
+def get_remote_file_size(url):
+    # in bytes
+    usock = urllib2.urlopen(url)
+    size =  usock.info().get('Content-Length')
+    if size is None:
+        size = 0
+    return float(size)
 
 def create_rsslien(data,rss_template_path,rss_filename):
     rss_code = ""
@@ -32,6 +41,7 @@ def create_rsslien(data,rss_template_path,rss_filename):
             
         
         #Rss_code
+        # print titre
         rss_pdate = jj+'-'+mm+'-'+aa
         rss_pubdate = datetime.datetime.strptime(rss_pdate, "%d-%m-%Y")
         rss_line = u'\t<item>'
@@ -40,10 +50,10 @@ def create_rsslien(data,rss_template_path,rss_filename):
         rss_line += u'<itunes:author>Jean-Claude Ameisen</itunes:author><itunes:explicit>no</itunes:explicit><itunes:subtitle> Émission du '+ mm + '.'+ jj +'.'+ aa + u' '+unicode(titre)+  u'</itunes:subtitle><itunes:summary>Jean-Claude Ameisen - réalisé par : Christophe IMBERT</itunes:summary>'
         
         if mp3link:
-            rss_line += u' <guid>' + unicode(mp3link) + u'</guid><enclosure length="55555" url="' + unicode(mp3link) + u'" type="audio/mpeg"/>'
+            rss_line += u' <guid>' + unicode(mp3link) + u'</guid><enclosure length="' + unicode(get_remote_file_size(mp3link)) + u'" url="' + unicode(mp3link) + u'" type="audio/mpeg"/>'
         elif int(aa)<2011 or (int(aa)==2011 and int(mm)==1): #janvier 2011
             pascal_link = "http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/Jean-Claude%20Ameisen%20-%20SUR%20LES%20EPAULES%20DE%20DARWIN%20"+jj+"."+mm+"."+aa+".mp3"
-            rss_line += u' <guid>' + unicode(pascal_link) + u'</guid><enclosure length="55555" url="' + unicode(pascal_link) + u'" type="audio/mpeg"/>'
+            rss_line += u' <guid>' + unicode(pascal_link) + u'</guid><enclosure length="0" url="' + unicode(pascal_link) + u'" type="audio/mpeg"/>'
         rss_line += u'\t</item>\n'
         rss_code += rss_line
         
@@ -66,7 +76,7 @@ parser = argparse.ArgumentParser(description='Création d\'un lien rss à partir
 
 parser.add_argument('-base', metavar='fichier JSON', help='Le fichier JSON qui contient la base de données.', default=u"./output/darwin_base.json")
 parser.add_argument('-rss_template', metavar='template', help='Le fichier de template du fichier rss.', default=u"./output/temp_public.rss")
-parser.add_argument('-rss', metavar='lien rss', help='Le fichier contenant le fichier rss créee.', default=u"./output/lien.rss")
+parser.add_argument('-rss', metavar='lien rss', help='Le fichier contenant le fichier rss créee.', default=u"./output/darwin.rss")
 args = parser.parse_args()
 
 json_file = args.base
