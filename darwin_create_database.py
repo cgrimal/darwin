@@ -12,12 +12,11 @@ Donc le flow normal est :
 
 import sys
 import codecs
-import urllib
 import re
 import os
 import json
 import argparse
-import requests
+import dateparser
 from pyquery import PyQuery as pq
 
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
@@ -25,16 +24,16 @@ sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 #####################################################################
 
 
-def url_to_mp3(url):
-    page = requests.get(url)
-    regexp = re.compile(r'sites(%2F|/)default.+\.mp3')
-    for line in page.text.split('\n'):
-        match = regexp.search(line)
-        if match:
-            mp3 = match.group(0)
-            mp3_url = 'http://www.franceinter.fr/' + urllib.unquote(mp3)
-            return mp3_url
-    return False
+# def url_to_mp3(url):
+#     page = requests.get(url)
+#     regexp = re.compile(r'sites(%2F|/)default.+\.mp3')
+#     for line in page.text.split('\n'):
+#         match = regexp.search(line)
+#         if match:
+#             mp3 = match.group(0)
+#             mp3_url = 'http://www.franceinter.fr/' + urllib.unquote(mp3)
+#             return mp3_url
+#     return False
 
 #####################################################################
 
@@ -45,7 +44,7 @@ parser.add_argument(
     '-id',
     metavar = 'emission_id',
     help    = 'L\'identifiant de l\'émission',
-    default = '137151'
+    default = 'sur-les-epaules-de-darwin'
 )
 parser.add_argument(
     '-debut',
@@ -79,7 +78,9 @@ mois_end = args.fin
 force = args.force
 
 
-emission_url = 'http://www.' + radio_nom + '.fr/reecouter-diffusions/' + emission_id + '/'
+# emission_url = 'http://www.' + radio_nom + '.fr/reecouter-diffusions/' + emission_id + '/'
+emission_url = 'http://www.' + radio_nom + '.fr/emissions/' + emission_id
+# print emission_url
 
 if mois_start > mois_end:
     print u'Les mois ne sont pas cohérents...'
@@ -107,7 +108,7 @@ else:
                         mois_str = '0' + str(mois)
                     mois_list.append(str(annee) + '-' + mois_str)
 
-print mois_list
+# print mois_list
 
 json_file = args.dest
 
@@ -124,28 +125,31 @@ else:
 titles_list = [d['infos']['titre'] for d in data]
 titles_list = []
 
-regexp_date = re.compile(r'([0-9]{2})/([0-9]{2})/([0-9]{4})')
-
 d = pq(url=emission_url)
 
-for bb in d('.bloc'):
+for bb in d('article.rich-section-list-item'):
 
     emission_data = {}
 
-    title = pq(bb).find('.content h3').text()
+    title = pq(bb).find('a[itemprop="name"]').text()
     # print title
     emission_data['titre'] = title
 
-    date = pq(bb).find('.date').text()
+    date_text = pq(bb).find('.rich-section-list-item-content-infos-date').text()
+    # print date_text
 
-    match = regexp_date.search(date)
-    jour, mois, annee = match.group(1), match.group(2), match.group(3)
-    # print jour,mois,annee
+    date = dateparser.parse(date_text)
+    # print date
+
+    # match = regexp_date.search(date)
+    # jour, mois, annee = match.group(1), match.group(2), match.group(3)
+    jour, mois, annee = str(date.day).zfill(2), str(date.month).zfill(2), str(date.year).zfill(4)
+    print jour, mois, annee
 
     if annee + '-' + mois in mois_list:
 
-        print title
-        print jour, mois, annee
+        # print title
+        # print jour, mois, annee
 
         emission_data['date'] = {'annee': annee, 'mois': mois, 'jour': jour}
 
@@ -153,19 +157,17 @@ for bb in d('.bloc'):
 
         if force or emission_hash not in [e['hash'] for e in data]:
 
-            emission_link = 'http://www.franceinter.fr' + pq(bb).find('.content h3 a').attr('href')
+            emission_link = 'https://www.franceinter.fr/' + pq(bb).find('a[itemprop="name"]').attr('href')
             print emission_link
             emission_data['lien_emission'] = emission_link
 
-            if pq(bb).find('.ecouter a:first'):
+            player_link = pq(bb).find('button.replay-button').attr('data-url')
+            # print player_link
+            emission_data['lien_ecouter'] = player_link
 
-                player_link = 'http://www.franceinter.fr' + pq(bb).find('.ecouter a:first').attr('href')
-                print player_link
-                emission_data['lien_ecouter'] = player_link
-
-                mp3_link = url_to_mp3(player_link)
-                print mp3_link
-                emission_data['lien_mp3'] = mp3_link
+            mp3_link = player_link  # màj 2016-07
+            # print mp3_link
+            emission_data['lien_mp3'] = mp3_link
 
             if re.match(r'.*rediffusion.*', title, re.IGNORECASE) or title in titles_list:
                 emission_data['rediffusion'] = 1
@@ -178,12 +180,13 @@ for bb in d('.bloc'):
             else:
                 data.append({'hash': emission_hash, 'infos': emission_data})
             titles_list.append(title)
+            print u'Emission ajoutée.'
 
         else:
             print u'Emission déjà dans la base !'
 
     else:
-        # print u'Pas dans l'intervalle !'
+        print u'Pas dans l\'intervalle !'
         pass
 
 

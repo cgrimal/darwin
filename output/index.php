@@ -77,6 +77,10 @@
         #disqus_thread {
             margin-top: 30px;
         }
+        #paypal_form {
+            display: inline-block;
+            vertical-align: middle;
+        }
     </style>
 
 </head>
@@ -96,7 +100,17 @@
             <ul>
                 <li>Les scripts utilisés pour la génération automatique de cette page sont accessibles sur GitHub&nbsp;: <a href="https://github.com/cgrimal/darwin">https://github.com/cgrimal/darwin</a></li>
                 <li>Si vous voulez en savoir plus sur la création automatique de cette page, direction mon blog&nbsp;: <a href="http://clementgrimal.fr/blog/tag/darwin/">http://clementgrimal.fr/blog/tag/darwin/</a></li>
-                <li>Vous pouvez maintenant laisser <a href="#disqus_thread">vos commentaires</a> sur cette page !</li>
+                <li>Vous pouvez laisser <a href="#disqus_thread">vos commentaires</a> plus bas sur cette page.</li>
+                <li>Vous pouvez facilement télécharger plusieurs émissions d'un coup via ce <a href="https://mega.co.nz/#F!Xx5UkICQ!PyyOkaHwj7b25ydX3N6Zhw">dossier MEGA</a><br />(merci à Paul pour l'idée initiale, et retrouvez son découpage des épisodes sur son <a href="https://mega.co.nz/#F!BEpGVTTI!KLEelGrowVxfGEdaUsnl0g">dossier MEGA</a>)</li>
+                <li>Si (et seulement si) cela vous fait plaisir, vous pouvez me faire un petit don :
+                <form id="paypal_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+</form>
+</li>
             </ul>
         </p>
         <p>
@@ -784,6 +798,40 @@
 </li>
 	<li><a class="link" href="http://www.franceinter.fr/emission-sur-les-epaules-de-darwin-sur-les-epaules-de-darwin-0" >Sur les epaules de Darwin</a>, diffusée le 17 Janvier <a class="mp3link" href="http://www.franceinter.fr/player/reecouter?play=1037337" >Ecouter</a>  <a class="mp3link" href="http://www.franceinter.fr/sites/default/files/sons/2015/01/s03/net-fi-24ba7626-dbb7-457e-81d1-36706f7cae2e.mp3" download="2015-01-17 - Sur les epaules de Darwin" >Télécharger</a>
 </li>
+</ul></div>
+<h3>Mai 2016</h3>
+<div class='mois'>
+<ul>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-07-mai-2016" >Les Forges du ciel (2)</a>, diffusée le 7 Mai <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/05/s18/net-fi-f658f07c-6de7-401c-a1b0-09ddc026a925.mp3" >Ecouter</a>  <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/05/s18/net-fi-f658f07c-6de7-401c-a1b0-09ddc026a925.mp3" download="2016-05-07 - Les Forges du ciel (2)" >Télécharger</a>
+</li>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-14-mai-2016" >Sur les épaules de Darwin, en direct du Festival Etonnants-Voyageurs, à Saint-Malo</a>, diffusée le 14 Mai <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/05/s19/net-fi-18234443-9a9d-4546-9510-93fdd3370ac4.mp3" >Ecouter</a>  <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/05/s19/net-fi-18234443-9a9d-4546-9510-93fdd3370ac4.mp3" download="2016-05-14 - Sur les épaules de Darwin, en direct du Festival Etonnants-Voyageurs, à Saint-Malo" >Télécharger</a>
+</li>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-21-mai-2016" >Voyages</a>, diffusée le 21 Mai <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/05/s20/net-fi-017cfcbc-d963-427f-be9f-bba2be1973c8.mp3" >Ecouter</a>  <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/05/s20/net-fi-017cfcbc-d963-427f-be9f-bba2be1973c8.mp3" download="2016-05-21 - Voyages" >Télécharger</a>
+</li>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-28-mai-2016" >Donner, recevoir (2)</a>, diffusée le 28 Mai <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/05/s21/net-fi-d2a8a479-0988-4100-989a-2a7a35ed831f.mp3" >Ecouter</a>  <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/05/s21/net-fi-d2a8a479-0988-4100-989a-2a7a35ed831f.mp3" download="2016-05-28 - Donner, recevoir (2)" >Télécharger</a>
+</li>
+</ul></div>
+<h3>Juin 2016</h3>
+<div class='mois'>
+<ul>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-juin-2016" >Voyage (2)</a>, diffusée le 4 Juin <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/06/s22/net-fi-115c81cf-2c10-48a3-abce-4d7d02054829.mp3" >Ecouter</a>  <a class="mp3link" href="https://static.franceinter.fr/sites/default/files/sons/2016/06/s22/net-fi-115c81cf-2c10-48a3-abce-4d7d02054829.mp3" download="2016-06-04 - Voyage (2)" >Télécharger</a>
+</li>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-11-juin-2016" >Dans les ombres rêveuses</a>, diffusée le 11 Juin <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-11.06.2016-ITEMA_21007424-0.mp3" >Ecouter</a>  <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-11.06.2016-ITEMA_21007424-0.mp3" download="2016-06-11 - Dans les ombres rêveuses" >Télécharger</a>
+</li>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-juin-2016" >Dans l'oubli de nos métamorphoses</a>, diffusée le 18 Juin <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-18.06.2016-ITEMA_21013076-0.mp3" >Ecouter</a>  <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-18.06.2016-ITEMA_21013076-0.mp3" download="2016-06-18 - Dans l'oubli de nos métamorphoses" >Télécharger</a>
+</li>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-juin-2016" >Dans l'oubli de nos métamorphoses (2)</a>, diffusée le 25 Juin <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-25.06.2016-ITEMA_21019008-0.mp3" >Ecouter</a>  <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-25.06.2016-ITEMA_21019008-0.mp3" download="2016-06-25 - Dans l'oubli de nos métamorphoses (2)" >Télécharger</a>
+</li>
+</ul></div>
+<h3>Juillet 2016</h3>
+<div class='mois'>
+<ul>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-02-juillet-2016" >Les battements du temps (35). Les chants de la nature</a>, diffusée le 2 Juillet <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-02.07.2016-ITEMA_21024668-0.mp3" >Ecouter</a>  <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-02.07.2016-ITEMA_21024668-0.mp3" download="2016-07-02 - Les battements du temps (35). Les chants de la nature" >Télécharger</a>
+</li>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-09-juillet-2016" >Les battements du temps (36). Les chants de la nature (2)</a>, diffusée le 9 Juillet <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-09.07.2016-ITEMA_21028970-0.mp3" >Ecouter</a>  <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-09.07.2016-ITEMA_21028970-0.mp3" download="2016-07-09 - Les battements du temps (36). Les chants de la nature (2)" >Télécharger</a>
+</li>
+	<li><a class="link" href="https://www.franceinter.fr//emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-16-juillet-2016" >Liberté Egalité Fraternité</a>, diffusée le 16 Juillet <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-16.07.2016-ITEMA_21033000-0.mp3" >Ecouter</a>  <a class="mp3link" href="http://media.radiofrance-podcast.net/podcast09/11549-16.07.2016-ITEMA_21033000-0.mp3" download="2016-07-16 - Liberté Egalité Fraternité" >Télécharger</a>
+</li>
 </ul></div></div>
 
     <div class="footer">
@@ -803,9 +851,12 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
-    <noscript>euillez activer JavaScript pour participer à la discussion ! <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <noscript>Veuillez activer JavaScript pour participer à la discussion ! <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
+    <div class="footer">
+            <strong>Nouveau !</strong> Lien RSS : <a href="darwin.rss">darwin.rss</a>
+    </div>
     <div class="footer">
             Pour ceux qui lisent le JSON couramment : <a href="darwin_base.json">darwin_base.json</a>
     </div>
