@@ -118,10 +118,11 @@ def extractData(data, d):
                 if emission_hash in hash_list:
                     index = [data.index(e) for e in data if e['hash'] == emission_hash][0]
                     data[index] = {'hash': emission_hash, 'infos': emission_data}
+                    print u'Emission mise à jour.'
                 else:
                     data.append({'hash': emission_hash, 'infos': emission_data})
+                    print u'Emission ajoutée.'
                 titles_list.append(title)
-                print u'Emission ajoutée.'
 
             else:
                 print u'Emission déjà dans la base !'
