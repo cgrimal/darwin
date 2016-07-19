@@ -65,7 +65,7 @@ def getMonths(mois_start, mois_end):
     return mois_list
 
 
-def extractData(d):
+def extractData(data, d):
     for bb in d('article.rich-section-list-item'):
 
         emission_data = {}
@@ -90,11 +90,13 @@ def extractData(d):
             # print title
             # print jour, mois, annee
 
+            hash_list = [e['hash'] for e in data]
+
             emission_data['date'] = {'annee': annee, 'mois': mois, 'jour': jour}
 
             emission_hash = annee + '-' + mois + '-' + jour
 
-            if force or emission_hash not in [e['hash'] for e in data]:
+            if force or emission_hash not in hash_list:
 
                 emission_link = 'https://www.franceinter.fr' + pq(bb).find('a[itemprop="name"]').attr('href')
                 print emission_link
@@ -113,7 +115,7 @@ def extractData(d):
                 else:
                     emission_data['rediffusion'] = 0
 
-                if emission_hash in [e['hash'] for e in data]:
+                if emission_hash in hash_list:
                     index = [data.index(e) for e in data if e['hash'] == emission_hash][0]
                     data[index] = {'hash': emission_hash, 'infos': emission_data}
                 else:
@@ -209,11 +211,9 @@ if all_pages:
     for p in range(1, nb_pages + 1):
         url = emission_url + '?p=' + str(p)
         print 'Chargement de la page : ' + url
-        new_data = extractData(pq(url=url))
-        data.extend(new_data)
+        new_data = extractData(data, pq(url=url))
 else:
-    new_data = extractData(d)
-    data.extend(new_data)
+    new_data = extractData(data, d)
 
 data.sort(key=lambda e: e['hash'])
 
