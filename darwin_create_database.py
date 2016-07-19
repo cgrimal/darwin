@@ -35,6 +35,102 @@ sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 #             return mp3_url
 #     return False
 
+
+def getMonths(mois_start, mois_end):
+    if mois_start > mois_end:
+        print u'Les mois ne sont pas cohérents...'
+        exit(1)
+    else:
+        a_start, m_start = int(mois_start[:4]), int(mois_start[-2:])
+        a_end, m_end = int(mois_end[:4]), int(mois_end[-2:])
+
+        mois_list = []
+        if a_start == a_end:
+            for mois in range(m_start, m_end + 1):
+                mois_str = str(mois)
+                if mois < 10:
+                    mois_str = '0' + str(mois)
+                mois_list.append(str(a_start) + '-' + mois_str)
+        else:
+            for annee in range(a_start, a_end + 1):
+                for mois in range(1, 13):
+                    if annee == a_start and mois >= m_start or\
+                       annee == a_end and mois <= m_end or\
+                       annee > a_start and annee < a_end:
+                        # print mois
+                        mois_str = str(mois)
+                        if mois < 10:
+                            mois_str = '0' + str(mois)
+                        mois_list.append(str(annee) + '-' + mois_str)
+    return mois_list
+
+
+def extractData(d):
+    for bb in d('article.rich-section-list-item'):
+
+        emission_data = {}
+
+        title = pq(bb).find('a[itemprop="name"]').text()
+        # print title
+        emission_data['titre'] = title
+
+        date_text = pq(bb).find('.rich-section-list-item-content-infos-date').text()
+        # print date_text
+
+        date = dateparser.parse(date_text)
+        # print date
+
+        # match = regexp_date.search(date)
+        # jour, mois, annee = match.group(1), match.group(2), match.group(3)
+        jour, mois, annee = str(date.day).zfill(2), str(date.month).zfill(2), str(date.year).zfill(4)
+        print jour, mois, annee
+
+        if annee + '-' + mois in mois_list:
+
+            # print title
+            # print jour, mois, annee
+
+            emission_data['date'] = {'annee': annee, 'mois': mois, 'jour': jour}
+
+            emission_hash = annee + '-' + mois + '-' + jour
+
+            if force or emission_hash not in [e['hash'] for e in data]:
+
+                emission_link = 'https://www.franceinter.fr' + pq(bb).find('a[itemprop="name"]').attr('href')
+                print emission_link
+                emission_data['lien_emission'] = emission_link
+
+                player_link = emission_link
+                # print player_link
+                emission_data['lien_ecouter'] = player_link
+
+                mp3_link = pq(bb).find('button.replay-button').attr('data-url')
+                # print mp3_link
+                emission_data['lien_mp3'] = mp3_link
+
+                if re.match(r'.*rediffusion.*', title, re.IGNORECASE) or title in titles_list:
+                    emission_data['rediffusion'] = 1
+                else:
+                    emission_data['rediffusion'] = 0
+
+                if emission_hash in [e['hash'] for e in data]:
+                    index = [data.index(e) for e in data if e['hash'] == emission_hash][0]
+                    data[index] = {'hash': emission_hash, 'infos': emission_data}
+                else:
+                    data.append({'hash': emission_hash, 'infos': emission_data})
+                titles_list.append(title)
+                print u'Emission ajoutée.'
+
+            else:
+                print u'Emission déjà dans la base !'
+
+        else:
+            print u'Pas dans l\'intervalle !'
+            pass
+
+    return data
+
+
 #####################################################################
 
 parser = argparse.ArgumentParser(
@@ -65,49 +161,30 @@ parser.add_argument(
     default = './output/darwin_base.json'
 )
 parser.add_argument(
-    '-force',
+    '--force',
     help   = 'Pour forcer la mise a jour des infos',
+    action = 'store_true'
+)
+parser.add_argument(
+    '--all',
+    help   = 'Pour aller chercher dans toutes les pages',
     action = 'store_true'
 )
 args = parser.parse_args()
 
-radio_nom = 'franceinter'
+radio_nom   = 'franceinter'
 emission_id = args.id
-mois_start = args.debut
-mois_end = args.fin
-force = args.force
+mois_start  = args.debut
+mois_end    = args.fin
+force       = args.force
+all_pages   = args.all
 
 
 # emission_url = 'http://www.' + radio_nom + '.fr/reecouter-diffusions/' + emission_id + '/'
 emission_url = 'http://www.' + radio_nom + '.fr/emissions/' + emission_id
 # print emission_url
 
-if mois_start > mois_end:
-    print u'Les mois ne sont pas cohérents...'
-    exit(1)
-else:
-    a_start, m_start = int(mois_start[:4]), int(mois_start[-2:])
-    a_end, m_end = int(mois_end[:4]), int(mois_end[-2:])
-
-    mois_list = []
-    if a_start == a_end:
-        for mois in range(m_start, m_end + 1):
-            mois_str = str(mois)
-            if mois < 10:
-                mois_str = '0' + str(mois)
-            mois_list.append(str(a_start) + '-' + mois_str)
-    else:
-        for annee in range(a_start, a_end + 1):
-            for mois in range(1, 13):
-                if annee == a_start and mois >= m_start or\
-                   annee == a_end and mois <= m_end or\
-                   annee > a_start and annee < a_end:
-                    # print mois
-                    mois_str = str(mois)
-                    if mois < 10:
-                        mois_str = '0' + str(mois)
-                    mois_list.append(str(annee) + '-' + mois_str)
-
+mois_list = getMonths(mois_start, mois_end)
 # print mois_list
 
 json_file = args.dest
@@ -126,69 +203,17 @@ titles_list = [d['infos']['titre'] for d in data]
 titles_list = []
 
 d = pq(url=emission_url)
-
-for bb in d('article.rich-section-list-item'):
-
-    emission_data = {}
-
-    title = pq(bb).find('a[itemprop="name"]').text()
-    # print title
-    emission_data['titre'] = title
-
-    date_text = pq(bb).find('.rich-section-list-item-content-infos-date').text()
-    # print date_text
-
-    date = dateparser.parse(date_text)
-    # print date
-
-    # match = regexp_date.search(date)
-    # jour, mois, annee = match.group(1), match.group(2), match.group(3)
-    jour, mois, annee = str(date.day).zfill(2), str(date.month).zfill(2), str(date.year).zfill(4)
-    print jour, mois, annee
-
-    if annee + '-' + mois in mois_list:
-
-        # print title
-        # print jour, mois, annee
-
-        emission_data['date'] = {'annee': annee, 'mois': mois, 'jour': jour}
-
-        emission_hash = annee + '-' + mois + '-' + jour
-
-        if force or emission_hash not in [e['hash'] for e in data]:
-
-            emission_link = 'https://www.franceinter.fr/' + pq(bb).find('a[itemprop="name"]').attr('href')
-            print emission_link
-            emission_data['lien_emission'] = emission_link
-
-            player_link = emission_link
-            # print player_link
-            emission_data['lien_ecouter'] = player_link
-
-            mp3_link = pq(bb).find('button.replay-button').attr('data-url')
-            # print mp3_link
-            emission_data['lien_mp3'] = mp3_link
-
-            if re.match(r'.*rediffusion.*', title, re.IGNORECASE) or title in titles_list:
-                emission_data['rediffusion'] = 1
-            else:
-                emission_data['rediffusion'] = 0
-
-            if emission_hash in [e['hash'] for e in data]:
-                index = [data.index(e) for e in data if e['hash'] == emission_hash][0]
-                data[index] = {'hash': emission_hash, 'infos': emission_data}
-            else:
-                data.append({'hash': emission_hash, 'infos': emission_data})
-            titles_list.append(title)
-            print u'Emission ajoutée.'
-
-        else:
-            print u'Emission déjà dans la base !'
-
-    else:
-        print u'Pas dans l\'intervalle !'
-        pass
-
+if all_pages:
+    nb_pages = int(re.sub('[^0-9]', '', d('.pager-item.last').text()))
+    # print nb_pages
+    for p in range(1, nb_pages + 1):
+        url = emission_url + '?p=' + str(p)
+        print 'Chargement de la page : ' + url
+        new_data = extractData(pq(url=url))
+        data.extend(new_data)
+else:
+    new_data = extractData(d)
+    data.extend(new_data)
 
 data.sort(key=lambda e: e['hash'])
 

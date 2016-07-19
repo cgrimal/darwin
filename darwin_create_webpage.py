@@ -84,7 +84,7 @@ def create_webpage(data, template_path, filename):
                         </ul>
                     </div>
                 '''
-            html_code += '''
+            html_code += u'''
                 <h3>{mm} {aa}</h3>
                 <div class='mois'>
                     <ul>
