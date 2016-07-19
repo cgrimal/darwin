@@ -56,6 +56,7 @@ def create_rsslien(data,rss_template_path,rss_filename):
             rss_line += u' <guid>' + unicode(pascal_link) + u'</guid><enclosure length="0" url="' + unicode(pascal_link) + u'" type="audio/mpeg"/>'
         rss_line += u'\t</item>\n'
         rss_code += rss_line
+        print titre
         
     
     # rss_code
