@@ -161,11 +161,11 @@ for bb in d('article.rich-section-list-item'):
             print emission_link
             emission_data['lien_emission'] = emission_link
 
-            player_link = pq(bb).find('button.replay-button').attr('data-url')
+            player_link = emission_link
             # print player_link
             emission_data['lien_ecouter'] = player_link
 
-            mp3_link = player_link  # màj 2016-07
+            mp3_link = pq(bb).find('button.replay-button').attr('data-url')
             # print mp3_link
             emission_data['lien_mp3'] = mp3_link
 
