@@ -163,7 +163,7 @@ for emission_data in data:
         if not rediff and aa + '-' + mm in mois_list:
 
             title = str2filename(titre)
-            filename = u'{aa}-{mm}-{jj}-{title}'.format(
+            filename = u'{aa}-{mm}-{jj}-{title}.mp3'.format(
                 aa    = aa,
                 mm    = mm,
                 jj    = jj,
