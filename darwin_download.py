@@ -30,12 +30,12 @@ sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 #####################################################################
 
 
-def download_file(url, file_name):
+def download_file(url, filename):
     u = urllib2.urlopen(url)
-    f = open(file_name, 'wb')
+    f = open(filename.encode('utf-8'), 'wb')
     meta = u.info()
     file_size = int(meta.getheaders('Content-Length')[0])
-    print u'\rTéléchargement de %s (taille : %s)' % (file_name, sizeof_fmt(float(file_size)))
+    print u'\rTéléchargement de %s (taille : %s)' % (unicode(filename), sizeof_fmt(float(file_size)))
 
     file_size_dl = 0
     block_sz = 8192
@@ -163,7 +163,12 @@ for emission_data in data:
         if not rediff and aa + '-' + mm in mois_list:
 
             title = str2filename(titre)
-            filename = aa + '-' + mm + '-' + jj + ' - ' + title + '.mp3'
+            filename = u'{aa}-{mm}-{jj}-{title}'.format(
+                aa    = aa,
+                mm    = mm,
+                jj    = jj,
+                title = title,
+            )
 
             print titre
             if isfile(download_folder + filename.encode('utf-8')):
@@ -171,19 +176,19 @@ for emission_data in data:
             else:
                 download_file(lien_mp3, download_folder + filename)
 
-            audio = MP3(download_folder + filename)
-            audio['TIT2'] = TIT2(encoding=3, text=[title])
-            audio['TPE1'] = TPE1(encoding=3, text=u'Jean-Claude Ameisen')
-            audio['TALB'] = TALB(encoding=3, text=u'Sur les épaules de Darwin')
-            audio['TDRC'] = TDRC(encoding=3, text=aa)
-            audio.save()
+                audio = MP3(download_folder + filename.encode('utf-8'))
+                audio['TIT2'] = TIT2(encoding=3, text=[title])
+                audio['TPE1'] = TPE1(encoding=3, text=u'Jean-Claude Ameisen')
+                audio['TALB'] = TALB(encoding=3, text=u'Sur les épaules de Darwin')
+                audio['TDRC'] = TDRC(encoding=3, text=aa)
+                audio.save()
 
-            if isfile(mega_config):
-                # upload to MEGA
-                subprocess.call(
-                    ['megacmd', '-conf', mega_config, 'put', download_folder + filename, 'mega:/darwin/']
-                )
-                print u'\nEmission envoyée sur Mega'
+                if isfile(mega_config):
+                    # upload to MEGA
+                    subprocess.call(
+                        ['megacmd', '-conf', mega_config, 'put', download_folder + filename, 'mega:/darwin/']
+                    )
+                    print u'\nEmission envoyée sur Mega'
 
             cpt += 1
 
