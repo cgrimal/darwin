@@ -31,8 +31,6 @@ sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
 
 def download_file(url, filename):
-    if url is None:
-        return
     u = urllib2.urlopen(url)
     f = open(filename.encode('utf-8'), 'wb')
     meta = u.info()
@@ -175,6 +173,8 @@ for emission_data in data:
             print titre
             if isfile(download_folder + filename.encode('utf-8')):
                 print u'\rLe fichier ' + filename + u' existe déjà.'
+            elif lien_mp3 is None:
+                print u'\rPas d\'emission ce jour.'
             else:
                 download_file(lien_mp3, download_folder + filename)
 
