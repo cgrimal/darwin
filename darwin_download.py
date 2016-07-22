@@ -31,6 +31,8 @@ sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
 
 def download_file(url, filename):
+    if url is None:
+        return
     u = urllib2.urlopen(url)
     f = open(filename.encode('utf-8'), 'wb')
     meta = u.info()
