@@ -12,18 +12,15 @@ import json
 import codecs
 import argparse
 import urllib2
+import subprocess
+
+from slugify import slugify
 from mutagen.mp3 import MP3
 from mutagen.id3 import TIT2
 from mutagen.id3 import TPE1
 from mutagen.id3 import TALB
 from mutagen.id3 import TDRC
 from os.path import isfile
-import subprocess
-
-# # import codecs
-# import locale
-# # import sys
-# sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
 
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
@@ -62,6 +59,7 @@ def sizeof_fmt(num):
 def str2filename(string):
     filename = re.sub(r'[<>:"/\|?*]', '-', string)
     filename = filename.strip('. ')
+    filename = slugify(filename)
     return filename
 
 
@@ -163,7 +161,7 @@ for emission_data in data:
         if not rediff and aa + '-' + mm in mois_list:
 
             title = str2filename(titre)
-            filename = u'{aa}-{mm}-{jj}-{title}.mp3'.format(
+            filename = u'{aa}-{mm}-{jj} - {title}.mp3'.format(
                 aa    = aa,
                 mm    = mm,
                 jj    = jj,
