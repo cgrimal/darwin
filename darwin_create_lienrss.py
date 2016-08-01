@@ -48,13 +48,14 @@ def create_rsslien(data, rss_template_path, rss_filename):
         rss_pubdate = datetime.datetime.strptime(rss_pdate, '%d-%m-%Y')
         rss_line = u'\t<item>'
         rss_line += u'''
-            <title>' + unicode(titre) + u'</title>
+            <title>{titre}</title>
             <description>
                 Sur les épaules de Darwin - par : Jean-Claude Ameisen - réalisé par : Christophe IMBERT
             </description>
             <category>Science &amp; Medicine</category>
             <pubDate>{pubdate1}, {pubdate2} 19:00:00 +0100 </pubDate>
         '''.format(
+            titre    = unicode(titre),
             pubdate1 = rss_pubdate.strftime('%a'),
             pubdate2 = rss_pubdate.strftime('%d %b %Y'),
         )
@@ -93,7 +94,7 @@ def create_rsslien(data, rss_template_path, rss_filename):
                 <guid>{pascal_link}</guid><enclosure length="0" url="{pascal_link}" type="audio/mpeg"/>
              '''.format(
                 pascal_link = unicode(pascal_link),
-             )
+            )
         rss_line += u'\t</item>\n'
         rss_code += rss_line
         print titre
