@@ -1,26 +1,29 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import sys
+import codecs
 import json
 import argparse
 import datetime
 import urllib2
 
-import codecs,sys
-sys.stdout=codecs.getwriter('utf-8')(sys.stdout)
+sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
 #####################################################################
+
 
 def get_remote_file_size(url):
     # in bytes
     usock = urllib2.urlopen(url)
-    size =  usock.info().get('Content-Length')
+    size  = usock.info().get('Content-Length')
     if size is None:
         size = 0
     return float(size)
 
-def create_rsslien(data,rss_template_path,rss_filename):
-    rss_code = ""
+
+def create_rsslien(data, rss_template_path, rss_filename):
+    rss_code = ''
 
     for emission_data in data:
 
@@ -29,36 +32,73 @@ def create_rsslien(data,rss_template_path,rss_filename):
 
         # print emission_data
 
-        titre = emission_data['titre']
-        jj,mm,aa = emission_data['date']['jour'],emission_data['date']['mois'],emission_data['date']['annee']
-        pagelink = emission_data['lien_emission']
-        rediff = emission_data['rediffusion']
+        titre      = emission_data['titre']
+        jj, mm, aa = emission_data['date']['jour'], emission_data['date']['mois'], emission_data['date']['annee']
+        # pagelink   = emission_data['lien_emission']
+        # rediff     = emission_data['rediffusion']
 
         if 'lien_ecouter' in emission_data:
             mp3link = emission_data['lien_mp3']
         else:
             mp3link = ''
-            
-        
-        #Rss_code
+
+        # rss code
         # print titre
-        rss_pdate = jj+'-'+mm+'-'+aa
-        rss_pubdate = datetime.datetime.strptime(rss_pdate, "%d-%m-%Y")
+        rss_pdate = jj + '-' + mm + '-' + aa
+        rss_pubdate = datetime.datetime.strptime(rss_pdate, '%d-%m-%Y')
         rss_line = u'\t<item>'
-        rss_line += u'<title>' + unicode(titre) + u'</title><description> Sur les épaules de Darwin - par : Jean-Claude Ameisen - réalisé par : Christophe IMBERT </description><category>Science &amp; Medicine</category><pubDate>' +rss_pubdate.strftime('%a')+ u', '+rss_pubdate.strftime("%d %b %Y")+u' 19:00:00 +0100 </pubDate>'
-        #itune
-        rss_line += u'<itunes:author>Jean-Claude Ameisen</itunes:author><itunes:explicit>no</itunes:explicit><itunes:subtitle> Émission du '+ mm + '.'+ jj +'.'+ aa + u' '+unicode(titre)+  u'</itunes:subtitle><itunes:summary>Jean-Claude Ameisen - réalisé par : Christophe IMBERT</itunes:summary>'
-        
+        rss_line += u'''
+            <title>' + unicode(titre) + u'</title>
+            <description>
+                Sur les épaules de Darwin - par : Jean-Claude Ameisen - réalisé par : Christophe IMBERT
+            </description>
+            <category>Science &amp; Medicine</category>
+            <pubDate>{pubdate1}, {pubdate2} 19:00:00 +0100 </pubDate>
+        '''.format(
+            pubdate1 = rss_pubdate.strftime('%a'),
+            pubdate2 = rss_pubdate.strftime('%d %b %Y'),
+        )
+
+        # itune
+        rss_line += u'''
+            <itunes:author>Jean-Claude Ameisen</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>
+                Émission du {mm}.{jj}.{aa} {titre}
+            </itunes:subtitle>
+            <itunes:summary>Jean-Claude Ameisen - réalisé par : Christophe IMBERT</itunes:summary>
+        '''.format(
+            mm = mm,
+            jj = jj,
+            aa = aa,
+            titre = unicode(titre),
+        )
+
         if mp3link:
-            rss_line += u' <guid>' + unicode(mp3link) + u'</guid><enclosure length="' + unicode(get_remote_file_size(mp3link)) + u'" url="' + unicode(mp3link) + u'" type="audio/mpeg"/>'
-        elif int(aa)<2011 or (int(aa)==2011 and int(mm)==1): #janvier 2011
-            pascal_link = "http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/Jean-Claude%20Ameisen%20-%20SUR%20LES%20EPAULES%20DE%20DARWIN%20"+jj+"."+mm+"."+aa+".mp3"
-            rss_line += u' <guid>' + unicode(pascal_link) + u'</guid><enclosure length="0" url="' + unicode(pascal_link) + u'" type="audio/mpeg"/>'
+            rss_line += u'''
+                <guid>{mp3link}</guid><enclosure length="{file_size}" url="{mp3link}" type="audio/mpeg"/>
+            '''.format(
+                mp3link = unicode(mp3link),
+                file_size = unicode(get_remote_file_size(mp3link)),
+            )
+        elif int(aa) < 2011 or (int(aa) == 2011 and int(mm) == 1):  # janvier 2011
+            pascal_link = '''
+            http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/Jean-Claude%20Ameisen%20-%20SUR%20LES%20EPAULES%20DE%20DARWIN%20{jj}.{mm}.{aa}.mp3
+            '''.format(
+                mm = mm,
+                jj = jj,
+                aa = aa,
+            )
+            rss_line += u'''
+                <guid>{pascal_link}</guid><enclosure length="0" url="{pascal_link}" type="audio/mpeg"/>
+             '''.format(
+                pascal_link = unicode(pascal_link),
+             )
         rss_line += u'\t</item>\n'
         rss_code += rss_line
         print titre
-        
-    
+
+
     # rss_code
     rss_template_file = codecs.open(rss_template_path, "r", "utf-8")
     # template_file = open(template_path)
@@ -73,11 +113,28 @@ def create_rsslien(data,rss_template_path,rss_filename):
 
 #####################################################################
 
-parser = argparse.ArgumentParser(description='Création d\'un lien rss à partir d\'une base de données JSON pour une émission de France Inter.')
+parser = argparse.ArgumentParser(
+    description='Création d\'un lien rss à partir d\'une base de données JSON pour une émission de France Inter.'
+)
 
-parser.add_argument('-base', metavar='fichier JSON', help='Le fichier JSON qui contient la base de données.', default=u"./output/darwin_base.json")
-parser.add_argument('-rss_template', metavar='template', help='Le fichier de template du fichier rss.', default=u"./output/temp_public.rss")
-parser.add_argument('-rss', metavar='lien rss', help='Le fichier contenant le fichier rss créee.', default=u"./output/darwin.rss")
+parser.add_argument(
+    '-base',
+    metavar = 'fichier JSON',
+    help    = 'Le fichier JSON qui contient la base de données.',
+    default = u'./output/darwin_base.json',
+)
+parser.add_argument(
+    '-rss_template',
+    metavar = 'template',
+    help    = 'Le fichier de template du fichier rss.',
+    default = u'./output/temp_public.rss'
+)
+parser.add_argument(
+    '-rss',
+    metavar = 'lien rss',
+    help    = 'Le fichier contenant le fichier rss créee.',
+    default = u'./output/darwin.rss'
+)
 args = parser.parse_args()
 
 json_file = args.base
@@ -87,7 +144,7 @@ rss_template_path = args.rss_template
 # template_path = "./output/temp_public.rss"
 
 rss_result_file = args.rss
-#rss_result_file = "/output/lien.rss"
+# rss_result_file = "/output/lien.rss"
 #####################################################################
 
 input_json = open(json_file, 'r')
@@ -103,8 +160,8 @@ data = data['emissions']
 # sorted_data = [data['infos'] for key in keys]
 # print sorted_data
 
-print u"Création du lien rss\n"
+print u'Création du lien rss\n'
 
-create_rsslien(data,rss_template_path,rss_result_file)
+create_rsslien(data, rss_template_path, rss_result_file)
 
-print u"\nlien rss créée : "+rss_result_file
+print u'\nlien rss créée : ' + rss_result_file
