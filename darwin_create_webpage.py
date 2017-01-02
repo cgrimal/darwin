@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import re
 import sys
-import codecs
 import json
+import codecs
 import argparse
 
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
