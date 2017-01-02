@@ -6,6 +6,7 @@ import sys
 import json
 import codecs
 import argparse
+from slugify import slugify
 
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
