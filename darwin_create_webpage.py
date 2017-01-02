@@ -10,6 +10,11 @@ sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
 #####################################################################
 
+def str2filename(string):
+    filename = re.sub(r'[<>:"/\|?*]', '-', string)
+    filename = filename.strip('. ')
+    filename = slugify(filename)
+    return filename
 
 def create_webpage(data, template_path, filename):
     html_code = ''
@@ -104,7 +109,19 @@ def create_webpage(data, template_path, filename):
             date   = str(int(jj)) + u' ' + months[int(mm) - 1] + u' ' + str(aa),
         )
         link_name = aa + '-' + mm + '-' + jj + ' - ' + titre
+
         if player_link and mp3link:
+
+            # TEST
+            title = str2filename(titre)
+            mlink = u'./files/{aa}-{mm}-{jj} - {title}.mp3'.format(
+                aa    = aa,
+                mm    = mm,
+                jj    = jj,
+                title = title,
+            )
+            # ENDOF TEST
+
             line += u'''
                 <a class="mp3link" href="{plink}" >Ecouter</a>
                 <a class="mp3link" href="{mlink}" download="{lname}" >Télécharger</a>
