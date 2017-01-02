@@ -115,8 +115,8 @@ def create_webpage(data, template_path, filename):
         if player_link and mp3link:
 
             # TEST
-            title = str2filename(titre)
-            mlink = u'./files/{aa}-{mm}-{jj} - {title}.mp3'.format(
+            title   = str2filename(titre)
+            mp3link = u'./files/{aa}-{mm}-{jj} - {title}.mp3'.format(
                 aa    = aa,
                 mm    = mm,
                 jj    = jj,
