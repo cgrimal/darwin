@@ -76,6 +76,17 @@ def create_rsslien(data, rss_template_path, rss_filename):
         )
 
         if mp3link:
+
+            # TEST
+            title   = str2filename(titre)
+            mp3link = u'http://www.clementgrimal.fr/darwin/files/{aa}-{mm}-{jj} - {title}.mp3'.format(
+                aa    = aa,
+                mm    = mm,
+                jj    = jj,
+                title = title,
+            )
+            # ENDOF TEST
+
             rss_line += u'''
                 <guid>{mp3link}</guid><enclosure length="{file_size}" url="{mp3link}" type="audio/mpeg"/>
             '''.format(
