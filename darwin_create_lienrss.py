@@ -14,10 +14,13 @@ sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
 
 def get_remote_file_size(url):
-    # in bytes
-    usock = urllib2.urlopen(url)
-    size  = usock.info().get('Content-Length')
-    if size is None:
+    try:
+        # in bytes
+        usock = urllib2.urlopen(url)
+        size  = usock.info().get('Content-Length')
+        if size is None:
+            size = 0
+    except urllib2.HTTPError:
         size = 0
     return float(size)
 
