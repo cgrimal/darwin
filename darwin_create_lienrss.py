@@ -1,16 +1,24 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import re
 import sys
-import codecs
 import json
+import codecs
+import urllib2
 import argparse
 import datetime
-import urllib2
+from slugify import slugify
 
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
 #####################################################################
+
+def str2filename(string):
+    filename = re.sub(r'[<>:"/\|?*]', '-', string)
+    filename = filename.strip('. ')
+    filename = slugify(filename)
+    return filename
 
 
 def get_remote_file_size(url):
