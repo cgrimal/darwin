@@ -3671,7 +3671,7 @@
                 },
                 "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-30-mai-2015",
                 "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-30-mai-2015",
-                "lien_mp3": "https://static.franceinter.fr/sites/default/files/sons/2015/05/s22/net-fi-ef49377f-6836-42e7-bbb7-d41c4f39e1b5.mp3",
+                "lien_mp3": "http://s3-eu-west-1.amazonaws.com/cruiser-production/static/inter/sons/2015/05/s22/net-fi-ef49377f-6836-42e7-bbb7-d41c4f39e1b5.mp3",
                 "rediffusion": 1,
                 "titre": "Lire (2)"
             }
@@ -4544,6 +4544,366 @@
                 "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-16.07.2016-ITEMA_21033000-0.mp3",
                 "rediffusion": 0,
                 "titre": "Libert\u00e9 Egalit\u00e9 Fraternit\u00e9"
+            }
+        },
+        {
+            "hash": "2016-07-23",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "23",
+                    "mois": "07"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-23-juillet-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-23-juillet-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-23.07.2016-ITEMA_21037207-0.mp3",
+                "rediffusion": 0,
+                "titre": "De la musique avant toute chose"
+            }
+        },
+        {
+            "hash": "2016-07-30",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "30",
+                    "mois": "07"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-30-juillet-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-30-juillet-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-30.07.2016-ITEMA_21041513-0.mp3",
+                "rediffusion": 0,
+                "titre": "La qu\u00eate de la vie sans fin"
+            }
+        },
+        {
+            "hash": "2016-08-06",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "06",
+                    "mois": "08"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-06-aout-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-06-aout-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-06.08.2016-ITEMA_21045841-0.mp3",
+                "rediffusion": 0,
+                "titre": "La qu\u00eate de la vie sans fin (2)"
+            }
+        },
+        {
+            "hash": "2016-08-13",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "13",
+                    "mois": "08"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-13-aout-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-13-aout-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-13.08.2016-ITEMA_21050184-0.mp3",
+                "rediffusion": 0,
+                "titre": "La qu\u00eate de la vie sans fin (3)"
+            }
+        },
+        {
+            "hash": "2016-08-20",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "20",
+                    "mois": "08"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-20-aout-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-20-aout-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-20.08.2016-ITEMA_21054628-0.mp3",
+                "rediffusion": 1,
+                "titre": "Sur les \u00e9paules de Darwin"
+            }
+        },
+        {
+            "hash": "2016-08-27",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "27",
+                    "mois": "08"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-aout-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-aout-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-27.08.2016-ITEMA_21059718-0.mp3",
+                "rediffusion": 0,
+                "titre": "Sur les \u00e9paules de Darwin"
+            }
+        },
+        {
+            "hash": "2016-09-03",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "03",
+                    "mois": "09"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-septembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-septembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-03.09.2016-ITEMA_21065798-0.mp3",
+                "rediffusion": 0,
+                "titre": "Une ancienne alliance entre un oiseau sauvage et les humains"
+            }
+        },
+        {
+            "hash": "2016-09-10",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "10",
+                    "mois": "09"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-10-septembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-10-septembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-10.09.2016-ITEMA_21072387-0.mp3",
+                "rediffusion": 0,
+                "titre": "A la rencontre de la Pens\u00e9e chinoise"
+            }
+        },
+        {
+            "hash": "2016-09-17",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "17",
+                    "mois": "09"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-17-septembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-17-septembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-17.09.2016-ITEMA_21078816-0.mp3",
+                "rediffusion": 0,
+                "titre": "A la rencontre de la Pens\u00e9e chinoise (2)"
+            }
+        },
+        {
+            "hash": "2016-09-24",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "24",
+                    "mois": "09"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-24-septembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-24-septembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-24.09.2016-ITEMA_21085477-0.mp3",
+                "rediffusion": 0,
+                "titre": "D\u00e9luges"
+            }
+        },
+        {
+            "hash": "2016-10-01",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "01",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-01-octobre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-01-octobre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-01.10.2016-ITEMA_21092051-0.mp3",
+                "rediffusion": 0,
+                "titre": "Le Passage du Nord-Ouest"
+            }
+        },
+        {
+            "hash": "2016-10-08",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "08",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-08-octobre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-08-octobre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-08.10.2016-ITEMA_21098740-0.mp3",
+                "rediffusion": 0,
+                "titre": "La faille de Cascadia"
+            }
+        },
+        {
+            "hash": "2016-10-15",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "15",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-15-octobre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-15-octobre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-15.10.2016-ITEMA_21105458-0.mp3",
+                "rediffusion": 0,
+                "titre": "Le myst\u00e9rieux tsunami de 1700 au Japon"
+            }
+        },
+        {
+            "hash": "2016-10-22",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "22",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-22-octobre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-22-octobre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-22.10.2016-ITEMA_21112278-0.mp3",
+                "rediffusion": 0,
+                "titre": "Des r\u00e9cits et des masques"
+            }
+        },
+        {
+            "hash": "2016-10-29",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "29",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-29-octobre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-29-octobre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-29.10.2016-ITEMA_21119298-0.mp3",
+                "rediffusion": 0,
+                "titre": "La d\u00e9couverte du Nouveau Monde (3)"
+            }
+        },
+        {
+            "hash": "2016-11-05",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "05",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-05-novembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-05-novembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-05.11.2016-ITEMA_21126268-0.mp3",
+                "rediffusion": 0,
+                "titre": "Lire les corps"
+            }
+        },
+        {
+            "hash": "2016-11-12",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "12",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-12-novembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-12-novembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-12.11.2016-ITEMA_21133821-0.mp3",
+                "rediffusion": 0,
+                "titre": "S'imaginer \u00e0 la place de l'autre"
+            }
+        },
+        {
+            "hash": "2016-11-19",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "19",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-19-novembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-19-novembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-19.11.2016-ITEMA_21140756-0.mp3",
+                "rediffusion": 0,
+                "titre": "Entre chien et loup"
+            }
+        },
+        {
+            "hash": "2016-11-26",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "26",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-26-novembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-26-novembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-26.11.2016-ITEMA_21147720-0.mp3",
+                "rediffusion": 0,
+                "titre": "Ressentir et comprendre"
+            }
+        },
+        {
+            "hash": "2016-12-03",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "03",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-decembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-decembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-03.12.2016-ITEMA_21154650-0.mp3",
+                "rediffusion": 0,
+                "titre": "Ressentir, innover et transmettre"
+            }
+        },
+        {
+            "hash": "2016-12-10",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "10",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-10-decembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-10-decembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-10.12.2016-ITEMA_21161599-0.mp3",
+                "rediffusion": 0,
+                "titre": "Des musiques venues du fond des \u00e2ges"
+            }
+        },
+        {
+            "hash": "2016-12-17",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "17",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-17-decembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-17-decembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-17.12.2016-ITEMA_21168630-0.mp3",
+                "rediffusion": 0,
+                "titre": "Le Grand Orchestre des Animaux"
+            }
+        },
+        {
+            "hash": "2016-12-24",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "24",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-24-decembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-24-decembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-24.12.2016-ITEMA_21175856-0.mp3",
+                "rediffusion": 0,
+                "titre": "Oliver Sacks"
+            }
+        },
+        {
+            "hash": "2016-12-31",
+            "infos": {
+                "date": {
+                    "annee": "2016",
+                    "jour": "31",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-31-decembre-2016",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-31-decembre-2016",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-31.12.2016-ITEMA_21182855-0.mp3",
+                "rediffusion": 0,
+                "titre": "Soi-m\u00eame en train de vivre"
             }
         }
     ]
