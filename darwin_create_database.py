@@ -70,7 +70,7 @@ def extractData(data, d):
 
         emission_data = {}
 
-        title = pq(bb).find('a[itemprop="name"]').text()
+        title = pq(bb).find('a.rich-section-list-item-content-title').text()
         # print title
         emission_data['titre'] = title
 
@@ -98,7 +98,7 @@ def extractData(data, d):
 
             if force or emission_hash not in hash_list:
 
-                emission_link = 'https://www.franceinter.fr' + pq(bb).find('a[itemprop="name"]').attr('href')
+                emission_link = 'https://www.franceinter.fr' + pq(bb).find('a.rich-section-list-item-content-title').attr('href')
                 print emission_link
                 emission_data['lien_emission'] = emission_link
 
