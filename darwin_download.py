@@ -174,7 +174,7 @@ for emission_data in data:
             elif lien_mp3 is None:
                 print u'\rPas d\'emission ce jour.'
             else:
-                download_file(lien_mp3, download_folder + filename)
+                download_file(lien_mp3.replace('https:', 'http:'), download_folder + filename)
 
                 audio = MP3(download_folder + filename.encode('utf-8'))
                 audio['TIT2'] = TIT2(encoding=3, text=[title])
