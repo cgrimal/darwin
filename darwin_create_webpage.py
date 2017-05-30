@@ -1,3 +1,4 @@
+al
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -203,13 +204,13 @@ parser.add_argument(
     '-web',
     metavar = 'page web',
     help    = 'Le fichier contenant la page web créee.',
-    default = './output/index.php'
+    default = './output/index.html'
 )
 parser.add_argument(
     '-template',
     metavar = 'template',
     help    = 'Le fichier de template de la page web.',
-    default = './output/temp_public.html'
+    default = './output/temp_public.2017.html'
 )
 args = parser.parse_args()
 
