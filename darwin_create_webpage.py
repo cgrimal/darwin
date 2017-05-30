@@ -109,6 +109,7 @@ def create_webpage(data, template_path, filename):
             current_month = aa + mm
 
         line = '    <li>'
+        line += '<table><tr>'
         link_name = aa + '-' + mm + '-' + jj + ' - ' + titre
 
         if player_link and mp3link:
@@ -124,8 +125,12 @@ def create_webpage(data, template_path, filename):
             # ENDOF TEST
 
             line += u'''
+                <td>
                 <a class="play-link" href="{plink}" >Ecouter</a>
+                </td>
+                <td>
                 <a class="download-link" href="{mlink}" download="{lname}" >Télécharger</a>
+                </td>
             '''.format(
                 plink = unicode(player_link),
                 mlink = unicode(mp3link),
@@ -140,21 +145,25 @@ def create_webpage(data, template_path, filename):
                 aa = aa,
             )
             line += u'''
+                <td>
                 <a class="download-link" href="{plink}" download="{lname}" >Télécharger (via prevost.pascal.free.fr)</a>
+                </td>
             '''.format(
                 plink = unicode(pascal_link),
                 lname = unicode(link_name),
             )
 
         line += u'''
-            <a class="link" href="{plink}" >{ptitre}</a>,
-            diffusée le {date}
+            <td>
+            <span style="vertical-align:middle;float:left;"><a class="link" href="{plink}" >{ptitre}</a>, diffusée le {date}</span>
+            </td>
         '''.format(
             plink  = unicode(pagelink),
             ptitre = unicode(titre),
             date   = str(int(jj)) + u' ' + months[int(mm) - 1] + u' ' + str(aa),
         )
 
+        line += '</tr></table>'
         line += u'</li>\n'
         html_code += line
 
