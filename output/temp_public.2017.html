@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr-FR">
+
+<head>
+    <title>Sur les épaules de Darwin, Jean-Claude Ameisen</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Clément Grimal" />
+    <meta http-equiv="Content-Language" content="fr" />
+    <meta name="keywords" lang="fr" content="clement grimal france inter ameisen jean-claude sur les epaules de darwin radio emission science podcast balladodiffusion" />
+
+    <script src="web/jquery-1.8.3.min.js"></script>
+    <script src="web/jquery_mobile/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="web/jquery_mobile/jquery.mobile-1.4.5.min.css" />
+
+    <style type="text/css">
+        body {
+            color: #444;
+        }
+        a, a:visited {
+            color: #21769B !important;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #D54E21 !important;
+            text-decoration: none;
+        }
+        .subtitle ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .subtitle ul li {
+            margin: 0;
+            padding: 10px 0;
+            border-bottom: 1px #808080 solid;
+        }
+        .subtitle .strong {
+            font-weight: bold;
+        }
+        .ui-state-active {
+            background: #e20134;
+            color: white;
+        }
+        .ui-accordion-content-active .ui-state-active {
+            background: #e20134;
+            color: white;
+        }
+        .subtitle {
+            margin: 30px 0px;
+            /*font-size: 90%;*/
+        }
+        #container {
+            padding: 0px 2em;
+        }
+        /*li {
+            line-height: 2em;
+        }*/
+        .mp3link {
+            /*font-size: 80%;*/
+        }
+        .footer {
+            color: #222;
+            /*font-size: 80%;*/
+            margin-top: 30px;
+        }
+        #jc {
+            float: right;
+            width: 200px;
+            margin-left: 10px;
+            box-shadow: 3px 3px 8px #777;
+        }
+        #disqus_thread {
+            margin-top: 30px;
+        }
+        #paypal_form {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading>.ui-collapsible-heading-toggle {
+            background: #e20134;
+            color: white !important;
+        }
+        .ui-collapsible-heading a {
+            font-size: 1em;
+        }
+        .ui-collapsible-content {
+            padding-top: 0;
+        }
+        .ui-collapsible-set {
+            margin: 0;
+        }
+        a.play-link {
+            background-image:url('./web/images/play.png');
+            display:inline-block;
+            height:48px;
+            text-indent:-9999px;
+            width:48px;
+            margin: 8px;
+        }
+        a.download-link {
+            background-image:url('./web/images/download.png');
+            display:inline-block;
+            height:48px;
+            text-indent:-9999px;
+            width:48px;
+            margin: 8px;
+        }
+        .mois ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .mois li {
+            line-height: 50px;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            $(".saison:last").parents("[data-role='collapsible']").collapsible("expand");
+            $(".saison:last").children("[data-role='collapsible']").collapsible("expand");
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <img src="http://media.tumblr.com/tumblr_m9sdy9GfqU1qiol4t.jpg" id="jc" />
+
+        <h1>Sur les épaules de Darwin, Jean-Claude Ameisen</h1>
+
+        <div class="subtitle">
+            <p>
+                Cette page (sur laquelle je travaille à mes heures perdues) agrège tous les liens vers les épisodes de l'émission : page de l'épisode, page pour ré-écouter l'épisode, lien direct vers les fichier mp3.
+            </p>
+            <p>
+                <ul>
+                    <li>Les scripts utilisés pour la génération automatique de cette page sont accessibles sur GitHub&nbsp;: <a href="https://github.com/cgrimal/darwin">https://github.com/cgrimal/darwin</a></li>
+                    <li>Si vous voulez en savoir plus sur la création automatique de cette page, direction mon blog&nbsp;: <a href="http://clementgrimal.fr/blog/tag/darwin/">http://clementgrimal.fr/blog/tag/darwin/</a></li>
+                    <li>Vous pouvez laisser <a href="#disqus_thread">vos commentaires</a> plus bas sur cette page.</li>
+                    <li>Vous pouvez aussi rejoindre le groupe presque officiel des fans de l'émission <a href="https://www.facebook.com/groups/179200728780463/?fref=ts">sur Facebook</a>.</li>
+                    <li>(non maintenu) Vous pouvez facilement télécharger plusieurs émissions d'un coup via ce <a href="https://mega.co.nz/#F!Xx5UkICQ!PyyOkaHwj7b25ydX3N6Zhw">dossier MEGA</a><br />(merci à Paul pour l'idée initiale, et retrouvez son découpage des épisodes sur son <a href="https://mega.co.nz/#F!BEpGVTTI!KLEelGrowVxfGEdaUsnl0g">dossier MEGA</a>)</li>
+                    <li>Si (et seulement si) cela vous fait plaisir, vous pouvez me faire un petit don :
+                        <form id="paypal_form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                            ">
+                            <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </li>
+                </ul>
+            </p>
+            <p class="strong">
+                Bonne écoute !
+            </p>
+        </div>
+
+
+        %content
+
+
+        <div class="footer">
+            Pour télécharger les fichiers mp3 des émissions (en toute légalité), il faut que vous fassiez un clic-droit sur le lien "Téléchargement" et que vous choisissiez "Enregistrer la cible sous..."
+        </div>
+
+        <div class="footer">
+            Merci à Pascal Prevost pour avoir mis en ligne les premières emissions, qui ne sont actuellement plus disponibles sur le site de France Inter&nbsp;: <a href="http://prevost.pascal.free.fr/public/podcast/sur_les_epaules_de_darwin/sur_les_epaules_de_darwin.htm">site de Pascal Prevost</a>
+        </div>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'surlespaulesdedarwin';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Veuillez activer JavaScript pour participer à la discussion ! <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        <div class="footer">
+            Lien RSS : <a href="darwin.rss">darwin.rss</a>
+        </div>
+        <div class="footer">
+            Pour ceux qui lisent le JSON couramment : <a href="darwin_base.json">darwin_base.json</a>
+        </div>
+
+    </div>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-37444414-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>

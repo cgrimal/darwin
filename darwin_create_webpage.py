@@ -39,6 +39,8 @@ def create_webpage(data, template_path, filename):
         u'Décembre'
     ]
 
+    html_code += '<div data-role="collapsible-set" data-inset="false">'
+
     for emission_data in data:
 
         # emission_data = data[hash_dummy]
@@ -66,14 +68,17 @@ def create_webpage(data, template_path, filename):
         if mm == '09' and new_season:
             if current_month != '':
                 html_code += '''
-                            </ul>
-                        </div>
-                    </div>
+                                    </ul>
+                                </div> <!-- 3 -->
+                            </div> <!-- saison last month -->
+                        </div> <!-- saison -->
+                    </div> <!-- saison -->
                 '''
                 new_month = False
             html_code += '''
+                <div data-role="collapsible" data-collapsed-icon="carat-r" data-expanded-icon="carat-d">
                 <h2>Saison {a1}-{a2}</h2>
-                <div class='saison'>
+                <div class="saison" data-role="collapsible-set" data-inset="false">
             '''.format(
                 a1 = str(aa),
                 a2 = str(int(aa) + 1),
@@ -88,12 +93,14 @@ def create_webpage(data, template_path, filename):
         if aa + mm != current_month:
             if current_month != '' and new_month:
                 html_code += '''
-                        </ul>
-                    </div>
+                            </ul>
+                        </div> <!-- mois -->
+                    </div> <!-- collapsible mois -->
                 '''
             html_code += u'''
+                <div data-role="collapsible" data-collapsed-icon="carat-r" data-expanded-icon="carat-d">
                 <h3>{mm} {aa}</h3>
-                <div class='mois'>
+                <div class="mois">
                     <ul>
             '''.format(
                 mm = months[int(mm) - 1],
@@ -102,14 +109,6 @@ def create_webpage(data, template_path, filename):
             current_month = aa + mm
 
         line = '    <li>'
-        line += u'''
-            <a class="link" href="{plink}" >{ptitre}</a>,
-            diffusée le {date}
-        '''.format(
-            plink  = unicode(pagelink),
-            ptitre = unicode(titre),
-            date   = str(int(jj)) + u' ' + months[int(mm) - 1] + u' ' + str(aa),
-        )
         link_name = aa + '-' + mm + '-' + jj + ' - ' + titre
 
         if player_link and mp3link:
@@ -125,8 +124,8 @@ def create_webpage(data, template_path, filename):
             # ENDOF TEST
 
             line += u'''
-                <a class="mp3link" href="{plink}" >Ecouter</a>
-                <a class="mp3link" href="{mlink}" download="{lname}" >Télécharger</a>
+                <a class="play-link" href="{plink}" >Ecouter</a>
+                <a class="download-link" href="{mlink}" download="{lname}" >Télécharger</a>
             '''.format(
                 plink = unicode(player_link),
                 mlink = unicode(mp3link),
@@ -141,18 +140,31 @@ def create_webpage(data, template_path, filename):
                 aa = aa,
             )
             line += u'''
-                <a class="mp3link" href="{plink}" download="{lname}" >Télécharger (via prevost.pascal.free.fr)</a>
+                <a class="download-link" href="{plink}" download="{lname}" >Télécharger (via prevost.pascal.free.fr)</a>
             '''.format(
                 plink = unicode(pascal_link),
                 lname = unicode(link_name),
             )
+
+        line += u'''
+            <a class="link" href="{plink}" >{ptitre}</a>,
+            diffusée le {date}
+        '''.format(
+            plink  = unicode(pagelink),
+            ptitre = unicode(titre),
+            date   = str(int(jj)) + u' ' + months[int(mm) - 1] + u' ' + str(aa),
+        )
+
         line += u'</li>\n'
         html_code += line
 
     html_code += '''
-                </ul>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
     '''
 
     template_file = codecs.open(template_path, 'r', 'utf-8')

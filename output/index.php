@@ -440,7 +440,7 @@
             diffusée le 30 Avril 2011
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-30-avril-2011" >Ecouter</a>
-                <a class="mp3link" href="./files/2011-04-30 - a-la-recherche-des-mysteres-de-l-heredite-2.mp3" download="2011-04-30 - A la recherche des mystères de l'hérédité (2)" >Télécharger</a>
+                <a class="mp3link" href="./files/2011-04-30 - a-la-recherche-des-mysteres-de-lheredite-2.mp3" download="2011-04-30 - A la recherche des mystères de l'hérédité (2)" >Télécharger</a>
             </li>
 
                         </ul>
@@ -454,7 +454,7 @@
             diffusée le 7 Mai 2011
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-07-mai-2011" >Ecouter</a>
-                <a class="mp3link" href="./files/2011-05-07 - a-la-recherche-des-mysteres-de-l-heredite-3-les-symbioses.mp3" download="2011-05-07 - A la recherche des mystères de l'hérédité (3) Les symbioses" >Télécharger</a>
+                <a class="mp3link" href="./files/2011-05-07 - a-la-recherche-des-mysteres-de-lheredite-3-les-symbioses.mp3" download="2011-05-07 - A la recherche des mystères de l'hérédité (3) Les symbioses" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-14-mai-2011" >A la recherche des mystères de l’hérédité (4) Quand l’art rencontre la science.</a>,
@@ -489,7 +489,7 @@
             diffusée le 4 Juin 2011
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-juin-2011" >Ecouter</a>
-                <a class="mp3link" href="./files/2011-06-04 - l-invention-de-l-agriculture.mp3" download="2011-06-04 - L'invention de l'agriculture" >Télécharger</a>
+                <a class="mp3link" href="./files/2011-06-04 - linvention-de-lagriculture.mp3" download="2011-06-04 - L'invention de l'agriculture" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-11-juin-2011" >A travers les labyrinthes</a>,
@@ -510,7 +510,7 @@
             diffusée le 25 Juin 2011
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-juin-2011" >Ecouter</a>
-                <a class="mp3link" href="./files/2011-06-25 - entendre-leurs-voix-avec-florence-aubenas.mp3" download="2011-06-25 - "Entendre leurs voix" avec Florence Aubenas" >Télécharger</a>
+                <a class="mp3link" href="./files/2011-06-25 - -entendre-leurs-voix-avec-florence-aubenas.mp3" download="2011-06-25 - "Entendre leurs voix" avec Florence Aubenas" >Télécharger</a>
             </li>
 
                         </ul>
@@ -668,7 +668,7 @@
             diffusée le 29 Octobre 2011
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-29-octobre-2011" >Ecouter</a>
-                <a class="mp3link" href="./files/2011-10-29 - les-battements-du-temps-8-entre-deja-plus-et-encore-a-venir.mp3" download="2011-10-29 - Les battements du temps (8) - "Entre déjà plus et encore à venir..."" >Télécharger</a>
+                <a class="mp3link" href="./files/2011-10-29 - les-battements-du-temps-8-entre-deja-plus-et-encore-a-venir-.mp3" download="2011-10-29 - Les battements du temps (8) - "Entre déjà plus et encore à venir..."" >Télécharger</a>
             </li>
 
                         </ul>
@@ -703,7 +703,7 @@
             diffusée le 26 Novembre 2011
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-26-novembre-2011" >Ecouter</a>
-                <a class="mp3link" href="./files/2011-11-26 - les-battements-du-temps-12-ce-n-etait-pas-en-moi-c-etait-moi.mp3" download="2011-11-26 - Les battements du temps (12) "Ce n'était pas en moi, c'était moi..."" >Télécharger</a>
+                <a class="mp3link" href="./files/2011-11-26 - les-battements-du-temps-12-ce-netait-pas-en-moi-cetait-moi-.mp3" download="2011-11-26 - Les battements du temps (12) "Ce n'était pas en moi, c'était moi..."" >Télécharger</a>
             </li>
 
                         </ul>
@@ -738,7 +738,7 @@
             diffusée le 24 Décembre 2011
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-24-decembre-2011" >Ecouter</a>
-                <a class="mp3link" href="./files/2011-12-24 - les-battements-du-temps-7-nostalgie-de-la-lumiere.mp3" download="2011-12-24 - "Les battements du temps 7. "Nostalgie de la lumière"" >Télécharger</a>
+                <a class="mp3link" href="./files/2011-12-24 - -les-battements-du-temps-7-nostalgie-de-la-lumiere-.mp3" download="2011-12-24 - "Les battements du temps 7. "Nostalgie de la lumière"" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-31-decembre-2011" >Renaissance</a>,
@@ -759,7 +759,7 @@
             diffusée le 7 Janvier 2012
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-07-janvier-2012" >Ecouter</a>
-                <a class="mp3link" href="./files/2012-01-07 - les-battements-du-temps-16-un-cadeau-de-nouvel-an.mp3" download="2012-01-07 - "les battements du temps (16). Un cadeau de Nouvel An. "" >Télécharger</a>
+                <a class="mp3link" href="./files/2012-01-07 - -les-battements-du-temps-16-un-cadeau-de-nouvel-an-.mp3" download="2012-01-07 - "les battements du temps (16). Un cadeau de Nouvel An. "" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-14-janvier-2012" >Les battements du temps (17). Le vivant et les nombres</a>,
@@ -773,7 +773,7 @@
             diffusée le 21 Janvier 2012
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-21-janvier-2012" >Ecouter</a>
-                <a class="mp3link" href="./files/2012-01-21 - les-battements-du-temps-18-more-is-different.mp3" download="2012-01-21 - Les battements du temps (18). "More is different"" >Télécharger</a>
+                <a class="mp3link" href="./files/2012-01-21 - les-battements-du-temps-18-more-is-different-.mp3" download="2012-01-21 - Les battements du temps (18). "More is different"" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-28-janvier-2012" >Les battements du temps (19)</a>,
@@ -815,7 +815,7 @@
             diffusée le 25 Février 2012
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-fevrier-2012" >Ecouter</a>
-                <a class="mp3link" href="./files/2012-02-25 - les-battements-du-temps-23-loeil-de-lesprit.mp3" download="2012-02-25 - Les battements du temps (23). « L’œil de l’esprit »." >Télécharger</a>
+                <a class="mp3link" href="./files/2012-02-25 - les-battements-du-temps-23-lil-de-lesprit.mp3" download="2012-02-25 - Les battements du temps (23). « L’œil de l’esprit »." >Télécharger</a>
             </li>
 
                         </ul>
@@ -850,7 +850,7 @@
             diffusée le 24 Mars 2012
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-24-mars-2012" >Ecouter</a>
-                <a class="mp3link" href="./files/2012-03-24 - les-battements-du-temps-2-une-rediffusion-de-l-emission-du-17-septembre-2011.mp3" download="2012-03-24 - Les battements du temps (2): Une rediffusion de l'émission du 17 septembre 2011" >Télécharger</a>
+                <a class="mp3link" href="./files/2012-03-24 - les-battements-du-temps-2-une-rediffusion-de-lemission-du-17-septembre-2011.mp3" download="2012-03-24 - Les battements du temps (2): Une rediffusion de l'émission du 17 septembre 2011" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-31-mars-2012" >Les battements du temps (27). Le langage des oiseaux (2)</a>,
@@ -871,7 +871,7 @@
             diffusée le 7 Avril 2012
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-07-avril-2012" >Ecouter</a>
-                <a class="mp3link" href="./files/2012-04-07 - lire-une-rediffusion-de-l-emission-du-15-janvier-2011.mp3" download="2012-04-07 - Lire - Une rediffusion de l'émission du 15 janvier 2011" >Télécharger</a>
+                <a class="mp3link" href="./files/2012-04-07 - lire-une-rediffusion-de-lemission-du-15-janvier-2011.mp3" download="2012-04-07 - Lire - Une rediffusion de l'émission du 15 janvier 2011" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-14-avril-2012" >Les battements du temps (28). Le langage des oiseaux (3)</a>,
@@ -885,7 +885,7 @@
             diffusée le 21 Avril 2012
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-21-avril-2012" >Ecouter</a>
-                <a class="mp3link" href="./files/2012-04-21 - les-battements-du-temps-29-la-democratie-des-abeilles.mp3" download="2012-04-21 - Les battements du temps (29). "La démocratie des abeilles"" >Télécharger</a>
+                <a class="mp3link" href="./files/2012-04-21 - les-battements-du-temps-29-la-democratie-des-abeilles-.mp3" download="2012-04-21 - Les battements du temps (29). "La démocratie des abeilles"" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-28-avril-2012" >Les battements du temps (30) - A la découverte du monde des abeilles (2)</a>,
@@ -927,7 +927,7 @@
             diffusée le 26 Mai 2012
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-26-mai-2012" >Ecouter</a>
-                <a class="mp3link" href="./files/2012-05-26 - les-battements-du-temps-5-les-vagabonds-du-ciel-une-rediffusion-de-l-emission-du-8-octobre-2011.mp3" download="2012-05-26 - Les battements du temps (5) Les vagabonds du ciel - Une rediffusion de l'émission du 8 octobre 2011" >Télécharger</a>
+                <a class="mp3link" href="./files/2012-05-26 - les-battements-du-temps-5-les-vagabonds-du-ciel-une-rediffusion-de-lemission-du-8-octobre-2011.mp3" download="2012-05-26 - Les battements du temps (5) Les vagabonds du ciel - Une rediffusion de l'émission du 8 octobre 2011" >Télécharger</a>
             </li>
 
                         </ul>
@@ -1222,7 +1222,7 @@
             diffusée le 19 Janvier 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-19-janvier-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-01-19 - le-lien-qui-nous-rattache-aux-autres-7-le-retour-d-ulysse.mp3" download="2013-01-19 - Le lien qui nous rattache aux autres (7): Le retour d'Ulysse" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-01-19 - le-lien-qui-nous-rattache-aux-autres-7-le-retour-dulysse.mp3" download="2013-01-19 - Le lien qui nous rattache aux autres (7): Le retour d'Ulysse" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-26-janvier-2013" >Le lien qui nous rattache aux autres (8)</a>,
@@ -1264,7 +1264,7 @@
             diffusée le 23 Février 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-23-fevrier-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-02-23 - l-illusion-de-la-fin-de-l-histoire.mp3" download="2013-02-23 - L'illusion de la fin de l'histoire" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-02-23 - lillusion-de-la-fin-de-lhistoire.mp3" download="2013-02-23 - L'illusion de la fin de l'histoire" >Télécharger</a>
             </li>
 
                         </ul>
@@ -1341,7 +1341,7 @@
             diffusée le 27 Avril 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-avril-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-04-27 - l-invention-de-l-agriculture.mp3" download="2013-04-27 - L'invention de l'agriculture" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-04-27 - linvention-de-lagriculture.mp3" download="2013-04-27 - L'invention de l'agriculture" >Télécharger</a>
             </li>
 
                         </ul>
@@ -1369,14 +1369,14 @@
             diffusée le 18 Mai 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-mai-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-05-18 - la-memoire-et-l-oubli.mp3" download="2013-05-18 - La mémoire et l'oubli" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-05-18 - la-memoire-et-loubli.mp3" download="2013-05-18 - La mémoire et l'oubli" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-mai-2013" >L'empreinte du danger</a>,
             diffusée le 25 Mai 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-mai-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-05-25 - l-empreinte-du-danger.mp3" download="2013-05-25 - L'empreinte du danger" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-05-25 - lempreinte-du-danger.mp3" download="2013-05-25 - L'empreinte du danger" >Télécharger</a>
             </li>
 
                         </ul>
@@ -1390,7 +1390,7 @@
             diffusée le 1 Juin 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-01-juin-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-06-01 - le-passant-du-temps.mp3" download="2013-06-01 - "Le passant du temps"" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-06-01 - -le-passant-du-temps-.mp3" download="2013-06-01 - "Le passant du temps"" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-08-juin-2013" >Traces</a>,
@@ -1404,14 +1404,14 @@
             diffusée le 15 Juin 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-15-juin-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-06-15 - ce-qui-fut-se-refait.mp3" download="2013-06-15 - "Ce qui fut se refait"" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-06-15 - -ce-qui-fut-se-refait-.mp3" download="2013-06-15 - "Ce qui fut se refait"" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-22-juin-2013" >"Je suis le fleuve"</a>,
             diffusée le 22 Juin 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-22-juin-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-06-22 - je-suis-le-fleuve.mp3" download="2013-06-22 - "Je suis le fleuve"" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-06-22 - -je-suis-le-fleuve-.mp3" download="2013-06-22 - "Je suis le fleuve"" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-29-juin-2013" >Cette étoffe sur laquelle naissent les rêves</a>,
@@ -1513,7 +1513,7 @@
             diffusée le 7 Septembre 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-07-septembre-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-09-07 - l-ame-de-l-ete.mp3" download="2013-09-07 - L'âme de l'été" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-09-07 - lame-de-lete.mp3" download="2013-09-07 - L'âme de l'été" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-14-septembre-2013" >Le renouvellement permanent de la diversité</a>,
@@ -1527,7 +1527,7 @@
             diffusée le 21 Septembre 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-21-septembre-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-09-21 - petits-cerveaux-esprits-brillants.mp3" download="2013-09-21 - "Petits cerveaux, esprits brillants"" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-09-21 - -petits-cerveaux-esprits-brillants-.mp3" download="2013-09-21 - "Petits cerveaux, esprits brillants"" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-28-septembre-2013" >Voyage au-delà des apparences</a>,
@@ -1569,7 +1569,7 @@
             diffusée le 26 Octobre 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-26-octobre-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-10-26 - detisser-les-mailles-de-l-univers.mp3" download="2013-10-26 - Détisser les mailles de l'univers" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-10-26 - detisser-les-mailles-de-lunivers.mp3" download="2013-10-26 - Détisser les mailles de l'univers" >Télécharger</a>
             </li>
 
                         </ul>
@@ -1583,7 +1583,7 @@
             diffusée le 2 Novembre 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-02-novembre-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-11-02 - quand-la-science-rencontre-l-art.mp3" download="2013-11-02 - Quand la science rencontre l'art" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-11-02 - quand-la-science-rencontre-lart.mp3" download="2013-11-02 - Quand la science rencontre l'art" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-09-novembre-2013" >Le partage des émotions</a>,
@@ -1597,7 +1597,7 @@
             diffusée le 16 Novembre 2013
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-16-novembre-2013" >Ecouter</a>
-                <a class="mp3link" href="./files/2013-11-16 - le-souci-de-l-autre.mp3" download="2013-11-16 - Le souci de l'autre" >Télécharger</a>
+                <a class="mp3link" href="./files/2013-11-16 - le-souci-de-lautre.mp3" download="2013-11-16 - Le souci de l'autre" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-23-novembre-2013" >Donner, recevoir</a>,
@@ -1688,14 +1688,14 @@
             diffusée le 1 Février 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-01-fevrier-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-02-01 - aux-origines-de-l-agriculture.mp3" download="2014-02-01 - Aux origines de l'agriculture" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-02-01 - aux-origines-de-lagriculture.mp3" download="2014-02-01 - Aux origines de l'agriculture" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-08-fevrier-2014" >Aux origines de l'agriculture (2)</a>,
             diffusée le 8 Février 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-08-fevrier-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-02-08 - aux-origines-de-l-agriculture-2.mp3" download="2014-02-08 - Aux origines de l'agriculture (2)" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-02-08 - aux-origines-de-lagriculture-2.mp3" download="2014-02-08 - Aux origines de l'agriculture (2)" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-15-fevrier-2014" >A la recherche des traces de nos ancêtres</a>,
@@ -1723,7 +1723,7 @@
             diffusée le 1 Mars 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-01-mars-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-03-01 - le-lien-qui-nous-rattache-aux-autres-7-le-retour-d-ulysse.mp3" download="2014-03-01 - Le lien qui nous rattache aux autres (7): Le retour d'Ulysse" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-03-01 - le-lien-qui-nous-rattache-aux-autres-7-le-retour-dulysse.mp3" download="2014-03-01 - Le lien qui nous rattache aux autres (7): Le retour d'Ulysse" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-08-mars-2014" >Le lien qui nous rattache aux autres (8)</a>,
@@ -1828,7 +1828,7 @@
             diffusée le 31 Mai 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-31-mai-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-05-31 - au-pays-de-la-memoire-et-de-l-oubli.mp3" download="2014-05-31 - Au pays de la mémoire et de l'oubli" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-05-31 - au-pays-de-la-memoire-et-de-loubli.mp3" download="2014-05-31 - Au pays de la mémoire et de l'oubli" >Télécharger</a>
             </li>
 
                         </ul>
@@ -1842,7 +1842,7 @@
             diffusée le 7 Juin 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-07-juin-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-06-07 - l-image-qui-manque.mp3" download="2014-06-07 - "L'image qui manque"" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-06-07 - -limage-qui-manque-.mp3" download="2014-06-07 - "L'image qui manque"" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-14-juin-2014" >Paysages</a>,
@@ -1912,21 +1912,21 @@
             diffusée le 3 Août 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-aout-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-08-03 - la-memoire-et-l-oubli.mp3" download="2014-08-03 - La mémoire et l'oubli" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-08-03 - la-memoire-et-loubli.mp3" download="2014-08-03 - La mémoire et l'oubli" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-10-aout-2014" >L'empreinte du danger</a>,
             diffusée le 10 Août 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-10-aout-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-08-10 - l-empreinte-du-danger.mp3" download="2014-08-10 - L'empreinte du danger" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-08-10 - lempreinte-du-danger.mp3" download="2014-08-10 - L'empreinte du danger" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-17-aout-2014" >"Le passant du temps"</a>,
             diffusée le 17 Août 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-17-aout-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-08-17 - le-passant-du-temps.mp3" download="2014-08-17 - "Le passant du temps"" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-08-17 - -le-passant-du-temps-.mp3" download="2014-08-17 - "Le passant du temps"" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-24-aout-2014" >Traces</a>,
@@ -1965,7 +1965,7 @@
             diffusée le 13 Septembre 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-13-septembre-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-09-13 - une-heredite-des-caracteres-acquis.mp3" download="2014-09-13 - Une hérédité des caractères acquis?" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-09-13 - une-heredite-des-caracteres-acquis-.mp3" download="2014-09-13 - Une hérédité des caractères acquis?" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-20-septembre-2014" >Une hérédité des caractères acquis (2)</a>,
@@ -1979,7 +1979,7 @@
             diffusée le 27 Septembre 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-septembre-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-09-27 - le-sentiment-d-injustice.mp3" download="2014-09-27 - Le sentiment d'injustice" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-09-27 - le-sentiment-dinjustice.mp3" download="2014-09-27 - Le sentiment d'injustice" >Télécharger</a>
             </li>
 
                         </ul>
@@ -2000,7 +2000,7 @@
             diffusée le 11 Octobre 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-11-octobre-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-10-11 - les-battements-du-temps-12-ce-n-etait-pas-en-moi-c-etait-moi.mp3" download="2014-10-11 - Les battements du temps (12) - "Ce n'était pas en moi, c'était moi..."" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-10-11 - les-battements-du-temps-12-ce-netait-pas-en-moi-cetait-moi-.mp3" download="2014-10-11 - Les battements du temps (12) - "Ce n'était pas en moi, c'était moi..."" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-octobre-2014" >A la recherche des mystères de la mémoire</a>,
@@ -2042,7 +2042,7 @@
             diffusée le 15 Novembre 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-15-novembre-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-11-15 - quand-l-echo-dessine-les-contours-du-monde.mp3" download="2014-11-15 - Quand l'écho dessine les contours du monde" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-11-15 - quand-lecho-dessine-les-contours-du-monde.mp3" download="2014-11-15 - Quand l'écho dessine les contours du monde" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-22-novembre-2014" >Des cultures dans le monde animal</a>,
@@ -2077,21 +2077,21 @@
             diffusée le 13 Décembre 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-13-decembre-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-12-13 - quand-l-echo-dessine-les-contours-du-monde-2.mp3" download="2014-12-13 - Quand l'écho dessine les contours du monde (2)" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-12-13 - quand-lecho-dessine-les-contours-du-monde-2.mp3" download="2014-12-13 - Quand l'écho dessine les contours du monde (2)" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-20-decembre-2014" >Quand l'écho dessine les contours du monde (3)</a>,
             diffusée le 20 Décembre 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-20-decembre-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-12-20 - quand-l-echo-dessine-les-contours-du-monde-3.mp3" download="2014-12-20 - Quand l'écho dessine les contours du monde (3)" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-12-20 - quand-lecho-dessine-les-contours-du-monde-3.mp3" download="2014-12-20 - Quand l'écho dessine les contours du monde (3)" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-decembre-2014" >Le souci de l'autre</a>,
             diffusée le 27 Décembre 2014
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-decembre-2014" >Ecouter</a>
-                <a class="mp3link" href="./files/2014-12-27 - le-souci-de-l-autre.mp3" download="2014-12-27 - Le souci de l'autre" >Télécharger</a>
+                <a class="mp3link" href="./files/2014-12-27 - le-souci-de-lautre.mp3" download="2014-12-27 - Le souci de l'autre" >Télécharger</a>
             </li>
 
                         </ul>
@@ -2112,7 +2112,7 @@
             diffusée le 3 Janvier 2015
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-janvier-2015" >Ecouter</a>
-                <a class="mp3link" href="./files/2015-01-03 - quand-la-science-rencontre-l-art.mp3" download="2015-01-03 - Quand la science rencontre l'art" >Télécharger</a>
+                <a class="mp3link" href="./files/2015-01-03 - quand-la-science-rencontre-lart.mp3" download="2015-01-03 - Quand la science rencontre l'art" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-10-janvier-2015" >Les survivants des anciens mondes</a>,
@@ -2369,7 +2369,7 @@
             diffusée le 8 Août 2015
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-08-aout-2015" >Ecouter</a>
-                <a class="mp3link" href="./files/2015-08-08 - au-pays-de-la-memoire-et-de-l-oubli.mp3" download="2015-08-08 - Au pays de la mémoire et de l'oubli" >Télécharger</a>
+                <a class="mp3link" href="./files/2015-08-08 - au-pays-de-la-memoire-et-de-loubli.mp3" download="2015-08-08 - Au pays de la mémoire et de l'oubli" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-15-aout-2015" >La mémoire des jours qui furent les tiens sur terre</a>,
@@ -2471,7 +2471,7 @@
             diffusée le 31 Octobre 2015
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-31-octobre-2015" >Ecouter</a>
-                <a class="mp3link" href="./files/2015-10-31 - un-animal-qui-vit-de-la-photosynthese.mp3" download="2015-10-31 - Un animal qui vit de la photosynthèse?" >Télécharger</a>
+                <a class="mp3link" href="./files/2015-10-31 - un-animal-qui-vit-de-la-photosynthese-.mp3" download="2015-10-31 - Un animal qui vit de la photosynthèse?" >Télécharger</a>
             </li>
 
                         </ul>
@@ -2541,7 +2541,7 @@
             diffusée le 26 Décembre 2015
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-26-decembre-2015" >Ecouter</a>
-                <a class="mp3link" href="./files/2015-12-26 - le-souci-de-l-autre.mp3" download="2015-12-26 - Le souci de l'autre" >Télécharger</a>
+                <a class="mp3link" href="./files/2015-12-26 - le-souci-de-lautre.mp3" download="2015-12-26 - Le souci de l'autre" >Télécharger</a>
             </li>
 
                         </ul>
@@ -2611,7 +2611,7 @@
             diffusée le 27 Février 2016
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-fevrier-2016" >Ecouter</a>
-                <a class="mp3link" href="./files/2016-02-27 - darwin-et-le-probleme-de-l-age-de-la-terre.mp3" download="2016-02-27 - Darwin et le problème de l'âge de la Terre" >Télécharger</a>
+                <a class="mp3link" href="./files/2016-02-27 - darwin-et-le-probleme-de-lage-de-la-terre.mp3" download="2016-02-27 - Darwin et le problème de l'âge de la Terre" >Télécharger</a>
             </li>
 
                         </ul>
@@ -2625,14 +2625,14 @@
             diffusée le 5 Mars 2016
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-05-mars-2016" >Ecouter</a>
-                <a class="mp3link" href="./files/2016-03-05 - darwin-et-le-probleme-de-l-age-de-la-terre-2.mp3" download="2016-03-05 - Darwin et le problème de l'âge de la Terre (2)" >Télécharger</a>
+                <a class="mp3link" href="./files/2016-03-05 - darwin-et-le-probleme-de-lage-de-la-terre-2.mp3" download="2016-03-05 - Darwin et le problème de l'âge de la Terre (2)" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-12-mars-2016" >Darwin et le problème de l'âge de la Terre (3)</a>,
             diffusée le 12 Mars 2016
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-12-mars-2016" >Ecouter</a>
-                <a class="mp3link" href="./files/2016-03-12 - darwin-et-le-probleme-de-l-age-de-la-terre-3.mp3" download="2016-03-12 - Darwin et le problème de l'âge de la Terre (3)" >Télécharger</a>
+                <a class="mp3link" href="./files/2016-03-12 - darwin-et-le-probleme-de-lage-de-la-terre-3.mp3" download="2016-03-12 - Darwin et le problème de l'âge de la Terre (3)" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-19-mars-2016" >Sur les épaules de Darwin, en direct à Livre Paris</a>,
@@ -2751,14 +2751,14 @@
             diffusée le 18 Juin 2016
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-juin-2016" >Ecouter</a>
-                <a class="mp3link" href="./files/2016-06-18 - dans-l-oubli-de-nos-metamorphoses.mp3" download="2016-06-18 - Dans l'oubli de nos métamorphoses" >Télécharger</a>
+                <a class="mp3link" href="./files/2016-06-18 - dans-loubli-de-nos-metamorphoses.mp3" download="2016-06-18 - Dans l'oubli de nos métamorphoses" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-juin-2016" >Dans l'oubli de nos métamorphoses (2)</a>,
             diffusée le 25 Juin 2016
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-juin-2016" >Ecouter</a>
-                <a class="mp3link" href="./files/2016-06-25 - dans-l-oubli-de-nos-metamorphoses-2.mp3" download="2016-06-25 - Dans l'oubli de nos métamorphoses (2)" >Télécharger</a>
+                <a class="mp3link" href="./files/2016-06-25 - dans-loubli-de-nos-metamorphoses-2.mp3" download="2016-06-25 - Dans l'oubli de nos métamorphoses (2)" >Télécharger</a>
             </li>
 
                         </ul>
@@ -2937,7 +2937,7 @@
             diffusée le 12 Novembre 2016
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-12-novembre-2016" >Ecouter</a>
-                <a class="mp3link" href="./files/2016-11-12 - s-imaginer-a-la-place-de-l-autre.mp3" download="2016-11-12 - S'imaginer à la place de l'autre" >Télécharger</a>
+                <a class="mp3link" href="./files/2016-11-12 - simaginer-a-la-place-de-lautre.mp3" download="2016-11-12 - S'imaginer à la place de l'autre" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-19-novembre-2016" >Entre chien et loup</a>,
@@ -3014,7 +3014,7 @@
             diffusée le 14 Janvier 2017
         
                 <a class="mp3link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-14-janvier-2017" >Ecouter</a>
-                <a class="mp3link" href="./files/2017-01-14 - naissance-d-un-mythe.mp3" download="2017-01-14 - Naissance d'un mythe" >Télécharger</a>
+                <a class="mp3link" href="./files/2017-01-14 - naissance-dun-mythe.mp3" download="2017-01-14 - Naissance d'un mythe" >Télécharger</a>
             </li>
     <li>
             <a class="link" href="https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-21-janvier-2017" >Darwin</a>,
@@ -3204,7 +3204,7 @@
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
     <div class="footer">
-            <strong>Nouveau !</strong> Lien RSS : <a href="darwin.rss">darwin.rss</a>
+            Lien RSS : <a href="darwin.rss">darwin.rss</a>
     </div>
     <div class="footer">
             Pour ceux qui lisent le JSON couramment : <a href="darwin_base.json">darwin_base.json</a>
