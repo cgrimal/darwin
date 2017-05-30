@@ -4935,6 +4935,291 @@
                 "rediffusion": 0,
                 "titre": "Naissance d'un mythe"
             }
+        },
+        {
+            "hash": "2017-01-21",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "21",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-21-janvier-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-21-janvier-2017",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-21.01.2017-ITEMA_21204400-0.mp3",
+                "rediffusion": 0,
+                "titre": "Darwin"
+            }
+        },
+        {
+            "hash": "2017-01-28",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "28",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-28-janvier-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-28-janvier-2017",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-28.01.2017-ITEMA_21211696-0.mp3",
+                "rediffusion": 0,
+                "titre": "Faire appara\u00eetre les couleurs du monde sans \u00eatre capable de les voir ?"
+            }
+        },
+        {
+            "hash": "2017-02-04",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "04",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-fevrier-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-fevrier-2017",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-04.02.2017-ITEMA_21219336-0.mp3",
+                "rediffusion": 0,
+                "titre": "Eclore au monde"
+            }
+        },
+        {
+            "hash": "2017-02-11",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "11",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-11-fevrier-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-11-fevrier-2017",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-11.02.2017-ITEMA_21226650-0.mp3",
+                "rediffusion": 0,
+                "titre": "Chants et Dialogues"
+            }
+        },
+        {
+            "hash": "2017-02-18",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "18",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-fevrier-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-fevrier-2017",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-18.02.2017-ITEMA_21234040-0.mp3",
+                "rediffusion": 0,
+                "titre": "La promesse de l'aube"
+            }
+        },
+        {
+            "hash": "2017-02-25",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "25",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-fevrier-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-fevrier-2017",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-25.02.2017-ITEMA_21241416-0.mp3",
+                "rediffusion": 0,
+                "titre": "Arpenter le monde"
+            }
+        },
+        {
+            "hash": "2017-03-04",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "04",
+                    "mois": "03"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-mars-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-mars-2017",
+                "lien_mp3": "http://media.radiofrance-podcast.net/podcast09/11549-04.03.2017-ITEMA_21248756-0.mp3",
+                "rediffusion": 0,
+                "titre": "Dans la caverne de Liang Bua"
+            }
+        },
+        {
+            "hash": "2017-03-11",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "11",
+                    "mois": "03"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-11-mars-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-11-mars-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-11.03.2017-ITEMA_21256156-0.mp3",
+                "rediffusion": 0,
+                "titre": "Le temps du R\u00eave"
+            }
+        },
+        {
+            "hash": "2017-03-18",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "18",
+                    "mois": "03"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-mars-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-mars-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-18.03.2017-ITEMA_21263601-0.mp3",
+                "rediffusion": 0,
+                "titre": "Arpenter le monde (2)"
+            }
+        },
+        {
+            "hash": "2017-03-25",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "25",
+                    "mois": "03"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-mars-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-mars-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-25.03.2017-ITEMA_21271064-0.mp3",
+                "rediffusion": 0,
+                "titre": "\u00ab Je me souviens\u2026 \u00bb"
+            }
+        },
+        {
+            "hash": "2017-04-01",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "01",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-01-avril-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-01-avril-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-01.04.2017-ITEMA_21278515-0.mp3",
+                "rediffusion": 0,
+                "titre": "Je me souviens... (2)"
+            }
+        },
+        {
+            "hash": "2017-04-08",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "08",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-08-avril-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-08-avril-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-08.04.2017-ITEMA_21286018-0.mp3",
+                "rediffusion": 0,
+                "titre": "\"Je\" ou \"Vous\""
+            }
+        },
+        {
+            "hash": "2017-04-15",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "15",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-15-avril-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-15-avril-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-15.04.2017-ITEMA_21293451-0.mp3",
+                "rediffusion": 0,
+                "titre": "L'illusion de la fin de l'histoire"
+            }
+        },
+        {
+            "hash": "2017-04-22",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "22",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-22-avril-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-22-avril-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-22.04.2017-ITEMA_21300861-0.mp3",
+                "rediffusion": 0,
+                "titre": "\u00ab Un fleuve qui m\u2019emporte \u00bb"
+            }
+        },
+        {
+            "hash": "2017-04-29",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "29",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-29-avril-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-29-avril-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-29.04.2017-ITEMA_21308280-0.mp3",
+                "rediffusion": 0,
+                "titre": "\u00ab Un fleuve qui m\u2019emporte \u00bb (2)"
+            }
+        },
+        {
+            "hash": "2017-05-06",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "06",
+                    "mois": "05"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-06-mai-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-06-mai-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-06.05.2017-ITEMA_21315700-0.mp3",
+                "rediffusion": 0,
+                "titre": "M\u00e9moires"
+            }
+        },
+        {
+            "hash": "2017-05-13",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "13",
+                    "mois": "05"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-13-mai-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-13-mai-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-13.05.2017-ITEMA_21323120-0.mp3",
+                "rediffusion": 0,
+                "titre": "Un Art de la M\u00e9moire"
+            }
+        },
+        {
+            "hash": "2017-05-20",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "20",
+                    "mois": "05"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-20-mai-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-20-mai-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-20.05.2017-ITEMA_21330580-0.mp3",
+                "rediffusion": 0,
+                "titre": "Depuis la Biblioth\u00e8que Nationale de France"
+            }
+        },
+        {
+            "hash": "2017-05-27",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "27",
+                    "mois": "05"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-mai-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-mai-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-27.05.2017-ITEMA_21338040-0.mp3",
+                "rediffusion": 0,
+                "titre": "Le mn\u00e9moniste"
+            }
         }
     ]
 }
