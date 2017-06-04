@@ -6063,6 +6063,23 @@
         
                 <guid>http://www.clementgrimal.fr/darwin/files/2017-05-27 - le-mnemoniste.mp3</guid><enclosure length="53051520.0" url="http://www.clementgrimal.fr/darwin/files/2017-05-27 - le-mnemoniste.mp3" type="audio/mpeg"/>
             	</item>
+	<item>
+            <title>Le partage des émotions</title>
+            <description>
+                Sur les épaules de Darwin - par : Jean-Claude Ameisen - réalisé par : Christophe IMBERT
+            </description>
+            <category>Science &amp; Medicine</category>
+            <pubDate>Sat, 03 Jun 2017 19:00:00 +0100 </pubDate>
+        
+            <itunes:author>Jean-Claude Ameisen</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:subtitle>
+                Émission du 06.03.2017 Le partage des émotions
+            </itunes:subtitle>
+            <itunes:summary>Jean-Claude Ameisen - réalisé par : Christophe IMBERT</itunes:summary>
+        
+                <guid>http://www.clementgrimal.fr/darwin/files/2017-06-03 - le-partage-des-emotions.mp3</guid><enclosure length="53821568.0" url="http://www.clementgrimal.fr/darwin/files/2017-06-03 - le-partage-des-emotions.mp3" type="audio/mpeg"/>
+            	</item>
  
 
 	</channel>

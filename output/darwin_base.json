@@ -5220,6 +5220,21 @@
                 "rediffusion": 0,
                 "titre": "Le mn\u00e9moniste"
             }
+        },
+        {
+            "hash": "2017-06-03",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "03",
+                    "mois": "06"
+                },
+                "lien_ecouter": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-juin-2017",
+                "lien_emission": "https://www.franceinter.frhttps://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-juin-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-03.06.2017-ITEMA_21345479-0.mp3",
+                "rediffusion": 0,
+                "titre": "Le partage des \u00e9motions"
+            }
         }
     ]
 }
