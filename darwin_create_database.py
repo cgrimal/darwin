@@ -66,15 +66,15 @@ def getMonths(mois_start, mois_end):
 
 
 def extractData(data, d):
-    for bb in d('article.rich-section-list-item'):
+    for bb in d('.highlight-emission-row, article.rich-section-list-item'):
 
         emission_data = {}
 
-        title = pq(bb).find('a.rich-section-list-item-content-title').text()
+        title = pq(bb).find('.highlight-dossier-element-full-item-diffusion-content-text-title, a.rich-section-list-item-content-title').text()
         # print title
         emission_data['titre'] = title
 
-        date_text = pq(bb).find('.rich-section-list-item-content-infos-date').text()
+        date_text = pq(bb).find('.highlight-dossier-element-full-item-diffusion-content-text-date, .rich-section-list-item-content-infos-date').text()
         # print date_text
 
         date = dateparser.parse(date_text)
