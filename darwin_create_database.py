@@ -98,7 +98,7 @@ def extractData(data, d):
 
             if force or emission_hash not in hash_list:
 
-                emission_link = pq(bb).find('a.rich-section-list-item-content-title').attr('href')
+                emission_link = pq(bb).find('.highlight-dossier-element-full-item-diffusion-content-text-title, a.rich-section-list-item-content-title').attr('href')
                 print emission_link
                 emission_data['lien_emission'] = emission_link
 
