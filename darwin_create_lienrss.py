@@ -92,9 +92,7 @@ def create_rsslien(data, rss_template_path, rss_filename):
         rss_line = u'\t<item>'
         rss_line += u'''
             <title>{titre}</title>
-            <description>
-                {description_str}
-            </description>
+            <description>{description_str}</description>
             <category>Science &amp; Medicine</category>
             <pubDate>{pubdate1}, {pubdate2} 19:00:00 +0100 </pubDate>
         '''.format(
@@ -104,19 +102,20 @@ def create_rsslien(data, rss_template_path, rss_filename):
             description_str = description
         )
 
-        # itune
+        # itunes
         rss_line += u'''
             <itunes:author>Jean-Claude Ameisen</itunes:author>
             <itunes:explicit>no</itunes:explicit>
             <itunes:subtitle>
                 Émission du {mm}.{jj}.{aa} {titre}
             </itunes:subtitle>
-            <itunes:summary>Jean-Claude Ameisen - réalisé par : Christophe IMBERT</itunes:summary>
+            <itunes:summary>{description_str}</itunes:summary>
         '''.format(
             mm = mm,
             jj = jj,
             aa = aa,
             titre = unicode(titre),
+            description_str = description
         )
 
         if mp3link:
