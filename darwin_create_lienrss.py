@@ -9,6 +9,7 @@ import urllib2
 import argparse
 import datetime
 from slugify import slugify
+from pyquery import PyQuery
 
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
@@ -19,6 +20,30 @@ def str2filename(string):
     filename = filename.strip('. ')
     filename = slugify(filename)
     return filename
+
+
+def transform2text(article):
+    """Transforme un article parsé en texte pour le fichier de podcast."""
+    description = ""
+    for element in article.contents():
+        if hasattr(element, 'tag'):
+            if element.tag not in ['script']:
+                line_start = ""
+                if element.tag == 'ul':
+                    line_start = "- "
+                    for subelement in element.getchildren():
+                        description += line_start + subelement.text_content() + '\n'
+                else:
+                    if element.tag.startswith('h'):
+                        line_start = '\n'
+                    else:
+                        line_start = ""
+                    content = element.text_content()
+                    description += line_start + content + '\n'
+        else:
+            line_start = ""
+            description += line_start + element + '\n'
+    return description
 
 
 def get_remote_file_size(url):
@@ -53,6 +78,13 @@ def create_rsslien(data, rss_template_path, rss_filename):
         else:
             mp3link = ''
 
+        if 'lien_emission' in emission_data:
+            d = PyQuery(url=emission_data['lien_emission'])
+            article = d('article')
+            description = transform2text(article)
+        else:
+            description = u"Sur les épaules de Darwin - par : Jean-Claude Ameisen - réalisé par : Christophe IMBERT"
+
         # rss code
         # print titre
         rss_pdate = jj + '-' + mm + '-' + aa
@@ -61,7 +93,7 @@ def create_rsslien(data, rss_template_path, rss_filename):
         rss_line += u'''
             <title>{titre}</title>
             <description>
-                Sur les épaules de Darwin - par : Jean-Claude Ameisen - réalisé par : Christophe IMBERT
+                {description_str}
             </description>
             <category>Science &amp; Medicine</category>
             <pubDate>{pubdate1}, {pubdate2} 19:00:00 +0100 </pubDate>
@@ -69,6 +101,7 @@ def create_rsslien(data, rss_template_path, rss_filename):
             titre    = unicode(titre),
             pubdate1 = rss_pubdate.strftime('%a'),
             pubdate2 = rss_pubdate.strftime('%d %b %Y'),
+            description_str = description
         )
 
         # itune
