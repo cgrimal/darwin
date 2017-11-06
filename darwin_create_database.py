@@ -209,8 +209,9 @@ titles_list = []
 
 d = pq(url=emission_url)
 if all_pages:
-    nb_pages = int(re.sub('[^0-9]', '', d('.pager-item.last').text()))
-    # print nb_pages
+    url_last_page = d('.pager-item.last a').attr('href')
+    nb_pages      = int(re.search(r'p=([0-9]+)', url_last_page).group(1))
+    print '{} pages trouves'.format(nb_pages)
     for p in range(1, nb_pages + 1):
         url = emission_url + '?p=' + str(p)
         print 'Chargement de la page : ' + url
