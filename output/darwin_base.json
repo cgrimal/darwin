@@ -5370,6 +5370,186 @@
                 "rediffusion": 0,
                 "titre": "Le passage du Nord-Ouest"
             }
+        },
+        {
+            "hash": "2017-09-02",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "02",
+                    "mois": "09"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-02-septembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-02-septembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-02.09.2017-ITEMA_21423345-0.mp3",
+                "rediffusion": 0,
+                "titre": "Clotho et le fil de la vie"
+            }
+        },
+        {
+            "hash": "2017-09-09",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "09",
+                    "mois": "09"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-09-septembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-09-septembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-09.09.2017-ITEMA_21429862-0.mp3",
+                "rediffusion": 0,
+                "titre": "Un long voyage \u00e0 travers le temps"
+            }
+        },
+        {
+            "hash": "2017-09-16",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "16",
+                    "mois": "09"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-16-septembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-16-septembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-16.09.2017-ITEMA_21436510-0.mp3",
+                "rediffusion": 0,
+                "titre": "Le navire de Th\u00e9s\u00e9e"
+            }
+        },
+        {
+            "hash": "2017-09-23",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "23",
+                    "mois": "09"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-23-septembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-23-septembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-23.09.2017-ITEMA_21443216-0.mp3",
+                "rediffusion": 0,
+                "titre": "Comme un fleuve qui remonterait son cours"
+            }
+        },
+        {
+            "hash": "2017-09-30",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "30",
+                    "mois": "09"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-30-septembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-30-septembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-30.09.2017-ITEMA_21450008-0.mp3",
+                "rediffusion": 0,
+                "titre": "Comme un fleuve qui remonterait son cours (2)"
+            }
+        },
+        {
+            "hash": "2017-10-07",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "07",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-07-octobre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-07-octobre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-07.10.2017-ITEMA_21456884-0.mp3",
+                "rediffusion": 0,
+                "titre": "\u00ab Qui veut voyager loin m\u00e9nage sa monture \u00bb"
+            }
+        },
+        {
+            "hash": "2017-10-14",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "14",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-14-octobre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-14-octobre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-14.10.2017-ITEMA_21463762-0.mp3",
+                "rediffusion": 0,
+                "titre": "Les horloges circadiennes"
+            }
+        },
+        {
+            "hash": "2017-10-21",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "21",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-21-octobre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-21-octobre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-21.10.2017-ITEMA_21470697-0.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche de la Longitude"
+            }
+        },
+        {
+            "hash": "2017-10-28",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "28",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-28-octobre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-28-octobre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-28.10.2017-ITEMA_21477590-0.mp3",
+                "rediffusion": 0,
+                "titre": "La tectonique des plaques"
+            }
+        },
+        {
+            "hash": "2017-11-04",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "04",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-novembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-novembre-2017",
+                "lien_mp3": null,
+                "rediffusion": 0,
+                "titre": "Au rythme des mar\u00e9es et des phases de la lune"
+            }
+        },
+        {
+            "hash": "2017-11-11",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "11",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-11-novembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-11-novembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-11.11.2017-ITEMA_21491419-0.mp3",
+                "rediffusion": 0,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (8)"
+            }
+        },
+        {
+            "hash": "2017-11-18",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "18",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-novembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-18-novembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-18.11.2017-ITEMA_21498325-0.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des origines du sommeil"
+            }
         }
     ]
 }
