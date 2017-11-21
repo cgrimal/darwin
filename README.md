@@ -23,13 +23,14 @@ Et je donne également un exemple de script bash qui les utilise (pour automatis
 - python-pip
 - requests
 - python-mutagen (pour le téléchargement uniquement)
+- slugify (pour le téléchargement uniquement)
 - l'outil [megacmd](http://github.com/t3rm1n4l/megacmd) (pour l'upload vers MEGA uniquement)
 
 Pour tout installer, sur une distribution de type Debian/Ubuntu :
 
     sudo apt-get install python-pyquery python-lxml python-pip
 
-    sudo pip install requests
+    sudo pip install requests mutagen slugify
 
 ### Utilisation
 
