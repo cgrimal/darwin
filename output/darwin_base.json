@@ -5516,7 +5516,7 @@
                 },
                 "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-novembre-2017",
                 "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-04-novembre-2017",
-                "lien_mp3": null,
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-04.11.2017-ITEMA_21484470-0.mp3",
                 "rediffusion": 0,
                 "titre": "Au rythme des mar\u00e9es et des phases de la lune"
             }
@@ -5549,6 +5549,231 @@
                 "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-18.11.2017-ITEMA_21498325-0.mp3",
                 "rediffusion": 0,
                 "titre": "A la recherche des origines du sommeil"
+            }
+        },
+        {
+            "hash": "2017-11-25",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "25",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-novembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-25-novembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-25.11.2017-ITEMA_21505223-0.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res du sommeil"
+            }
+        },
+        {
+            "hash": "2017-12-02",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "02",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-02-decembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-02-decembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-02.12.2017-ITEMA_21512201-0.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res du sommeil (2)"
+            }
+        },
+        {
+            "hash": "2017-12-09",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "09",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-09-decembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-09-decembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-09.12.2017-ITEMA_21519195-0.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des myst\u00e8res du sommeil (3)"
+            }
+        },
+        {
+            "hash": "2017-12-16",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "16",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-16-decembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-16-decembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-16.12.2017-ITEMA_21526363-0.mp3",
+                "rediffusion": 0,
+                "titre": "Explorer"
+            }
+        },
+        {
+            "hash": "2017-12-23",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "23",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-23-decembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-23-decembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-23.12.2017-ITEMA_21533468-0.mp3",
+                "rediffusion": 0,
+                "titre": "Les forges du ciel"
+            }
+        },
+        {
+            "hash": "2017-12-30",
+            "infos": {
+                "date": {
+                    "annee": "2017",
+                    "jour": "30",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-30-decembre-2017",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-30-decembre-2017",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-30.12.2017-ITEMA_21540623-0.mp3",
+                "rediffusion": 0,
+                "titre": "Les forges du ciel (2)"
+            }
+        },
+        {
+            "hash": "2018-01-06",
+            "infos": {
+                "date": {
+                    "annee": "2018",
+                    "jour": "06",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-06-janvier-2018",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-06-janvier-2018",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-06.01.2018-ITEMA_21547775-0.mp3",
+                "rediffusion": 0,
+                "titre": "La glace et le feu"
+            }
+        },
+        {
+            "hash": "2018-01-13",
+            "infos": {
+                "date": {
+                    "annee": "2018",
+                    "jour": "13",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-13-janvier-2018",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-13-janvier-2018",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-13.01.2018-ITEMA_21555055-0.mp3",
+                "rediffusion": 0,
+                "titre": "Eclats de pass\u00e9 : le Croissant Fertile"
+            }
+        },
+        {
+            "hash": "2018-01-20",
+            "infos": {
+                "date": {
+                    "annee": "2018",
+                    "jour": "20",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-20-janvier-2018",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-20-janvier-2018",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-20.01.2018-ITEMA_21562090-0.mp3",
+                "rediffusion": 0,
+                "titre": "Eclats de pass\u00e9 : la r\u00e9volution N\u00e9olithique"
+            }
+        },
+        {
+            "hash": "2018-01-27",
+            "infos": {
+                "date": {
+                    "annee": "2018",
+                    "jour": "27",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-janvier-2018",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-27-janvier-2018",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-27.01.2018-ITEMA_21569170-0.mp3",
+                "rediffusion": 0,
+                "titre": "Eclats de pass\u00e9 : A la recherche des origines des in\u00e9galit\u00e9s"
+            }
+        },
+        {
+            "hash": "2018-02-03",
+            "infos": {
+                "date": {
+                    "annee": "2018",
+                    "jour": "03",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-fevrier-2018",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-fevrier-2018",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-03.02.2018-ITEMA_21576649-0.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des origines des in\u00e9galit\u00e9s (2)"
+            }
+        },
+        {
+            "hash": "2018-02-10",
+            "infos": {
+                "date": {
+                    "annee": "2018",
+                    "jour": "10",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-10-fevrier-2018",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-10-fevrier-2018",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-10.02.2018-ITEMA_21583681-0.mp3",
+                "rediffusion": 0,
+                "titre": "A la recherche des origines des in\u00e9galit\u00e9s (3)"
+            }
+        },
+        {
+            "hash": "2018-02-17",
+            "infos": {
+                "date": {
+                    "annee": "2018",
+                    "jour": "17",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-17-fevrier-2018",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-17-fevrier-2018",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-17.02.2018-ITEMA_21590809-0.mp3",
+                "rediffusion": 0,
+                "titre": "Une ancienne alliance entre un oiseau sauvage et les humains"
+            }
+        },
+        {
+            "hash": "2018-02-24",
+            "infos": {
+                "date": {
+                    "annee": "2018",
+                    "jour": "24",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-24-fevrier-2018",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-24-fevrier-2018",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-24.02.2018-ITEMA_21597908-0.mp3",
+                "rediffusion": 0,
+                "titre": "Eclats de pass\u00e9 : A la d\u00e9couverte de l\u2019empire Khmer"
+            }
+        },
+        {
+            "hash": "2018-03-03",
+            "infos": {
+                "date": {
+                    "annee": "2018",
+                    "jour": "03",
+                    "mois": "03"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-mars-2018",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-03-mars-2018",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-03.03.2018-ITEMA_21605048-0.mp3",
+                "rediffusion": 0,
+                "titre": "\u00c9clats de pass\u00e9 : A la d\u00e9couverte de l\u2019empire Khmer (2)"
             }
         }
     ]

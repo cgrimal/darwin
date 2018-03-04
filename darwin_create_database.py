@@ -184,10 +184,8 @@ mois_end    = args.fin
 force       = args.force
 all_pages   = args.all
 
-
-# emission_url = 'http://www.' + radio_nom + '.fr/reecouter-diffusions/' + emission_id + '/'
-emission_url = 'http://www.' + radio_nom + '.fr/emissions/' + emission_id
-# print emission_url
+emission_url = 'https://www.' + radio_nom + '.fr/emissions/' + emission_id
+print emission_url
 
 mois_list = getMonths(mois_start, mois_end)
 # print mois_list
