@@ -66,24 +66,25 @@ def getMonths(mois_start, mois_end):
 
 
 def extractData(data, d):
-    for bb in d('.highlight-emission-row, article.rich-section-list-item'):
+    for bb in d('.card.highlight, .card-elements.stack .tile'):
 
         emission_data = {}
 
-        title = pq(bb).find('.highlight-dossier-element-full-item-diffusion-content-text-title, a.rich-section-list-item-content-title').text()
+        title = pq(bb).find('.card-text .card-text-sub').text()
         # print title
         emission_data['titre'] = title
 
-        date_text = pq(bb).find('.highlight-dossier-element-full-item-diffusion-content-text-date, .rich-section-list-item-content-infos-date').text()
+        date_text = pq(bb).find('.card-text .date').text()
         # print date_text
 
         date = dateparser.parse(date_text)
-        # print date
+        # print date
 
         # match = regexp_date.search(date)
         # jour, mois, annee = match.group(1), match.group(2), match.group(3)
         jour, mois, annee = str(date.day).zfill(2), str(date.month).zfill(2), str(date.year).zfill(4)
-        print jour, mois, annee
+
+        print jour, mois, annee, '-', title
 
         if annee + '-' + mois in mois_list:
 
@@ -98,9 +99,9 @@ def extractData(data, d):
 
             if force or emission_hash not in hash_list:
 
-                emission_link = pq(bb).find('.highlight-dossier-element-full-item-diffusion-content-text-title a, a.rich-section-list-item-content-title').attr('href')
+                emission_link = pq(bb).find('a.card-text-sub').attr('href')
 		if emission_link[0] == '/':
-		    emission_link = 'https://www.franceinter.fr' + emission_link
+                    emission_link = 'https://www.franceinter.fr' + emission_link
                 print emission_link
                 emission_data['lien_emission'] = emission_link
 
