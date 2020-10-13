@@ -183,12 +183,12 @@ for emission_data in data:
                 audio['TDRC'] = TDRC(encoding=3, text=aa)
                 audio.save()
 
-                if isfile(mega_config):
-                    # upload to MEGA
-                    subprocess.call(
-                        ['megacmd', '-conf', mega_config, 'put', download_folder + filename, 'mega:/darwin/']
-                    )
-                    print u'\nEmission envoyée sur Mega'
+            if isfile(mega_config):
+                # upload to MEGA
+                subprocess.call(
+                    ['megacmd', '-conf', mega_config, 'put', download_folder + filename, 'mega:/darwin/']
+                )
+                print u'\nEmission envoyée sur Mega'
 
             cpt += 1
 
