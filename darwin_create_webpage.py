@@ -1,17 +1,13 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 # Python standard lib
 import argparse
 import codecs
 import json
 import re
-import sys
 
 # Third party
 from slugify import slugify
-
-sys.stdout = codecs.getwriter("utf-8")(sys.stdout)
 
 #####################################################################
 
@@ -48,10 +44,7 @@ def create_webpage(data, template_path, filename):
 
     for emission_data in data:
 
-        # emission_data = data[hash_dummy]
         emission_data = emission_data["infos"]
-
-        # print emission_data
 
         titre = emission_data["titre"]
         jj, mm, aa = (
@@ -60,7 +53,6 @@ def create_webpage(data, template_path, filename):
             emission_data["date"]["annee"],
         )
         pagelink = emission_data["lien_emission"]
-        # rediff = emission_data['rediffusion']
 
         if "lien_ecouter" in emission_data:
             player_link = emission_data["lien_ecouter"]
@@ -71,8 +63,6 @@ def create_webpage(data, template_path, filename):
 
         new_month = False
         print(titre)
-        # jj,mm,aa = date
-        # month = months[int(mm) - 1]
 
         if mm == "09" and new_season:
             if current_month != "":
@@ -223,13 +213,8 @@ parser.add_argument(
 args = parser.parse_args()
 
 template_path = args.template
-# template_path = './output/temp3.html'
-
 json_file = args.base
-# json_file = './output/darwin_base.json'
-
 result_file = args.web
-# result_file = './output/index.php'
 
 #####################################################################
 
@@ -238,13 +223,6 @@ data = json.load(input_json)
 input_json.close()
 
 data = data["emissions"]
-# print data
-
-# keys = [e['hash'] for e in data]
-# keys.sort()
-# print keys
-# sorted_data = [data['infos'] for key in keys]
-# print sorted_data
 
 print("Création de la page web\n")
 

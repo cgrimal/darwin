@@ -1,9 +1,6 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 """
-TODO:
-    // - creer un script darwin_download.py qui charge le json et télécharge les mp3
 Donc le flow normal est :
     - darwin_create_database.py: mise à jour de la base
     - darwin_create_webpage.py: à partir de la base, création de la page web public
@@ -12,31 +9,15 @@ Donc le flow normal est :
 
 # Python standard lib
 import argparse
-import codecs
 import json
 import os
 import re
-import sys
 
 # Third party
 import dateparser
 from pyquery import PyQuery as pq
 
-sys.stdout = codecs.getwriter("utf-8")(sys.stdout)
-
 #####################################################################
-
-
-# def url_to_mp3(url):
-#     page = requests.get(url)
-#     regexp = re.compile(r'sites(%2F|/)default.+\.mp3')
-#     for line in page.text.split('\n'):
-#         match = regexp.search(line)
-#         if match:
-#             mp3 = match.group(0)
-#             mp3_url = 'http://www.franceinter.fr/' + urllib.unquote(mp3)
-#             return mp3_url
-#     return False
 
 
 def getMonths(mois_start, mois_end):
@@ -65,7 +46,6 @@ def getMonths(mois_start, mois_end):
                         or annee > a_start
                         and annee < a_end
                     ):
-                        # print mois
                         mois_str = str(mois)
                         if mois < 10:
                             mois_str = "0" + str(mois)
@@ -79,16 +59,12 @@ def extractData(data, d):
         emission_data = {}
 
         title = pq(bb).find(".card-text .card-text-sub").text()
-        # print title
         emission_data["titre"] = title
 
         date_text = pq(bb).find(".card-text .date").text()
-        # print date_text
 
         date = dateparser.parse(date_text)
-        #  print date
 
-        # match = regexp_date.search(date)
         # jour, mois, annee = match.group(1), match.group(2), match.group(3)
         jour, mois, annee = (
             str(date.day).zfill(2),
@@ -96,12 +72,9 @@ def extractData(data, d):
             str(date.year).zfill(4),
         )
 
-        print((jour, mois, annee, "-", title))
+        print(f"{jour}-{mois}-{annee} - {title}")
 
         if annee + "-" + mois in mois_list:
-
-            # print title
-            # print jour, mois, annee
 
             hash_list = [e["hash"] for e in data]
 
@@ -118,11 +91,9 @@ def extractData(data, d):
                 emission_data["lien_emission"] = emission_link
 
                 player_link = emission_link
-                # print player_link
                 emission_data["lien_ecouter"] = player_link
 
                 mp3_link = pq(bb).find("button.replay-button").attr("data-url")
-                # print mp3_link
                 emission_data["lien_mp3"] = mp3_link
 
                 if (
@@ -198,11 +169,10 @@ mois_end = args.fin
 force = args.force
 all_pages = args.all
 
-emission_url = "https://www." + radio_nom + ".fr/emissions/" + emission_id
+emission_url = f"https://www.{radio_nom}.fr/emissions/{emission_id}"
 print(emission_url)
 
 mois_list = getMonths(mois_start, mois_end)
-# print mois_list
 
 json_file = args.dest
 
@@ -217,7 +187,6 @@ else:
     data = []
 
 titles_list = [d["infos"]["titre"] for d in data]
-titles_list = []
 
 d = pq(url=emission_url)
 if all_pages:
@@ -234,11 +203,10 @@ else:
 data.sort(key=lambda e: e["hash"])
 
 data_v2 = {"emissions": data}
-# data_v2 = {'emissions':[{'hash': emission_hash, 'infos': data[emission_hash]} for emission_hash in data]}
 
 output_json = open(json_file, "wb")
 json_str = json.dumps(data_v2, indent=4, separators=(",", ": "), sort_keys=True)
-output_json.write(json_str)
+output_json.write(json_str.encode())
 output_json.close()
 
 print(("\n" + str(len(data)) + " émissions."))

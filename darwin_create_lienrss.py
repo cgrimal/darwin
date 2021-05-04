@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 # Python standard lib
 import argparse
@@ -14,8 +13,6 @@ import urllib.request
 # Third party
 from slugify import slugify
 
-sys.stdout = codecs.getwriter("utf-8")(sys.stdout)
-
 #####################################################################
 
 
@@ -29,8 +26,9 @@ def str2filename(string):
 def get_remote_file_size(url):
     try:
         # in bytes
+        print(url)
         usock = urllib.request.urlopen(url)
-        size = usock.info().get("Content-Length")
+        size = int(usock.headers["Content-Length"])
         if size is None:
             size = 0
     except urllib.error.HTTPError:
@@ -43,10 +41,7 @@ def create_rsslien(data, rss_template_path, rss_filename):
 
     for emission_data in data:
 
-        # emission_data = data[hash_dummy]
         emission_data = emission_data["infos"]
-
-        # print emission_data
 
         titre = emission_data["titre"]
         jj, mm, aa = (
@@ -54,16 +49,12 @@ def create_rsslien(data, rss_template_path, rss_filename):
             emission_data["date"]["mois"],
             emission_data["date"]["annee"],
         )
-        # pagelink   = emission_data['lien_emission']
-        # rediff     = emission_data['rediffusion']
-
         if "lien_ecouter" in emission_data:
             mp3link = emission_data["lien_mp3"]
         else:
             mp3link = ""
 
         # rss code
-        # print titre
         rss_pdate = jj + "-" + mm + "-" + aa
         rss_pubdate = datetime.datetime.strptime(rss_pdate, "%d-%m-%Y")
         rss_line = "\t<item>"
@@ -99,7 +90,7 @@ def create_rsslien(data, rss_template_path, rss_filename):
 
             # TEST
             title = str2filename(titre)
-            mp3link = "http://www.clementgrimal.fr/darwin/files/{aa}-{mm}-{jj} - {title}.mp3".format(
+            mp3link = "http://www.clementgrimal.fr/darwin/files/{aa}-{mm}-{jj}%20-%20{title}.mp3".format(
                 aa=aa,
                 mm=mm,
                 jj=jj,
@@ -132,7 +123,6 @@ def create_rsslien(data, rss_template_path, rss_filename):
 
     # rss_code
     rss_template_file = codecs.open(rss_template_path, "r", "utf-8")
-    # template_file = open(template_path)
     rss_template = rss_template_file.read()
     rss_template_file.close()
 
@@ -170,13 +160,9 @@ parser.add_argument(
 args = parser.parse_args()
 
 json_file = args.base
-# json_file = "./output/darwin_base.json"
-
 rss_template_path = args.rss_template
-# template_path = "./output/temp_public.rss"
-
 rss_result_file = args.rss
-# rss_result_file = "/output/lien.rss"
+
 #####################################################################
 
 input_json = open(json_file, "r")
@@ -184,13 +170,6 @@ data = json.load(input_json)
 input_json.close()
 
 data = data["emissions"]
-# print data
-
-# keys = [e['hash'] for e in data]
-# keys.sort()
-# print keys
-# sorted_data = [data['infos'] for key in keys]
-# print sorted_data
 
 print("Création du lien rss\n")
 

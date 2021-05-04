@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 """
     Ajouter options pour écraser automatiquement,
@@ -8,7 +7,6 @@
 
 # Python standard lib
 import argparse
-import codecs
 import json
 import re
 import subprocess
@@ -24,8 +22,6 @@ from mutagen.id3 import TIT2
 from mutagen.id3 import TPE1
 from mutagen.mp3 import MP3
 from slugify import slugify
-
-sys.stdout = codecs.getwriter("utf-8")(sys.stdout)
 
 #####################################################################
 
@@ -150,8 +146,6 @@ else:
                         mois_str = "0" + str(mois)
                     mois_list.append(str(annee) + "-" + mois_str)
 
-# print mois_list
-
 #####################################################################
 
 input_json = open(json_file, "r")
@@ -188,7 +182,7 @@ for emission_data in data:
             )
 
             print(titre)
-            if isfile(download_folder + filename.encode("utf-8")):
+            if isfile(download_folder + filename):
                 print("\rLe fichier " + filename + " existe déjà.")
             elif lien_mp3 is None:
                 print("\rPas d'emission ce jour.")
@@ -197,7 +191,7 @@ for emission_data in data:
                     lien_mp3.replace("https:", "http:"), download_folder + filename
                 )
 
-                audio = MP3(download_folder + filename.encode("utf-8"))
+                audio = MP3(download_folder + filename)
                 audio["TIT2"] = TIT2(encoding=3, text=[title])
                 audio["TPE1"] = TPE1(encoding=3, text="Jean-Claude Ameisen")
                 audio["TALB"] = TALB(encoding=3, text="Sur les épaules de Darwin")
