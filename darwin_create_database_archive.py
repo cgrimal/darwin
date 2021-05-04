@@ -22,7 +22,7 @@ import json
 import os
 import re
 import sys
-import urllib
+import urllib.request, urllib.parse, urllib.error
 from os.path import isfile
 
 # Third party
@@ -43,7 +43,7 @@ def url_to_mp3(url):
         match = regexp.search(line)
         if match:
             mp3 = match.group(0)
-            mp3_url = "http://www.franceinter.fr/" + urllib.unquote(mp3)
+            mp3_url = "http://www.franceinter.fr/" + urllib.parse.unquote(mp3)
             return mp3_url
     return False
 
@@ -73,7 +73,7 @@ parser.add_argument(
     "-dest",
     metavar="fichier JSON",
     help="Le fichier JSON dans lequel enregistrer la base de données.",
-    default=u"./output/darwin_base.json",
+    default="./output/darwin_base.json",
 )
 args = parser.parse_args()
 
@@ -92,7 +92,7 @@ emission = "http://www." + radio_nom + ".fr/archives-diffusions/" + emission_id 
 # emission = "http://www."+radio_nom+".fr/reecouter-diffusions/"+emission_id+"/"
 
 if mois_start > mois_end:
-    print u"Les mois ne sont pas cohérents..."
+    print("Les mois ne sont pas cohérents...")
     exit(1)
 else:
     a_start, m_start = int(mois_start[:4]), int(mois_start[-2:])
@@ -122,7 +122,7 @@ else:
 
 ####
 
-print mois_list
+print(mois_list)
 
 
 json_file = args.dest
@@ -150,7 +150,7 @@ for mois in mois_list:
 
     page_url = emission + mois
 
-    print "\nMois :", mois, page_url
+    print("\nMois :", mois, page_url)
 
     d = pq(url=page_url)
 
@@ -160,7 +160,7 @@ for mois in mois_list:
 
         # if bb.find('.content h3'):
         title = pq(bb).find(".content h3").text()
-        print title
+        print(title)
         # if
         emission_data["titre"] = title
 
@@ -169,7 +169,7 @@ for mois in mois_list:
 
         match = regexp_date.search(date)
         jour, mois, annee = match.group(1), match.group(2), match.group(3)
-        print jour, mois, annee
+        print(jour, mois, annee)
         emission_data["date"] = {"annee": annee, "mois": mois, "jour": jour}
 
         emission_hash = annee + "-" + mois + "-" + jour
@@ -179,7 +179,7 @@ for mois in mois_list:
             emission_link = "http://www.franceinter.fr" + pq(bb).find(
                 ".content h3 a"
             ).attr("href")
-            print emission_link
+            print(emission_link)
             emission_data["lien_emission"] = emission_link
 
             if pq(bb).find(".ecouter a:first"):
@@ -187,11 +187,11 @@ for mois in mois_list:
                 player_link = "http://www.franceinter.fr" + pq(bb).find(
                     ".ecouter a:first"
                 ).attr("href")
-                print player_link
+                print(player_link)
                 emission_data["lien_ecouter"] = player_link
 
                 mp3_link = url_to_mp3(player_link)
-                print mp3_link
+                print(mp3_link)
                 emission_data["lien_mp3"] = mp3_link
 
             if (
@@ -213,7 +213,7 @@ for mois in mois_list:
             titles_list.append(title)
 
         else:
-            print u"Emission déjà dans la base !"
+            print("Emission déjà dans la base !")
 
 # print data
 
@@ -249,8 +249,8 @@ json_str = json.dumps(data_v2, indent=4, separators=(",", ": "), sort_keys=True)
 output_json.write(json_str)
 output_json.close()
 
-print "\n" + str(len(data)) + u" émissions."
-print u"Base de données exportée : " + json_file
+print("\n" + str(len(data)) + " émissions.")
+print("Base de données exportée : " + json_file)
 
 # print u"\n\nCréation de la page web\n"
 

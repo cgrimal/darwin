@@ -120,7 +120,7 @@ mois_end = args.fin
 mega_config = args.mega_config
 
 if mois_start > mois_end:
-    print u"Les mois ne sont pas cohérents..."
+    print("Les mois ne sont pas cohérents...")
     exit(1)
 else:
     a_start, m_start = int(mois_start[:4]), int(mois_start[-2:])
@@ -180,18 +180,18 @@ for emission_data in data:
         if aa + "-" + mm in mois_list:
 
             title = str2filename(titre)
-            filename = u"{aa}-{mm}-{jj} - {title}.mp3".format(
+            filename = "{aa}-{mm}-{jj} - {title}.mp3".format(
                 aa=aa,
                 mm=mm,
                 jj=jj,
                 title=title,
             )
 
-            print titre
+            print(titre)
             if isfile(download_folder + filename.encode("utf-8")):
-                print u"\rLe fichier " + filename + u" existe déjà."
+                print("\rLe fichier " + filename + " existe déjà.")
             elif lien_mp3 is None:
-                print u"\rPas d'emission ce jour."
+                print("\rPas d'emission ce jour.")
             else:
                 download_file(
                     lien_mp3.replace("https:", "http:"), download_folder + filename
@@ -199,8 +199,8 @@ for emission_data in data:
 
                 audio = MP3(download_folder + filename.encode("utf-8"))
                 audio["TIT2"] = TIT2(encoding=3, text=[title])
-                audio["TPE1"] = TPE1(encoding=3, text=u"Jean-Claude Ameisen")
-                audio["TALB"] = TALB(encoding=3, text=u"Sur les épaules de Darwin")
+                audio["TPE1"] = TPE1(encoding=3, text="Jean-Claude Ameisen")
+                audio["TALB"] = TALB(encoding=3, text="Sur les épaules de Darwin")
                 audio["TDRC"] = TDRC(encoding=3, text=aa)
                 audio.save()
 
@@ -216,8 +216,8 @@ for emission_data in data:
                         "mega:/darwin/",
                     ]
                 )
-                print u"\nEmission envoyée sur Mega"
+                print("\nEmission envoyée sur Mega")
 
             cpt += 1
 
-print u"\n", cpt, u"émissions téléchargées dans", download_folder
+print("\n", cpt, "émissions téléchargées dans", download_folder)

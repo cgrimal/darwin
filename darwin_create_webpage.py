@@ -30,18 +30,18 @@ def create_webpage(data, template_path, filename):
     new_month = True
 
     months = [
-        u"Janvier",
-        u"Février",
-        u"Mars",
-        u"Avril",
-        u"Mai",
-        u"Juin",
-        u"Juillet",
-        u"Août",
-        u"Septembre",
-        u"Octobre",
-        u"Novembre",
-        u"Décembre",
+        "Janvier",
+        "Février",
+        "Mars",
+        "Avril",
+        "Mai",
+        "Juin",
+        "Juillet",
+        "Août",
+        "Septembre",
+        "Octobre",
+        "Novembre",
+        "Décembre",
     ]
 
     html_code += '<div data-role="collapsible-set" data-inset="false">'
@@ -70,7 +70,7 @@ def create_webpage(data, template_path, filename):
             mp3link = ""
 
         new_month = False
-        print titre
+        print(titre)
         # jj,mm,aa = date
         # month = months[int(mm) - 1]
 
@@ -106,7 +106,7 @@ def create_webpage(data, template_path, filename):
                         </div> <!-- mois -->
                     </div> <!-- collapsible mois -->
                 """
-            html_code += u"""
+            html_code += """
                 <div data-role="collapsible" data-collapsed-icon="carat-r" data-expanded-icon="carat-d">
                 <h3>{mm} {aa}</h3>
                 <div class="mois">
@@ -125,7 +125,7 @@ def create_webpage(data, template_path, filename):
 
             # TEST
             title = str2filename(titre)
-            mp3link = u"./files/{aa}-{mm}-{jj} - {title}.mp3".format(
+            mp3link = "./files/{aa}-{mm}-{jj} - {title}.mp3".format(
                 aa=aa,
                 mm=mm,
                 jj=jj,
@@ -133,7 +133,7 @@ def create_webpage(data, template_path, filename):
             )
             # ENDOF TEST
 
-            line += u"""
+            line += """
                 <td>
                 <a class="play-link" href="{plink}" >Ecouter</a>
                 </td>
@@ -141,9 +141,9 @@ def create_webpage(data, template_path, filename):
                 <a class="download-link" href="{mlink}" download="{lname}" >Télécharger</a>
                 </td>
             """.format(
-                plink=unicode(player_link),
-                mlink=unicode(mp3link),
-                lname=unicode(link_name),
+                plink=str(player_link),
+                mlink=str(mp3link),
+                lname=str(link_name),
             )
         elif int(aa) < 2011 or (int(aa) == 2011 and int(mm) == 1):  # janvier 2011
             pascal_link = """
@@ -153,27 +153,27 @@ def create_webpage(data, template_path, filename):
                 mm=mm,
                 aa=aa,
             )
-            line += u"""
+            line += """
                 <td>
                 <a class="download-link" href="{plink}" download="{lname}" >Télécharger (via prevost.pascal.free.fr)</a>
                 </td>
             """.format(
-                plink=unicode(pascal_link),
-                lname=unicode(link_name),
+                plink=str(pascal_link),
+                lname=str(link_name),
             )
 
-        line += u"""
+        line += """
             <td>
             <span style="vertical-align:middle;float:left;"><a class="link" href="{plink}" >{ptitre}</a>, diffusée le {date}</span>
             </td>
         """.format(
-            plink=unicode(pagelink),
-            ptitre=unicode(titre),
-            date=str(int(jj)) + u" " + months[int(mm) - 1] + u" " + str(aa),
+            plink=str(pagelink),
+            ptitre=str(titre),
+            date=str(int(jj)) + " " + months[int(mm) - 1] + " " + str(aa),
         )
 
         line += "</tr></table>"
-        line += u"</li>\n"
+        line += "</li>\n"
         html_code += line
 
     html_code += """
@@ -246,8 +246,8 @@ data = data["emissions"]
 # sorted_data = [data['infos'] for key in keys]
 # print sorted_data
 
-print u"Création de la page web\n"
+print("Création de la page web\n")
 
 create_webpage(data, template_path, result_file)
 
-print u"\nPage web créée : " + result_file
+print("\nPage web créée : " + result_file)
