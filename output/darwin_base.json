@@ -7950,6 +7950,291 @@
                 "rediffusion": 0,
                 "titre": "Comme de longs \u00e9chos"
             }
+        },
+        {
+            "hash": "2021-10-02",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "02",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-02-octobre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-02-octobre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-02.10.2021-ITEMA_22793529-2021F16177S0275-22.mp3",
+                "rediffusion": 0,
+                "titre": "Le plomb et l'argent : des Guerres Puniques \u00e0 l'\u00e9ruption volcanique de Lombok"
+            }
+        },
+        {
+            "hash": "2021-10-09",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "09",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-09-octobre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-09-octobre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-09.10.2021-ITEMA_22801037-2021F16177S0282-21.mp3",
+                "rediffusion": 0,
+                "titre": "Le plomb et l'argent : quand la g\u00e9ologie \u00e9claire la sant\u00e9 humaine"
+            }
+        },
+        {
+            "hash": "2021-10-16",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "16",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-16-octobre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-16-octobre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-16.10.2021-ITEMA_22808580-2021F16177S0289-21.mp3",
+                "rediffusion": 0,
+                "titre": "\u00c0 la recherche des origines du sommeil"
+            }
+        },
+        {
+            "hash": "2021-10-23",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "23",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-23-octobre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-23-octobre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-23.10.2021-ITEMA_22816146-2021F16177S0296-21.mp3",
+                "rediffusion": 0,
+                "titre": "\u00c0 la poursuite du printemps"
+            }
+        },
+        {
+            "hash": "2021-10-30",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "30",
+                    "mois": "10"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-30-octobre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-30-octobre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-30.10.2021-ITEMA_22823094-2021F16177S0303-21.mp3",
+                "rediffusion": 0,
+                "titre": "\"Dans l'oubli de nos m\u00e9tamorphoses\""
+            }
+        },
+        {
+            "hash": "2021-11-06",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "06",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-06-novembre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-06-novembre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-06.11.2021-ITEMA_22830106-2021F16177S0310-22.mp3",
+                "rediffusion": 1,
+                "titre": "La faille de Cascadia"
+            }
+        },
+        {
+            "hash": "2021-11-13",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "13",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-13-novembre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-13-novembre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-13.11.2021-ITEMA_22837501-2021F16177S0317-21.mp3",
+                "rediffusion": 1,
+                "titre": "Le myst\u00e9rieux tsunami de 1700 au Japon"
+            }
+        },
+        {
+            "hash": "2021-11-20",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "20",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-20-novembre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-20-novembre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-20.11.2021-ITEMA_22845046-2021F16177S0324-22.mp3",
+                "rediffusion": 1,
+                "titre": "Des r\u00e9cits et des masques"
+            }
+        },
+        {
+            "hash": "2021-11-27",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "27",
+                    "mois": "11"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-27-novembre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-27-novembre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-27.11.2021-ITEMA_22852373-2021F16177S0331-21.mp3",
+                "rediffusion": 1,
+                "titre": "Cette \u00e9toffe sur laquelle naissent les r\u00eaves (4)"
+            }
+        },
+        {
+            "hash": "2021-12-04",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "04",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-04-decembre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-04-decembre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-04.12.2021-ITEMA_22859775-2021F16177S0338-22.mp3",
+                "rediffusion": 1,
+                "titre": "Entre le ciel et l'eau (2)"
+            }
+        },
+        {
+            "hash": "2021-12-10",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "10",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-11-decembre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-11-decembre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-11.12.2021-ITEMA_22867287-2021F16177S0345-21.mp3",
+                "rediffusion": 1,
+                "titre": "A la d\u00e9couverte de la radioactivit\u00e9"
+            }
+        },
+        {
+            "hash": "2021-12-18",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "18",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-18-decembre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-18-decembre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-18.12.2021-ITEMA_22874914-2021F16177S0352-21.mp3",
+                "rediffusion": 1,
+                "titre": "Marie Curie"
+            }
+        },
+        {
+            "hash": "2021-12-25",
+            "infos": {
+                "date": {
+                    "annee": "2021",
+                    "jour": "25",
+                    "mois": "12"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-25-decembre-2021",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-25-decembre-2021",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-25.12.2021-ITEMA_22880584-2021F16177S0359-22.mp3",
+                "rediffusion": 0,
+                "titre": "\"Soi-m\u00eame en train de vivre\""
+            }
+        },
+        {
+            "hash": "2022-01-01",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "01",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-01-janvier-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-01-janvier-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-01.01.2022-ITEMA_22885680-2022F16177S0001-21.mp3",
+                "rediffusion": 0,
+                "titre": "Un cadeau de Nouvel An"
+            }
+        },
+        {
+            "hash": "2022-01-08",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "08",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-08-janvier-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-08-janvier-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-08.01.2022-ITEMA_22893316-2022F16177S0008-22.mp3",
+                "rediffusion": 1,
+                "titre": "A la recherche des myst\u00e8res du sommeil"
+            }
+        },
+        {
+            "hash": "2022-01-15",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "15",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-15-janvier-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-15-janvier-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-15.01.2022-ITEMA_22900881-2022F16177S0015-21.mp3",
+                "rediffusion": 0,
+                "titre": "\u00c0 la recherche des myst\u00e8res du sommeil (2)"
+            }
+        },
+        {
+            "hash": "2022-01-22",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "22",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-22-janvier-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-22-janvier-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-22.01.2022-ITEMA_22908538-2022F16177S0022-22.mp3",
+                "rediffusion": 1,
+                "titre": "A la recherche des myst\u00e8res du sommeil (3)"
+            }
+        },
+        {
+            "hash": "2022-01-29",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "29",
+                    "mois": "01"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-29-janvier-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-29-janvier-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-29.01.2022-ITEMA_22915974-2022F16177S0029-21.mp3",
+                "rediffusion": 1,
+                "titre": "\u00c0 la rencontre de la Pens\u00e9e chinoise (1)"
+            }
+        },
+        {
+            "hash": "2022-02-05",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "05",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-05-fevrier-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-05-fevrier-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-05.02.2022-ITEMA_22923569-2022F16177S0036-22.mp3",
+                "rediffusion": 1,
+                "titre": "A la rencontre de la pens\u00e9e chinoise (2)"
+            }
         }
     ]
 }
