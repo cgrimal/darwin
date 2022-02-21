@@ -8235,6 +8235,36 @@
                 "rediffusion": 1,
                 "titre": "A la rencontre de la pens\u00e9e chinoise (2)"
             }
+        },
+        {
+            "hash": "2022-02-12",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "12",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-12-fevrier-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-12-fevrier-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-12.02.2022-ITEMA_22931006-2022F16177S0043-21.mp3",
+                "rediffusion": 1,
+                "titre": "D\u00e9luges"
+            }
+        },
+        {
+            "hash": "2022-02-19",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "19",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-19-fevrier-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-19-fevrier-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-19.02.2022-ITEMA_22938110-2022F16177S0050-22.mp3",
+                "rediffusion": 1,
+                "titre": "Un abominable myst\u00e8re"
+            }
         }
     ]
 }
