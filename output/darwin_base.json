@@ -8265,6 +8265,66 @@
                 "rediffusion": 1,
                 "titre": "Un abominable myst\u00e8re"
             }
+        },
+        {
+            "hash": "2022-02-26",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "26",
+                    "mois": "02"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-26-fevrier-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-26-fevrier-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-26.02.2022-ITEMA_22945308-2022F16177S0057-21.mp3",
+                "rediffusion": 1,
+                "titre": "Darwin et le probl\u00e8me de l'\u00e2ge de la Terre"
+            }
+        },
+        {
+            "hash": "2022-03-05",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "05",
+                    "mois": "03"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-05-mars-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-05-mars-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-05.03.2022-ITEMA_22952690-2022F16177S0064-21.mp3",
+                "rediffusion": 0,
+                "titre": "Darwin et le probl\u00e8me de l\u2019\u00e2ge de la Terre (2)"
+            }
+        },
+        {
+            "hash": "2022-03-12",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "12",
+                    "mois": "03"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-12-mars-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-12-mars-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-12.03.2022-ITEMA_22960289-2022F16177S0071-22.mp3",
+                "rediffusion": 0,
+                "titre": "Darwin et le probl\u00e8me de l\u2019\u00e2ge de la Terre (3)"
+            }
+        },
+        {
+            "hash": "2022-03-19",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "19",
+                    "mois": "03"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-19-mars-2022",
+                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-19-mars-2022",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-19.03.2022-ITEMA_22967827-2022F16177S0078-22.mp3",
+                "rediffusion": 0,
+                "titre": "L\u2019\u00e2me de l\u2019\u00e9t\u00e9"
+            }
         }
     ]
 }
