@@ -54,14 +54,14 @@ def getMonths(mois_start, mois_end):
 
 
 def extractData(data, d):
-    for bb in d(".card.highlight, .card-elements.stack .tile"):
+    for bb in d(".Card.Audio.list"):
 
         emission_data = {}
 
-        title = pq(bb).find(".card-text .card-text-sub").text()
+        title = pq(bb).find(".CardDetails-title").text()
         emission_data["titre"] = title
 
-        date_text = pq(bb).find(".card-text .date").text()
+        date_text = pq(bb).find(".Time").text()
 
         date = dateparser.parse(date_text)
 
@@ -84,7 +84,7 @@ def extractData(data, d):
 
             if force or emission_hash not in hash_list:
 
-                emission_link = pq(bb).find("a.card-text-sub").attr("href")
+                emission_link = pq(bb).find(".CardDetails-title > a").attr("href")
                 if emission_link[0] == "/":
                     emission_link = "https://www.franceinter.fr" + emission_link
                 print(emission_link)
@@ -93,7 +93,8 @@ def extractData(data, d):
                 player_link = emission_link
                 emission_data["lien_ecouter"] = player_link
 
-                mp3_link = pq(bb).find("button.replay-button").attr("data-url")
+                mp3_link = re.search(rf'(https://media\.radiofrance-podcast\.net/[^"]*{jour}.{mois}.{annee}[^"]*\.mp3)', d('script').text()).group(1)
+
                 emission_data["lien_mp3"] = mp3_link
 
                 if (
@@ -169,7 +170,7 @@ mois_end = args.fin
 force = args.force
 all_pages = args.all
 
-emission_url = f"https://www.{radio_nom}.fr/emissions/{emission_id}"
+emission_url = f"https://www.radiofrance.fr/{radio_nom}/podcasts/{emission_id}"
 print(emission_url)
 
 mois_list = getMonths(mois_start, mois_end)
@@ -190,10 +191,7 @@ titles_list = [d["infos"]["titre"] for d in data]
 
 d = pq(url=emission_url)
 if all_pages:
-    url_last_page = d(".pager-item.last a").attr("href")
-    nb_pages = int(re.search(r"p=([0-9]+)", url_last_page).group(1))
-    print(("{} pages trouves".format(nb_pages)))
-    for p in range(1, nb_pages + 1):
+    for p in range(1, 10):
         url = emission_url + "?p=" + str(p)
         print(("Chargement de la page : " + url))
         new_data = extractData(data, pq(url=url))

@@ -8289,10 +8289,10 @@
                     "jour": "05",
                     "mois": "03"
                 },
-                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-05-mars-2022",
-                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-05-mars-2022",
-                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-05.03.2022-ITEMA_22952690-2022F16177S0064-21.mp3",
-                "rediffusion": 0,
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-05-mars-2022-8554079",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-05-mars-2022-8554079",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-05.03.2022-ITEMA_22952710-2022F16177S0064-22.mp3",
+                "rediffusion": 1,
                 "titre": "Darwin et le probl\u00e8me de l\u2019\u00e2ge de la Terre (2)"
             }
         },
@@ -8304,10 +8304,10 @@
                     "jour": "12",
                     "mois": "03"
                 },
-                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-12-mars-2022",
-                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-12-mars-2022",
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-12-mars-2022-4214703",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-12-mars-2022-4214703",
                 "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-12.03.2022-ITEMA_22960289-2022F16177S0071-22.mp3",
-                "rediffusion": 0,
+                "rediffusion": 1,
                 "titre": "Darwin et le probl\u00e8me de l\u2019\u00e2ge de la Terre (3)"
             }
         },
@@ -8319,11 +8319,221 @@
                     "jour": "19",
                     "mois": "03"
                 },
-                "lien_ecouter": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-19-mars-2022",
-                "lien_emission": "https://www.franceinter.fr/emissions/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-19-mars-2022",
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-19-mars-2022-2135850",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-19-mars-2022-2135850",
                 "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-19.03.2022-ITEMA_22967827-2022F16177S0078-22.mp3",
-                "rediffusion": 0,
+                "rediffusion": 1,
                 "titre": "L\u2019\u00e2me de l\u2019\u00e9t\u00e9"
+            }
+        },
+        {
+            "hash": "2022-03-26",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "26",
+                    "mois": "03"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-26-mars-2022-9803232",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-26-mars-2022-9803232",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-26.03.2022-ITEMA_22975333-2022F16177S0085-22.mp3",
+                "rediffusion": 1,
+                "titre": "Les battements du temps (2)"
+            }
+        },
+        {
+            "hash": "2022-04-02",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "02",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-02-avril-2022-6316442",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-02-avril-2022-6316442",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-02.04.2022-ITEMA_22982678-2022F16177S0092-22.mp3",
+                "rediffusion": 0,
+                "titre": "\u00c9clats de pass\u00e9 : Avec Hom\u00e8re pour guide"
+            }
+        },
+        {
+            "hash": "2022-04-09",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "09",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-09-avril-2022-7132380",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-09-avril-2022-7132380",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-09.04.2022-ITEMA_22990115-2022F16177S0099-22.mp3",
+                "rediffusion": 1,
+                "titre": "Le lien qui nous rattache aux autres (5)"
+            }
+        },
+        {
+            "hash": "2022-04-16",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "16",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-16-avril-2022-6916035",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-16-avril-2022-6916035",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-16.04.2022-ITEMA_22997292-2022F16177S0106-22.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (25). \u00c9clats de mondes disparus (2)"
+            }
+        },
+        {
+            "hash": "2022-04-23",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "23",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-23-avril-2022-9655810",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-23-avril-2022-9655810",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-23.04.2022-ITEMA_23004303-2022F16177S0113-22.mp3",
+                "rediffusion": 1,
+                "titre": "La glace et le feu"
+            }
+        },
+        {
+            "hash": "2022-04-30",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "30",
+                    "mois": "04"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-30-avril-2022-7769765",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-30-avril-2022-7769765",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-30.04.2022-ITEMA_23011398-2022F16177S0120-22.mp3",
+                "rediffusion": 1,
+                "titre": "Le lien qui nous rattache aux autres (8)"
+            }
+        },
+        {
+            "hash": "2022-05-07",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "07",
+                    "mois": "05"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-07-mai-2022-9134493",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-07-mai-2022-9134493",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-07.05.2022-ITEMA_23018598-2022F16177S0127-22.mp3",
+                "rediffusion": 1,
+                "titre": "Pr\u00e9sences"
+            }
+        },
+        {
+            "hash": "2022-05-14",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "14",
+                    "mois": "05"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-14-mai-2022-9047656",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-14-mai-2022-9047656",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-14.05.2022-ITEMA_23026085-2022F16177S0134-22.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (18). \u00ab More is different \u00bb"
+            }
+        },
+        {
+            "hash": "2022-05-21",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "21",
+                    "mois": "05"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-21-mai-2022-5090685",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-21-mai-2022-5090685",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-21.05.2022-ITEMA_23033507-2022F16177S0141-22.mp3",
+                "rediffusion": 0,
+                "titre": "Les battements du temps (12). Ce n\u2019\u00e9tait pas en moi, c\u2019\u00e9tait moi..."
+            }
+        },
+        {
+            "hash": "2022-05-28",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "28",
+                    "mois": "05"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-28-mai-2022-8112678",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-28-mai-2022-8112678",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-28.05.2022-ITEMA_23040838-2022F16177S0148-22.mp3",
+                "rediffusion": 0,
+                "titre": "La promesse de l\u2019aube"
+            }
+        },
+        {
+            "hash": "2022-06-04",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "04",
+                    "mois": "06"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-04-juin-2022-1868718",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-04-juin-2022-1868718",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/18929-04.06.2022-ITEMA_23048253-2022F16177S0155-22.mp3",
+                "rediffusion": 1,
+                "titre": "Les battements du temps (5). Les vagabonds du ciel."
+            }
+        },
+        {
+            "hash": "2022-06-11",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "11",
+                    "mois": "06"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-11-juin-2022-4032626",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-11-juin-2022-4032626",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/20904-11.06.2022-ITEMA_23055672-2022F16177S0162-22.mp3",
+                "rediffusion": 1,
+                "titre": "Quand la science rencontre l\u2019art"
+            }
+        },
+        {
+            "hash": "2022-06-18",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "18",
+                    "mois": "06"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-18-juin-2022-5731833",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-18-juin-2022-5731833",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-18.06.2022-ITEMA_23063003-2022F16177S0169-22.mp3",
+                "rediffusion": 1,
+                "titre": "Traces"
+            }
+        },
+        {
+            "hash": "2022-06-25",
+            "infos": {
+                "date": {
+                    "annee": "2022",
+                    "jour": "25",
+                    "mois": "06"
+                },
+                "lien_ecouter": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-25-juin-2022-4978943",
+                "lien_emission": "https://www.franceinter.fr/franceinter/podcasts/sur-les-epaules-de-darwin/sur-les-epaules-de-darwin-du-samedi-25-juin-2022-4978943",
+                "lien_mp3": "https://media.radiofrance-podcast.net/podcast09/11549-25.06.2022-ITEMA_23070550-2022F16177S0176-22.mp3",
+                "rediffusion": 1,
+                "titre": "Renaissance"
             }
         }
     ]
