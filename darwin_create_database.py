@@ -54,14 +54,15 @@ def getMonths(mois_start, mois_end):
 
 
 def extractData(data, d):
-    for bb in d(".Card.Audio.list"):
+    for bb in d(".CardMedia"):
 
         emission_data = {}
 
-        title = pq(bb).find(".CardDetails-title").text()
+        title = pq(bb).find(".CardTitle").text()
         emission_data["titre"] = title
 
-        date_text = pq(bb).find(".Time").text()
+        date_text = pq(bb).find(".DefaultDetails-secondLine").find(".CardText").eq(0).text()
+        date_text = date_text.replace("juill.", "juillet")
 
         date = dateparser.parse(date_text)
 
@@ -84,7 +85,7 @@ def extractData(data, d):
 
             if force or emission_hash not in hash_list:
 
-                emission_link = pq(bb).find(".CardDetails-title > a").attr("href")
+                emission_link = pq(bb).find(".CardTitle").find("a").attr("href")
                 if emission_link[0] == "/":
                     emission_link = "https://www.franceinter.fr" + emission_link
                 print(emission_link)
@@ -93,9 +94,14 @@ def extractData(data, d):
                 player_link = emission_link
                 emission_data["lien_ecouter"] = player_link
 
-                mp3_link = re.search(rf'(https://media\.radiofrance-podcast\.net/[^"]*{jour}.{mois}.{annee}[^"]*\.mp3)', d('script').text()).group(1)
-
-                emission_data["lien_mp3"] = mp3_link
+                found_group = re.search(rf'(https://media\.radiofrance-podcast\.net/[^"]*{jour}.{mois}.{annee}[^"]*\.mp3)', d('script').text())
+                
+                if found_group == None:
+                    print("WARN: no mp3 found")
+                else:
+                    mp3_link = found_group.group(1)
+                    emission_data["lien_mp3"] = mp3_link
+                    print(mp3_link)
 
                 if (
                     re.match(r".*rediffusion.*", title, re.IGNORECASE)

@@ -115,7 +115,7 @@ def create_webpage(data, template_path, filename):
 
             # TEST
             title = str2filename(titre)
-            mp3link = "./files/{aa}-{mm}-{jj} - {title}.mp3".format(
+            mp3link = "https://darwin-files.s3.fr-par.scw.cloud/{aa}-{mm}-{jj} - {title}.mp3".format(
                 aa=aa,
                 mm=mm,
                 jj=jj,
@@ -208,7 +208,7 @@ parser.add_argument(
     "-template",
     metavar="template",
     help="Le fichier de template de la page web.",
-    default="./output/temp_public.2017.html",
+    default="./output/temp_public.2025.html",
 )
 args = parser.parse_args()
 
